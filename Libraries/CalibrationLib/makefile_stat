@@ -44,12 +44,12 @@ OBJECTS_DIR   = linux/obj/
 OBJECTS      = $(OBJECTS_DIR)SensorsCalibrator.o 
 
 
-all: mkdir  $(OBJECTS)
+all: md  $(OBJECTS)
 	$(AR)  $(OUT) $(OBJECTS) 
 	del $(OBJECTS)
 	move $(OUT) ..\..\Applications\Calibration_console\
 
-mkdir: 
+md: 
 	md .\$(OBJECTS_DIR)
 
 $(OBJECTS_DIR)%.o: %.cpp
