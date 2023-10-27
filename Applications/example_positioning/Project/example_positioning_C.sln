@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.40629.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "fppe", "..\..\..\Libraries\FPPositioningLib\Project\fppe\fppe.vcxproj", "{54A3AE3D-47CB-4A93-8864-C6F51C7B263A}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "example_positioning_C", "example_positioning_C.vcxproj", "{03A8DFAB-1CE1-48BF-BD45-96B9CC268E6C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{54A3AE3D-47CB-4A93-8864-C6F51C7B263A}.Debug|Win32.ActiveCfg = Debug|Win32
+		{54A3AE3D-47CB-4A93-8864-C6F51C7B263A}.Debug|Win32.Build.0 = Debug|Win32
+		{54A3AE3D-47CB-4A93-8864-C6F51C7B263A}.Release|Win32.ActiveCfg = Release|Win32
+		{54A3AE3D-47CB-4A93-8864-C6F51C7B263A}.Release|Win32.Build.0 = Release|Win32
+		{03A8DFAB-1CE1-48BF-BD45-96B9CC268E6C}.Debug|Win32.ActiveCfg = Debug|Win32
+		{03A8DFAB-1CE1-48BF-BD45-96B9CC268E6C}.Debug|Win32.Build.0 = Debug|Win32
+		{03A8DFAB-1CE1-48BF-BD45-96B9CC268E6C}.Release|Win32.ActiveCfg = Release|Win32
+		{03A8DFAB-1CE1-48BF-BD45-96B9CC268E6C}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

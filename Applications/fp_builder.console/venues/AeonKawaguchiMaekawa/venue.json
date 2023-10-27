@@ -1,0 +1,139 @@
+{
+    "name": "AeonKawaguchiMaekawa", 
+    //"default_mag_validators": "for_mapper", 
+    "default_mag_validators": "for_coursa_survey_tool", 
+    "folder_out": "../venues/AeonKawaguchiMaekawa/out", 
+    "folder_fp": "../venues/AeonKawaguchiMaekawa/fp", 
+    "folder_grid": "../venues/AeonKawaguchiMaekawa/grid", 
+    "magnetic_cellsize": 2.0, 
+    "venue": {
+        "floor_height": 5.15, 
+        "magZ": -35.3, 
+        "magY": -3.9, 
+        "magX": 30.0, 
+        "alfa": 1.5696279257996406e-07, 
+        "floor_shift": 1, 
+        "floors_count": 3, 
+        "origin_altitude": 0, 
+        "origin_azimuth": -85.41707297119699, 
+        "origin_longitude": 139.7056996269109, 
+        "beta": -1.9360028053195358e-07, 
+        "floors": [
+            1, 
+            2, 
+            3
+        ], 
+        "size_x": 322.23, 
+        "size_y": 437.81, 
+        "floor_zero_enable": false, 
+        "origin_lattitude": 35.831434816907084, 
+        "type": 1, 
+        "id": 120
+    }, 
+    "magnetic_grid": {
+        "max": [
+            322.23, 
+            437.81, 
+            2
+        ], 
+        "min": [
+            0, 
+            0, 
+            0
+        ], 
+        "celltype": 0, 
+        "cellsize": 2.0
+    }, 
+   //"magnetic_fingerprint" :
+   //     {
+   //          "max_position_uncertainty" : 200,
+   //          "min_data_count" : 20
+   //     },
+    "ble_grid": {
+        "max": [
+            322.23, 
+            437.81, 
+            2
+        ], 
+        "min": [
+            0, 
+            0, 
+            0
+        ], 
+        "celltype": 0, 
+        "cellsize": 5.0
+    }, 
+    //"ble_fingerprint" :
+    //    {
+    //         "max_position_uncertainty" : 50,
+    //         "min_data_count" : 5,
+    //         "max_bssid_count" : 50
+    //    },
+    "wifi_grid": {
+        "max": [
+            322.23, 
+            437.81, 
+            2
+        ], 
+        "min": [
+            0, 
+            0, 
+            0
+        ], 
+        "celltype": 0, 
+        "cellsize": 5.0
+    }, 
+    //"wifi_fingerprint" :
+    //    {
+    //         "max_position_uncertainty" : 20,
+    //         "min_data_count" : 5,
+    //         "max_bssid_count" : 150
+    //    },
+    "BLE_enable": false, 
+    "wifi_cellsize": 5.0, 
+    "ble_proximity_enable": false,
+    "magnetic_enable": true, 
+    "WiFi_enable": true, 
+    "ble_cellsize": 5.0, 
+    "data_format": 4, 
+    "file_masks" :
+        {
+            //"in_file_mask": "(tpn.*)(.dat)"
+            "in_file_mask": "(irl_.*)(.dat)"
+            //"in_file_mask": "(.*)(TppOutput)(.dat)"
+        },
+    //"ble_proximity_data": 
+    //{
+           // "enable": true             
+            //"max_position_uncertainty": 5,           
+            //"skip_time": 60,            
+            //"sigma": 2000,              
+            //"max_distance": 5,          
+            //"ble_enable_prox_only": true
+    //},
+    "mag_validators":  // defines specific validator set for magnetic data preprecessing,                                                                            
+    //                  // it can contains any combination of the following keys with parameters                                                                      
+     [  
+        //   "check_data_set_score_for_all: 35",
+        //   "check_data_set_score_for_mag: 55"
+        //  "corr_reject_mag_by_pos_uncertainty: 5", // enable rejection magnetic data with position uncertainty more than specified threshold
+          "corr_reject_positions_by_pos_uncertainty: 0.01" // enable rejection positions with position uncertainty more than specified threshold
+      //      "corr_set_fix_mag_meas_cov_matrix: 5"                                                                                                                                                              
+      //      "corr_reject_track_by_high_speed: 5",                                                                                                                                               
+      //      "corr_reject_track_by_multipal_speed_errors: 0.5, 2.0, 0.5"                                                                                                                                                
+      //      "corr_reject_positions_by_speed: 0.5, 2.0, 20",
+        //  "corr_reject_outside_pos",  // enable rejection data outside of venue                                                                                     
+        //  "check_mag_bias_level: 1", // enable rejection data magnetic bias confedential level  less than specified                                                 
+        //  "check_mag_bias_cov: 25", // enable rejection data with magnetic bias covariance more than specified                                                      
+        //  "check_b_value: 100", // enable rejection data with b-value criterion, parameter specifys maximal alowed criterion value                                  
+        //  "check_mean_mag_hor: 10", // enable rejection data with mean deviation of horizontal magnetic companent during track more than specified parameter        
+        //  "check_mean_mag_z: 50", // enable rejection data with mean deviation of vertical magnetic companent during track more than specified parameter            
+        //  "corr_reject_mag_spikes", // enable magnetic spikes rejection                                                                                             
+        //  "corr_set_max_mag_cov", // enable set magnetic covariance for all tada in dataset as maximal magnetic covariance value for this dataset                   
+        //  "corr_reject_data_in_dwell", // enable magnetic data rejection during stops                                                                               
+        //  "corr_filtration" // enable magnetic data smoothing                                                                                                       
+     ],                                                                                                                                                             
+    "folder_in": "//cayyc-proj01/compute02/FPL_DATA/SurveyMap/datasets/prod/AeonKawaguchiMaekawa/SurveyDatasets/"
+    //"folder_in": "../venues/AeonKawaguchiMaekawa/"
+}
+

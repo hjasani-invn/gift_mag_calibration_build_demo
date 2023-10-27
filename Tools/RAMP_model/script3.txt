@@ -1,0 +1,39 @@
+rem  		Not sure if this one is needed at all
+rem		 	set_XY_std 0.3 0.3
+
+set_init_XY_error 0.4 0.4
+set_init_heading_error 0.2
+set_heading_std  0.002
+set_heading_drift  0.00003
+
+set_angles_std 0.02 0.02 0.02
+set_init_angles_error  0.001 0.001 0.001
+set_angles_drift 0.0000001 0.0000001 0.0000001
+
+
+set_t0 0.0
+set_tend 45.0
+set_sample_rate 20
+set_pos  0.0 5 6.5 0
+set_euler_angles 0.0  0 0 1.047197551196598
+set_vel  1.0 1 0 0
+set_vel  18.5 0 1 0
+set_vel  23.5 -1 0 0
+
+rem 	test script
+
+rem 	set_t0 0.0
+rem 	set_tend 60.0
+rem		set_sample_rate	20
+
+rem		set_pos  0.0 6 15 0
+rem		set_euler_angles 0.0 0.0 3.1415
+
+rem		set_vel   1.0 -1   0   0
+rem 	set_vel  15.0  0   1   0
+rem 	set_vel  21.0  1   0   0
+rem 	set_vel  42.0  0  -1   0
+rem		set_vel  48.0 -1   0   0
+
+rem		set_vel  54.0  0   0   0
+

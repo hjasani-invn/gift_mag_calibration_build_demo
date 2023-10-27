@@ -1,0 +1,23 @@
+{
+  "venue" :
+  {
+      "floor_height" : 5,
+      "type" : 3,
+      "magX" : 31.3,
+      "magY" : -4.2,
+      "magZ" : -36.4
+  },
+  
+  "default_mag_validators" :"for_coursa_survey_tool", 
+  
+  "folder_fp": "out",
+  "folder_in": "in",
+  "folder_grid": "out",
+  "folder_out": "out",
+  
+  "data_format" : 4,
+
+  "magnetic_cellsize": 2.0,
+  "wifi_cellsize": 5.0,
+  "ble_cellsize": 5.0
+}

@@ -1,0 +1,158 @@
+####### Compiler, tools and options
+
+CURDIR              = ./
+USAGE_STR = USAGE: make PLATFORM={ANDROID,LINUX_SHARED,LINUX_STATIC} MODE={DEBUG,RELEASE}
+INCCXXPATH    =  -I../Include -I../../Include -I../Src/wifi -I../Src/lhs -I../Src/pf2 -I../Src/magnetic -I../Src/Map_Matching -I../Src/bias  -I../Src/ble_proximity -I./../../../ExternLibraries/Eigen/eigen-3.2.4 -I./../../../Components/TPNDataConverter  -I./../../../Components/CoordinateConverter/Include  -I./../../../Components/MacAddressConverter  -I./../../../Components/TPNQuaternion  -I./../../../Components/Data_Formats -I./../../../Components/Rand -I./../../../Components/CRC -I./../../../Components/BLEHash -I./../../../Components/FloorConverter -I./../../../Components/AltitudeFilter
+
+TC_PATH		    = ../../../../gcc-linaro-6.3.1-2017.05-x86_64_aarch64-linux-gnu/bin/
+TC_ARCH		    = aarch64-linux-gnu-
+
+LIBMAKEFLAGS  = -shared -o 
+PLATFORM = NONE
+DEFINES       = -DNDEBUG -DDEBUG=0  -DDEBUG_CONVERTER_OUTPUT
+MODE ?= RELEASE
+ifeq ($(MODE),DEBUG)
+	FLAGS = -g
+	CXXFLAGS = -O1
+else ifeq ($(MODE),RELEASE)
+	FLAGS = -g0
+	CXXFLAGS = -O3
+endif
+
+#LIBTOOL       = libtool
+AR            = $(TC_PATH)$(TC_ARCH)ar rcs
+TAR           = tar -cf
+COMPRESS      = gzip -9f
+COPY          = cp -f
+SED           = sed
+COPY_FILE     = cp -f
+COPY_DIR      = cp -f -R
+STRIP         = 
+INSTALL_FILE  = $(COPY_FILE)
+INSTALL_DIR   = $(COPY_DIR)
+INSTALL_PROGRAM = $(COPY_FILE)
+DEL_FILE      = rm -f 
+SYMLINK       = ln -f -s
+DEL_DIR       = rm -rf
+MOVE          = mv -f
+CHK_DIR_EXISTS= test -d
+MKDIR         = mkdir -p
+
+### Linux options
+#LINUX_CC            = $(TC_PATH)$(TC_ARCH)gcc
+LINUX_CXX           = $(TC_PATH)$(TC_ARCH)g++
+#LINUX_CXX           = g++
+#ARCH          = -arch  armv7 -arch armv7s -arch arm64 #  -arch i386 -arch x86_64  #  
+LINUX_FLAGS         = $(FLAGS) -fPIC -Wall -W $(DEFINES) -fmessage-length=0 -ffloat-store #-fexceptions -Wno-trigraphs # -fstrict-aliasing  #-fvisibility=hidden
+LINUX_CXXFLAGS      = $(CXXFLAGS) $(LINUX_FLAGS) -x c++ -std=gnu++11  -Werror=return-type -frtti  -Wno-unknown-pragmas #-fpermissive  -Wno-missing-field-initializers -Wno-unused-variable -Wno-unused-value -Wno-unused-function
+
+### Android options
+NDK				= c:/Android/android-ndk-r15c
+STANDALONE_TOOLCHAIN= $(NDK)/standalone_api21/bin
+#CC=$(STANDALONE_TOOLCHAIN)/arm-linux-androideabi-gcc
+ANDROID_CXX=$(STANDALONE_TOOLCHAIN)/arm-linux-androideabi-g++
+ANDROID_FLAGS         = $(FLAGS) -fPIC -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -c -g0  -Wall -W $(DEFINES) -fmessage-length=0 #-fexceptions -Wno-trigraphs # -fstrict-aliasing  #-fvisibility=hidden 
+ANDROID_CXXFLAGS      = $(CXXFLAGS) $(ANDROID_FLAGS) -x c++      -std=gnu++11  -Werror=return-type -frtti  -Wno-unknown-pragmas #-fpermissive  -Wno-missing-field-initializers -Wno-unused-variable -Wno-unused-value -Wno-unused-function
+YCXXFLAGS += -nostdinc++ -I$(NDK)/sources/cxx-stl/stlport/stlport
+YLDFLAGS += -nodefaultlibs -L$(NDK)/sources/cxx-stl/stlport/libs/armeabi/
+YLDLIBS += -lstlport_shared -lc -lm -ldl -lgcc
+INVLDFLAGS = -march=armv7-a -Wl,--fix-cortex-a8
+
+####### Source directory
+
+VPATH = ../Src ../Src/wifi  ../Src/magnetic ../Src/Map_Matching ../Src/pf2  ../Src/lhs ../Src/ble_proximity ../Src/bias ../../../Components/TPNParser  ../../../Components/TPNDataConverter ../../../Components/CoordinateConverter/Src    ../../../Components/FloorConverter  ../../../Components/TPNQuaternion ../../../Components/MacAddressConverter  ../../../Components/Rand ../../../Components/CRC ../../../Components/BLEHash ../../../Components/AltitudeFilter
+
+####### Obj directory
+OBJECTS_DIR_ROOT = obj
+ifeq ($(MODE),DEBUG)
+	OBJECTS_DIR   = $(OBJECTS_DIR_ROOT)/debug/
+	LIB_DIR = lib/debug/
+else ifeq ($(MODE),RELEASE)	
+	OBJECTS_DIR   = $(OBJECTS_DIR_ROOT)/release/
+	LIB_DIR = lib/release/
+endif
+
+####### Output library
+
+LINUX_OUT = $(LIB_DIR)/libfpposition_arm_64.so
+LINUX_STATIC = $(LIB_DIR)/libfpposition.a
+ANDROID_OUT = $(LIB_DIR)/libfpposition.so
+
+OBJECTS       = $(OBJECTS_DIR)CFppe.o \
+                               \
+$(OBJECTS_DIR)wifi_data.o \
+$(OBJECTS_DIR)wifi_helper.o \
+$(OBJECTS_DIR)wifi_loc.o    \
+$(OBJECTS_DIR)wifi_db_hist.o \
+$(OBJECTS_DIR)wifi_db.o   \
+$(OBJECTS_DIR)ble_proximity_db.o   \
+$(OBJECTS_DIR)ble_proximity_helper.o   \
+$(OBJECTS_DIR)ble_nonlinear_filter.o   \
+$(OBJECTS_DIR)ble_proximity_loc.o   \
+$(OBJECTS_DIR)BLEProximityBiasEstimator.o   \
+$(OBJECTS_DIR)MFP.o     \
+$(OBJECTS_DIR)Fppe.o  \
+$(OBJECTS_DIR)FusionFilter.o \
+$(OBJECTS_DIR)ziggurat_random.o         \
+$(OBJECTS_DIR)rng32.o         \
+$(OBJECTS_DIR)PF.o           \
+$(OBJECTS_DIR)tpn_packet_parser.o        \
+$(OBJECTS_DIR)tpn_data_reader.o      \
+$(OBJECTS_DIR)tpn_converter.o        \
+$(OBJECTS_DIR)CoordinateConverter.o \
+$(OBJECTS_DIR)FloorConverter.o  \
+$(OBJECTS_DIR)tpn_quat_lib.o         \
+$(OBJECTS_DIR)stringMac_to_intMac.o \
+$(OBJECTS_DIR)LikelihoodPos.o  \
+$(OBJECTS_DIR)CRC.o \
+$(OBJECTS_DIR)BleHash.o  \
+$(OBJECTS_DIR)WiFiBLEBiasEstimator.o \
+$(OBJECTS_DIR)imm_gc.o \
+$(OBJECTS_DIR)imm_geoobject.o \
+$(OBJECTS_DIR)imm_math.o \
+$(OBJECTS_DIR)imm_memory.o \
+$(OBJECTS_DIR)imm_vector.o \
+$(OBJECTS_DIR)imm.o \
+$(OBJECTS_DIR)MapMatching.o 
+
+
+all: mkdir $(OBJECTS)
+ifeq ($(PLATFORM),ANDROID)
+	@echo ANDROID PLAT
+	$(ANDROID_CXX) $(LIBMAKEFLAGS) $(ANDROID_OUT) $(OBJECTS) $(YLDFLAGS) $(YLDLIBS)
+#	$(DEL_FILE) $(OBJECTS)
+	$(DEL_DIR) $(OBJECTS_DIR_ROOT)
+else ifeq ($(PLATFORM),LINUX_SHARED)
+	@echo LIN_SHARED PLAT
+	$(LINUX_CXX) $(LIBMAKEFLAGS) $(LINUX_OUT) $(OBJECTS)
+#	$(DEL_FILE) $(OBJECTS)
+	$(DEL_DIR) $(OBJECTS_DIR_ROOT)
+else ifeq ($(PLATFORM), LINUX_STATIC)
+	@echo LIN_STAT PLAT
+	$(AR) $(LINUX_STATIC) $(OBJECTS)
+#	$(DEL_FILE) $(OBJECTS)
+	$(DEL_DIR) $(OBJECTS_DIR_ROOT)
+else
+	@echo $(USAGE_STR)
+endif
+
+mkdir:
+	$(MKDIR) ./$(OBJECTS_DIR)
+	$(MKDIR) ./$(LIB_DIR)
+
+$(OBJECTS_DIR)%.o: %.cpp
+#	@echo $@
+#	@echo $<
+ifeq ($(PLATFORM),ANDROID)
+	$(ANDROID_CXX) $(INVLDFLAGS) $(INCCXXPATH) $(ANDROID_CXXFLAGS) -o $@ -c $<
+else ifeq ($(PLATFORM),$(filter $(PLATFORM), LINUX_SHARED LINUX_STATIC))
+	$(LINUX_CXX)  $(INCCXXPATH) $(LINUX_CXXFLAGS) -o $@ -c $<
+else
+	-
+endif
+
+clean:
+	$(DEL_FILE) $(OBJECTS_DIR)*.o
+	$(DEL_DIR) $(OBJECTS_DIR)
+	$(DEL_FILE) $(CURDIR)*.so
+	$(DEL_FILE) $(CURDIR)*.a

@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.21005.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "FPBuilderLibTests", "FPBuilderLibTests.vcxproj", "{68A0C0F8-ED52-480C-B9FA-0BF5C28A1390}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "FPBuilderLib", "FPBuilderLib.vcxproj", "{CF8999D6-EEF6-4AE7-B2DA-B357A83C7E4D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{68A0C0F8-ED52-480C-B9FA-0BF5C28A1390}.Debug|Win32.ActiveCfg = Debug|Win32
+		{68A0C0F8-ED52-480C-B9FA-0BF5C28A1390}.Debug|Win32.Build.0 = Debug|Win32
+		{68A0C0F8-ED52-480C-B9FA-0BF5C28A1390}.Release|Win32.ActiveCfg = Release|Win32
+		{68A0C0F8-ED52-480C-B9FA-0BF5C28A1390}.Release|Win32.Build.0 = Release|Win32
+		{CF8999D6-EEF6-4AE7-B2DA-B357A83C7E4D}.Debug|Win32.ActiveCfg = Debug|Win32
+		{CF8999D6-EEF6-4AE7-B2DA-B357A83C7E4D}.Debug|Win32.Build.0 = Debug|Win32
+		{CF8999D6-EEF6-4AE7-B2DA-B357A83C7E4D}.Release|Win32.ActiveCfg = Release|Win32
+		{CF8999D6-EEF6-4AE7-B2DA-B357A83C7E4D}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,26 @@
+[
+{
+    "test_name"     :       "test01",
+	"json_file_for_test" : "test_session1/settings_test1_Bridgestone-Kurume.json"
+},
+{
+    "test_name"     :       "test02",
+	"json_file_for_test" : "test_session1/settings_test2_ISJ.json"
+},
+{
+    "test_name"     :       "test03",
+	"json_file_for_test" : "test_session1/settings_test3_AeonShintoshinMall.json"
+},
+{
+    "test_name"     :       "test06",
+	"json_file_for_test" : "test_session1/settings_test6_Bridgestone-Kurume_empty.json"
+},
+{
+    "test_name"     :       "test08",
+	"json_file_for_test" : "test_session1/settings_test8_Northland_M1.json"
+},
+{
+    "test_name"     :       "test09",
+	"json_file_for_test" : "test_session1/settings_test9_ISJ_M1.json"
+}
+]

@@ -1,0 +1,124 @@
+<!--Pololu Maestro servo controller settings file, http://www.pololu.com/catalog/product/1350-->
+<UscSettings version="1">
+  <NeverSuspend>false</NeverSuspend>
+  <SerialMode>USB_DUAL_PORT</SerialMode>
+  <FixedBaudRate>9600</FixedBaudRate>
+  <SerialTimeout>0</SerialTimeout>
+  <EnableCrc>false</EnableCrc>
+  <SerialDeviceNumber>12</SerialDeviceNumber>
+  <SerialMiniSscOffset>0</SerialMiniSscOffset>
+  <Channels MiniMaestroServoPeriod="80000" ServoMultiplier="1">
+    <!--Period = 20 ms-->
+    <!--Channel 0-->
+    <Channel name="" mode="Servo" min="2560" max="10112" homemode="Off" home="2560" speed="80" acceleration="0" neutral="6000" range="2032" />
+    <!--Channel 1-->
+    <Channel name="" mode="Servo" min="3136" max="7680" homemode="Off" home="3136" speed="20" acceleration="0" neutral="6000" range="1905" />
+    <!--Channel 2-->
+    <Channel name="" mode="Servo" min="1984" max="8000" homemode="Off" home="1984" speed="10" acceleration="0" neutral="6000" range="1905" />
+    <!--Channel 3-->
+    <Channel name="" mode="Servo" min="3968" max="8000" homemode="Off" home="3968" speed="0" acceleration="0" neutral="6000" range="1905" />
+    <!--Channel 4-->
+    <Channel name="" mode="Servo" min="3968" max="8000" homemode="Off" home="3968" speed="0" acceleration="0" neutral="6000" range="1905" />
+    <!--Channel 5-->
+    <Channel name="" mode="Servo" min="3968" max="8000" homemode="Off" home="3968" speed="0" acceleration="0" neutral="6000" range="1905" />
+    <!--Channel 6-->
+    <Channel name="" mode="Servo" min="3968" max="8000" homemode="Off" home="3968" speed="0" acceleration="0" neutral="6000" range="1905" />
+    <!--Channel 7-->
+    <Channel name="" mode="Servo" min="3968" max="8000" homemode="Off" home="3968" speed="0" acceleration="0" neutral="6000" range="1905" />
+    <!--Channel 8-->
+    <Channel name="" mode="Servo" min="3968" max="8000" homemode="Off" home="3968" speed="0" acceleration="0" neutral="6000" range="1905" />
+    <!--Channel 9-->
+    <Channel name="" mode="Servo" min="3968" max="8000" homemode="Off" home="3968" speed="0" acceleration="0" neutral="6000" range="1905" />
+    <!--Channel 10-->
+    <Channel name="" mode="Servo" min="3968" max="8000" homemode="Off" home="3968" speed="0" acceleration="0" neutral="6000" range="1905" />
+    <!--Channel 11-->
+    <Channel name="" mode="Servo" min="3968" max="8000" homemode="Off" home="3968" speed="0" acceleration="0" neutral="6000" range="1905" />
+  </Channels>
+  <Sequences>
+    <Sequence name="level">
+      <Frame name="level" duration="500">6240 5440 0 0 0 0 0 0 0 0 0 0</Frame>
+    </Sequence>
+  </Sequences>
+  <Script ScriptDone="true">sub main
+
+  initialize
+  10000 3800 rotate_robot
+	  external_cycle  
+	  10000 4365 rotate_robot
+	  external_cycle  
+	  10000 4931 rotate_robot
+	  external_cycle  
+	  10000 5497 rotate_robot
+	  external_cycle  
+	  10000 6062 rotate_robot
+	  external_cycle  
+	  10000 6628 rotate_robot
+	  external_cycle  
+	  10000 7194 rotate_robot
+	  external_cycle  
+	  10000 7760 rotate_robot
+	  external_cycle
+
+  quit
+
+sub external_cycle
+  100 3196 external
+  internal_cycle_forward
+  100 3754 external
+  internal_cycle_backward
+  100 4312 external
+  internal_cycle_forward
+  100 4870 external
+  internal_cycle_backward
+  100 5428 external
+  internal_cycle_forward
+  100 5986 external
+  internal_cycle_backward
+  100 6544 external
+  internal_cycle_forward
+  100 7102 external
+  internal_cycle_backward
+  
+  initialize
+
+  return 
+
+sub internal_cycle_forward
+  1500 2560 internal
+  1500 4448 internal
+  1500 6336 internal
+  1500 8224 internal
+  return
+
+sub internal_cycle_backward
+  1500 10112 internal
+  1500 8224 internal
+  1500 6336 internal
+  1500 4448 internal
+  return
+
+sub initialize
+  1000 2560 internal
+  1000 3196 external
+  return
+
+sub level
+  1000 6336 internal
+  1000 5428 external
+  return
+
+sub internal
+	  0 servo
+  delay
+  return
+
+sub external
+  1 servo
+  delay
+  return
+
+sub rotate_robot
+  2 servo
+  delay
+  return</Script>
+</UscSettings>

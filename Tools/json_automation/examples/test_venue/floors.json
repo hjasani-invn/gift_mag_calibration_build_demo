@@ -1,0 +1,26 @@
+[
+   {
+      "name":"First Floor",
+      "floor":1,
+      "image":"venue1.png",
+      "geojson":"map1.geojson",
+      "nebound":{
+         "lat":33.32930446793,
+         "lon":130.5089892327
+      },
+      "swbound":{
+         "lat":33.322156,
+         "lon":130.5010247561
+      },
+      "altitude":0,
+      "startpoint":[
+         {
+            "id":1,
+            "lat":33.325752,
+            "lon":130.506160,
+            "heading":90
+         }
+      ],
+      "horizontal_rotation":0
+   }
+]

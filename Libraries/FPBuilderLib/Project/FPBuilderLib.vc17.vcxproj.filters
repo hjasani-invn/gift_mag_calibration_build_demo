@@ -1,0 +1,104 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="..\Src\grid\GridBuilderPrivate.cpp" />
+    <ClCompile Include="..\Src\grid\fpbl.cpp" />
+    <ClCompile Include="..\..\..\Components\FloorConverter\FloorConverter.cpp">
+      <Filter>Components\FloorConverter</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Components\CoordinateConverter\Src\CoordinateConverter.cpp">
+      <Filter>Components\CoordinateConverter</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Components\BLEHash\BleHash.cpp">
+      <Filter>Components\BleHash</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Components\TPNDataConverter\tpn_converter.cpp">
+      <Filter>Components\TPNDataConverter</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Components\TPNQuaternion\tpn_quat_lib.cpp">
+      <Filter>Components\TPNQuaternion</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Components\CRC\CRC.cpp">
+      <Filter>Components\CRC</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\Include\Fpbl.hpp" />
+    <ClInclude Include="..\Include\WiFiBleData.hpp" />
+    <ClInclude Include="..\Src\grid\GridBuilderPrivate.hpp" />
+    <ClInclude Include="..\Src\grid\IFpbl.hpp" />
+    <ClInclude Include="..\..\..\Components\FloorConverter\FloorConverter.h">
+      <Filter>Components\FloorConverter</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Components\CoordinateConverter\Include\CoordinateConverter.h">
+      <Filter>Components\CoordinateConverter</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Components\BLEHash\BleHash.h">
+      <Filter>Components\BleHash</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Components\TPNDataConverter\tpn_converter.hpp">
+      <Filter>Components\TPNDataConverter</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Components\TPNDataConverter\LocalData.hpp">
+      <Filter>Components\TPNDataConverter</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Components\TPNQuaternion\tpn_quat_lib.hpp">
+      <Filter>Components\TPNQuaternion</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Components\Data_Formats\MagData.hpp">
+      <Filter>Components\Data_Formats</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Components\Data_Formats\TpnData.hpp">
+      <Filter>Components\Data_Formats</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Components\Data_Formats\Venue.h">
+      <Filter>Components\Data_Formats</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Components\Data_Formats\fpHeader.h" />
+    <ClInclude Include="..\..\..\Components\Data_Formats\fpHeader.hpp" />
+    <ClInclude Include="..\..\..\Components\Data_Formats\fpVenue.hpp" />
+    <ClInclude Include="..\..\..\Components\Data_Formats\LibraryInfo.hpp" />
+    <ClInclude Include="..\Src\grid\FpblVersion.h" />
+    <ClInclude Include="..\..\..\Components\Data_Formats\CMagData.h">
+      <Filter>Components\Data_Formats</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Components\Data_Formats\CTpnData.h">
+      <Filter>Components\Data_Formats</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Components\Data_Formats\fpeDataTypes.h">
+      <Filter>Components\Data_Formats</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Components\Data_Formats\LibraryInfo.h">
+      <Filter>Components\Data_Formats</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Components">
+      <UniqueIdentifier>{23548371-2b76-49f6-8cad-6aa0b096107d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Components\Rand">
+      <UniqueIdentifier>{e823016e-63d5-4606-927b-e4f9c28f09ef}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Components\FloorConverter">
+      <UniqueIdentifier>{00bf6f38-3d13-4a96-9384-17ddd7f1176d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Components\CoordinateConverter">
+      <UniqueIdentifier>{0aef1857-b119-4bbe-8378-5a4af97a28fe}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Components\BleHash">
+      <UniqueIdentifier>{96fd7fe1-6186-4118-9448-ec2c780d9f4c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Components\TPNDataConverter">
+      <UniqueIdentifier>{1c9b9867-79b4-4e81-abac-4f1f9e11432f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Components\TPNQuaternion">
+      <UniqueIdentifier>{bd7c6160-d14b-4996-9418-5b55baf14308}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Components\Data_Formats">
+      <UniqueIdentifier>{a834ecb0-15e8-4071-9931-a137dbb1b3f1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Components\CRC">
+      <UniqueIdentifier>{59d61144-ac0d-462e-9c4e-736487312a65}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,188 @@
+{
+ // fingerprint settings for FPBL console
+ 
+  "name": "IS_SJ_4", // venue name, defines name of output files (without extension)
+  
+  // venue parameters
+  "venue" :
+  {
+      "id" : 15, // venue ID - unique venue identificator
+      "type" : 3, // venue type, 0 - kDefaultVenue (kAisleVenue), 1 - kMallVenue, 2 - kAisleVenue, 3 - kOfficeVenue (kMallVenue)
+      
+          // local farme parameters, it is required to transform coordinates fron local to GEO frame and wice versa
+      "origin_lattitude" :   37.367740264539968, // local frame origin lattitude in degrees
+      "origin_longitude" : -121.920821758493180, // local frame origin longitude in degrees
+      "origin_azimuth" :    -26.053972690473778, // local frame OX axix asimut in degrees
+      "alfa" :  0.000000151295867, // local frame OX axix scale
+      "beta" : -0.000000190520338, // local frame OY axix scale
+      "origin_altitude" : 0.0, // local frame origin altitude from mean sea level in meters
+	  
+	  // floors description
+      "floors_count" : 4, // number of floors in venue
+      "floor_shift" :  1, // number of lower floor
+      "floor_height" : 5, // floor hihght in meters 
+      "floor_zero_enable" : "false", // flag of presence of 0-floor, if true then ...-1,0,1... else ...-1,1,2...
+	  // comment to floor description: venue contains "floors_count" floors, floor numeration starts from "floor_shift",
+	  //                               floor number is changed with step 1 without gaps,
+      
+	  // venue dimension, defines sizes of all fingerprints
+      "size_x" : 85, // venue x-size in meters
+      "size_y" : 39, // venue y-size in meters
+	  // comments for venue dimension
+      
+	  // mean magnetic field vector in local frame origin in NED frame 
+      "magX" : 22.39, // x-componant in uT
+      "magY" : 5.43,// y-componant in uT
+      "magZ" : -42.13, // z-componant in uT
+  },
+  
+  "data_format" : 4, // fingerprint db files format, reserved, to do: utilise it in FPBL console
+  
+  "default_mag_validators" :"for_mapper", // defines predefined validator set for magnetic data preprecessing, it has higher priority than "mag_validators" list
+                                          // can be one of the following keys:
+                                          // "for_irl" - validator set adjusted for irl data
+										  // "for_mapper" - validator set adjusted for mapper data
+										  // "none" - no validators
+										  // "for_survey_tool" - to do: add support of this key for survey tool
+										  
+  "mag_validators":  // defines specific validator set for magnetic data preprecessing,
+                    // it can contains any combination of the following keys with parameters
+          [
+               "check_b_value: 40, 40", // enable rejection data with b-value criterion, parameter specifys maximal alowed criterion value
+               "check_data_set_score_for_mag: 60", // min data set score checker
+               "check_invalid_mag_data_percent", // logging of invalid mag data percent in validation log
+               "check_invalid_position_percent", // logging of invalid position data percent in validation log
+               "check_mag_bias_cov: 9", // enable rejection of mag data with magnetic bias covariance more than specified
+               "check_mag_bias_level: 1", // enable rejection of mag data with magnetic bias confedential level (accuracy flag   less than specified
+               "check_max_mag_derivative: 800", // rejection of mag data for jumps of magnetic values
+               "check_max_mag_module: 80", // mag data maximal magnetic magnitude value
+               "check_max_user_speed: 2", // mag data rejection by user max speed
+               "check_mean_mag_hor: 20", // reject mag data of track if mean deviation of horizontal magnetic component during track more than specified parameter
+               "check_mean_mag_z: 35", // reject mag data of track if mean deviation of vertical magnetic companent during track more than specified parameter
+               "corr_calculate_floor_height: 5.0",  // calculates height of the floors
+               "corr_data_set_score_for_all: 60", // invalid positions if data set score is less then min data set score 
+               "corr_interpolate_floor_height: 5.0", // interpolates height between the floors
+               "corr_mag_data_filter: 40", // enable magnetic data smoothing
+               "corr_min_nav_flag: 0, 0", // rejection of data by nav_phase flad
+               "corr_reject_data_by_pos_uncertainty: 4", // enable rejection positions with position uncertainty more than specified threshold
+               "corr_reject_mag_by_pos_uncertainty: 4", // enable rejection magnetic data with position uncertainty more than specified threshold
+               "corr_reject_mag_in_stops", // enable magnetic data rejection during stops
+               "corr_reject_mag_shifts: 15", // rejection of shifts in magnetic data 
+               "corr_reject_mag_spikes: 30, 200", // enable magnetic spikes rejection
+               "corr_reject_outside_pos",  // enable rejection data outside of venue
+               "corr_reject_position_in_stop", // enable position rejection during stops                                                                               
+               "corr_reject_positions_by_speed: 0.5, 2.0, 20", // rejection of track segments with unrealistic user speed
+               "corr_reject_segment_by_speed: 2, 0.5, 1", // rejection of straight segment of track with unrealistic user speed
+               "corr_reject_track_by_high_speed: 5", // rejection of all track if there are segments with very high user speed
+               "corr_reject_track_by_multiple_speed_errors:  0.5, 2.0, 0.5", // rejection of all track if there are too many unrealistc speed segments in the dataset found
+               "corr_set_mag_meas_cov_matrix_on_calibration_level", // set mag bias covarianceMatrix depends on calibration level
+               "corr_set_mag_meas_cov_matrix_to_max: 40", // set magnetic covariance for all dada in dataset to maximal magnetic covariance value for this dataset
+               "corr_update_nav_phase_for_robotic_data: 0, 1, 2", // enable using zero nav_phase flag for robot
+               "corr_update_route_type" // update rout type
+          ],
+
+  // fingerprint parameters
+  "magnetic_cellsize": 1.0, // magnetic cell size, this parameter set cell size as for fingerprint as for grid
+  "wifi_cellsize": 5.0,   // WiFi cell size, this parameter set cell size as for fingerprint as for grid
+  "ble_cellsize": 5.0,  // ble cell size, this parameter set cell size as for fingerprint as for grid
+  
+  "magnetic_enable": true, // enable magnetic fingerprint generation; to do: enanle magnetic data processing
+  "WiFi_enable" : true, // enable WiFi fingerprint generation; to do: enanle WiFi data processing
+  "BLE_enable" : true, // enable BLE fingerprint generation; to do: enanle BLE data processing
+  "ble_proximity_enable" : false, // to do: enable BLP db generation;
+  
+   // optional fingerprints and grids parameters
+  "magnetic_grid" : // magnetic grid parameters, can contain any combination of parameters defined below
+   {
+      "enable" : true, // enable magnetic grid generation, it has higher priority over magnetic_enable
+	  "celltype" : 0, // cell type, 0 - CELL_SQUARE, 1 - CELL_HEXAGONAL, 
+      "cellsize" : 2.0, // cell size, this parameter set cell size as for fingerprint as for grid, it has higher priority over magnetic_cellsize
+      "min" : [0, 0, 0], // to do: define valid area for data processing; !!! currenly this parameters dublicate venue dimension definition
+      "max" : [85, 39, 3] // to do: define valid area for data processing; !!! currenly this parameters dublicate venue dimension definition
+   },
+  "wifi_grid" : // wifi grid parameters, can contain any combination of parameters defined below
+   {
+      "enable" : true, // enable magnetic grid generation, it has higher priority over magnetic_enable
+	  "celltype" : 0, // cell type, 0 - CELL_SQUARE, 1 - CELL_HEXAGONAL, 
+      "cellsize" : 5.0, // cell size, this parameter set cell size as for fingerprint as for grid, it has higher priority over magnetic_cellsize
+      "min" : [0, 0, 0], // to do: define valid area for data processing; !!! currenly this parameters dublicate venue dimension definition
+      "max" : [85, 39, 3], // to do: define valid area for data processing; !!! currenly this parameters dublicate venue dimension definition
+	  "disabled_floors" : [1, 2, 3] // to do: list of disabled floors 
+   },
+  "ble_grid" : // ble grid parameters, can contain any combination of parameters defined below
+   {
+      "enable" : true, // enable magnetic grid generation, it has higher priority over magnetic_enable
+	  "celltype" : 0, // cell type, 0 - CELL_SQUARE, 1 - CELL_HEXAGONAL, 
+      "cellsize" : 5.0, // cell size, this parameter set cell size as for fingerprint as for grid, it has higher priority over magnetic_cellsize
+      "min" : [0, 0, 0], // to do: define valid area for data processing; !!! currenly this parameters dublicate venue dimension definition
+      "max" : [85, 39, 3], // to do: define valid area for data processing; !!! currenly this parameters dublicate venue dimension definition
+	  "disabled_floors" : [1, 2, 3] // to do: list of disabled floors 
+   },
+   
+   // magnetic fingerprint contains number of layers according to "floors_count", size of each layer is defined according to specified venue dimensions
+   "magnetic_fingerprint" : // magnetic grid parameters, can contain any combination of parameters defined below
+   {
+      "min_data_count" : 20, //minimal data samples count to generate fingerptint, it is aplied for each cell separately
+	  "enable" : true, // to do this as for grid
+	  "celltype" : 0, // to do this as for grid
+      "cellsize" : 5.0, // to do this as for grid
+      "min" : [0, 0, 0], // to do this as for grid
+      "max" : [85, 39, 3] // to do this as for grid
+   },
+      
+   "wifi_fingerprint" : // magnetic grid parameters, can contain any combination of parameters defined below
+   {
+      "min_data_count" : 5, //minimal data samples count to generate fingerptint, it is aplied for each cell separately
+      "max_bssid_count" : 150, //maximal AP count in fingerprint
+	  "min_ig" :  0.25, //minimal information gain value to include AP in fingerpirnt
+	  "enable" : true, // to do this as for grid
+	  "celltype" : 0, // to do this as for grid
+      "cellsize" : 5.0, // to do this as for grid
+      "min" : [0, 0, 0], // to do this as for grid
+      "max" : [85, 39, 3] // to do this as for grid
+   },
+   
+   "ble_fingerprint" : // magnetic grid parameters, can contain any combination of parameters defined below
+   {
+      "min_data_count" : 5, //minimal data samples count to generate fingerptint, it is aplied for each cell separately
+      "max_bssid_count" : 250, //maximal AP count in fingerprint
+	  "min_ig" :  0.25, //minimal information gain value to include AP in fingerpirnt
+	  "enable" : true, // to do this as for grid
+	  "celltype" : 0, // to do this as for grid
+      "cellsize" : 5.0, // to do this as for grid
+      "min" : [0, 0, 0], // to do this as for grid
+      "max" : [85, 39, 3] // to do this as for grid
+   },
+   
+  // folders
+  "folder_out": "out", // output folder
+  "folder_fp": "fp", // output fingerprint forlder
+  "folder_in": "in", // input data forlder
+  "folder_grid": "grid", // output grid forlder
+  
+  // extended input folder settings
+  "input_data" : 
+  {
+      "folder_in" : "in", // input data forlder
+      "mag_grid_file" : "mag.grid", // input mag grid file name
+      "wifi_grid_file" : "wifi.grid", // input wifi grid file name
+      "ble_grid_file" : "ble.grid" // input ble grid file name
+  }
+  
+  "output_data"))
+  {
+     "folder_out": "out", // output folder
+     "mag_grid_file" : "mag.grid", // output mag grid file name, to do: utilise it in FPBL console
+     "wifi_grid_file" : "wifi.grid", // output wifi grid file name, to do: utilise it in FPBL console
+     "ble_grid_file" : "ble.grid" // output ble grid file name, to do: utilise it in FPBL console
+
+	 "mag_fp_file" : "mag.mfp4", // output mag fingerprint file name, to do: utilise it in FPBL console
+     "wifi_fp_file" : "mag.wfp4", // output wifi fingerprint file name, to do: utilise it in FPBL console
+     "ble_fp_file" : "mag.bfp4", // output ble fingerprint file name, to do: utilise it in FPBL console
+	 
+     "mag_fp_format" : 4, // magnetic fingerprint db file format, reserved, to do: utilise it in FPBL console
+     "wifi_fp_format" : 4, // wifi fingerprint db file format, reserved, to do: utilise it in FPBL console
+     "ble_fp_format" : 4 // ble fingerprint db file format, reserved, to do: utilise it in FPBL console
+  }
+  
+}

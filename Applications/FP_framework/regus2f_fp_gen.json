@@ -1,0 +1,48 @@
+ {
+  "name": "regus2f",
+  "venue" :
+        {
+            "id" : 24,
+            "origin_lattitude" : 55.724253553756192,
+            "origin_longitude" : 37.653916182652893,
+            "origin_altitude" : 0.0,
+            "origin_azimuth" : -31.327662731809170,
+            "floors_count" : 1,
+            "size_x" : 24,
+            "size_y" : 15,
+            "alfa" : 0.000000158585864,
+            "beta" : -0.000000296019673
+        },
+  "folder_fp": "regus",
+  "folder_in": "C:/FP_Generation/Full_Regus/",
+  "folder_out": "regus",
+  "magnetic_grid" :
+        {
+            "celltype" : 0,
+            "cellsize" : 1,
+            "min" : [0, 0, 0],
+            "max" : [24, 15, 0]
+        },
+  "wifi_grid" :
+        {
+            "celltype" : 0,
+            "cellsize" : 1.0,
+            "min" : [0, 0, 0],
+            "max" : [24, 15, 0]
+        },
+  "ble_grid" :
+        {
+            "celltype" : 0,
+            "cellsize" : 1.0,
+            "min" : [0, 0, 0],
+            "max" : [24, 15, 0]
+        },
+  "magnetic_cellsize": 1,
+  "wifi_cellsize": 1.0,
+  "ble_cellsize": 1.0,
+  "magnetic_enable": true,
+  "WiFi_enable" : false,
+  "BLE_enable" : false,
+  "data_format" : 2
+}
+

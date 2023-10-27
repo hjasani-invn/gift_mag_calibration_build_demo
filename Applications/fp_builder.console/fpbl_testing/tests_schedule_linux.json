@@ -1,0 +1,11 @@
+[
+{
+    "test_name"     :       "test02_linux",
+	"json_file_for_test" : "test_session1/settings_test2_ISJ.json"
+},
+{
+    "test_name"     :       "test15_linux",
+	"json_file_for_test" : "test_session1/settings_test15_TDK_HQ_linux.json",
+    "input_list_path": "//cayyc-proj01/compute02/FPL_DATA/test_data/FPBL_release_testing/TDK_HQ_Nihonbashi/TDK_HQ_input_list_march_2021.json"
+}
+]

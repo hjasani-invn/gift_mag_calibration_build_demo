@@ -1,0 +1,13 @@
+FP_builder.exe
+blas_win32_MT.dll
+lapack_win32_MT.dll
+
+MapperDataConverter.exe
+ModelDataToTPNConverter.exe
+
+settings.json - main settings file for this framework
+fp_gen.json - json required for FP_builder.exe to work
+
+(examples of json files are given in Gift\Applications\FP_framework\)
+
+navigator.exe - only for testing using the old Navigator console application

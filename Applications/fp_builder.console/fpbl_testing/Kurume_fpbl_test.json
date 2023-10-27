@@ -1,0 +1,82 @@
+{
+    "default_mag_validators": "for_mapper",
+    "BLE_enable": false,
+    "folder_fp": "//cayyc-proj01/compute02/FPL_DATA/test_results/FPBL/release_1.5.5/rc-1/test_01/output",
+    "folder_out": "//cayyc-proj01/compute02/FPL_DATA/test_results/FPBL/release_1.5.5/rc-1/test_10/output/test_01",
+    "folder_in": "//cayyc-proj01/compute02/FPL_DATA/test_data/FPBL_release_testing/Kurume_fpbl_test_nav_dataset/",
+    "name": "Bridgestone-Kurume",
+    "magnetic_grid": {
+        "max": [
+            647.41,
+            554.5,
+            0
+        ],
+        "cellsize": 2.0,
+        "celltype": 0,
+        "min": [
+            0,
+            0,
+            0
+        ]
+    },
+    "venue": {
+        "floor_height": 5.0,
+        "magZ": -35.3,
+        "magY": -3.9,
+        "magX": 30.0,
+        "alfa": 1.5696080664463332e-07,
+        "floor_shift": 1,
+        "floors_count": 1,
+        "origin_altitude": 0.0,
+        "origin_azimuth": -19.577171992211234,
+        "origin_longitude": 130.50665114908375,
+        "beta": -1.8784762893661727e-07,
+        "floors": [
+            1
+        ],
+        "size_x": 647.41,
+        "size_y": 554.5,
+        "floor_zero_enable": false,
+        "origin_lattitude": 33.32215211682199,
+        "type": 4,
+        "id": 88
+    },
+    "magnetic_cellsize": 2.0,
+    "data_format": 4,
+    "ble_grid": {
+        "max": [
+            647.41,
+            554.5,
+            0
+        ],
+        "cellsize": 5.0,
+        "celltype": 0,
+        "min": [
+            0,
+            0,
+            0
+        ]
+    },
+    "wifi_grid": {
+        "max": [
+            647.41,
+            554.5,
+            0
+        ],
+        "cellsize": 5.0,
+        "celltype": 0,
+        "min": [
+            0,
+            0,
+            0
+        ]
+    },
+    "file_masks": {
+        "in_file_mask": "(irl_.*)(.dat)"
+    },
+    "wifi_cellsize": 5.0,
+    "ble_proximity_enable": "true",
+    "magnetic_enable": true,
+    "WiFi_enable": true,
+    "ble_cellsize": 5.0
+}

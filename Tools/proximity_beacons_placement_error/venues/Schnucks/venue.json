@@ -1,0 +1,74 @@
+{
+  "name": "Schnucks",
+  "venue" :
+        {
+            "id" : 31,
+			"type" : 2,
+            "origin_lattitude" : 38.632861000000005,
+            "origin_longitude" : -90.315916693984036,
+            "origin_azimuth" : -96.723687782577386,
+            "alfa" : 0.0,
+            "beta" : 0.0,
+            "origin_altitude" : 0.0,
+            "floors_count" : 1,
+            "floor_height" : 5.0,
+            "size_x" : 140,
+            "size_y" : 85,
+            "magX" : 20.65,
+            "magY" : -0.51,
+            "magZ" : -47.93
+        },
+  "default_mag_validators" : "for_mapper",
+  "folder_fp": "../venues/Schnucks/fp",
+  "folder_in": "//cayyc-proj01/compute02/dchurikov/fp_tracks/Schnucks_M1/sesion_two.ble_reinstall",
+  "folder_out": "../venues/Schnucks/out",
+  "folder_grid": "../venues/Schnucks/grid",
+  "magnetic_grid" :
+        {
+            "celltype" : 0,
+            "cellsize" : 1.0,
+            "min" : [0, 0, 0],
+            "max" : [140, 85, 0]
+        },
+  "wifi_grid" :
+        {
+            "celltype" : 0,
+            "cellsize" : 5.0,
+            "min" : [0, 0, 0],
+            "max" : [140, 85, 0]
+        },
+  "ble_grid" :
+        {
+            "celltype" : 0,
+            "cellsize" : 5.0,
+            "min" : [0, 0, 0],
+            "max" : [140, 85, 0]
+        },
+  "ble_fingerprint":
+        {
+            "max_bssid_count": 500
+        },
+  "magnetic_cellsize": 1.0,
+  "wifi_cellsize": 5.0,
+  "ble_cellsize": 5.0,
+  "magnetic_enable": true,
+  "WiFi_enable" : true,
+  "BLE_enable" : true,
+  "ble_proximity_enable": true, 
+  "in_ble_fprox_file":"../venues/Schnucks/Beacon_ProximityDB_prototype.csv",
+  "data_format" : 2,
+  "file_masks" :
+        {
+            "in_file_mask": "(tpn.*)(.dat)"
+        },
+  "ble_proximity_data": 
+   {
+      "enable": true,
+      "max_position_uncertainty": 2,
+      "skip_time": 30,
+      "sigma": 1000,
+      "max_distance": 5,
+      "ble_enable_prox_only": true
+   } 
+}
+

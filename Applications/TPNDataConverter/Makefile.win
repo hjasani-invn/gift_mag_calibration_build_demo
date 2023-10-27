@@ -1,0 +1,43 @@
+# Project: tpn_data_converter
+# Makefile created by Dev-C++ 5.11
+
+CPP      = g++.exe
+CC       = gcc.exe
+WINDRES  = windres.exe
+OBJ      = src/main.o ../../Components/TPNDataConverter/tpn_converter.o ../../Components/TPNQuaternion/tpn_quat_lib.o ../../Components/TPNParser/tpn_data_reader.o ../../Components/TPNParser/tpn_packet_parser.o ../../Components/CoordinateConverter/Src/CoordinateConverter.o
+LINKOBJ  = src/main.o ../../Components/TPNDataConverter/tpn_converter.o ../../Components/TPNQuaternion/tpn_quat_lib.o ../../Components/TPNParser/tpn_data_reader.o ../../Components/TPNParser/tpn_packet_parser.o ../../Components/CoordinateConverter/Src/CoordinateConverter.o
+LIBS     = -L"C:/Program Files (x86)/Dev-Cpp/MinGW64/lib" -L"C:/Program Files (x86)/Dev-Cpp/MinGW64/x86_64-w64-mingw32/lib" -static-libgcc
+INCS     = -I"C:/Program Files (x86)/Dev-Cpp/MinGW64/include" -I"C:/Program Files (x86)/Dev-Cpp/MinGW64/x86_64-w64-mingw32/include" -I"C:/Program Files (x86)/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include" -I"C:/GitHub/Gift/Components/TPNDataConverter" -I"C:/GitHub/Gift/Libraries/FPBuilderLib/Include" -I"C:/GitHub/Gift/Components/CoordinateConverter/Include" -I"C:/GitHub/Gift/Components/TPNQuaternion" -I"C:/GitHub/Gift/ExternLibraries/Eigen/eigen-3.2.4"
+CXXINCS  = -I"C:/Program Files (x86)/Dev-Cpp/MinGW64/include" -I"C:/Program Files (x86)/Dev-Cpp/MinGW64/x86_64-w64-mingw32/include" -I"C:/Program Files (x86)/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include" -I"C:/Program Files (x86)/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include/c++" -I"C:/GitHub/Gift/Components/TPNDataConverter" -I"C:/GitHub/Gift/Libraries/FPBuilderLib/Include" -I"C:/GitHub/Gift/Components/CoordinateConverter/Include" -I"C:/GitHub/Gift/Components/TPNQuaternion" -I"C:/GitHub/Gift/ExternLibraries/Eigen/eigen-3.2.4"
+BIN      = tpn_data_converter.exe
+CXXFLAGS = $(CXXINCS) 
+CFLAGS   = $(INCS) 
+RM       = rm.exe -f
+
+.PHONY: all all-before all-after clean clean-custom
+
+all: all-before $(BIN) all-after
+
+clean: clean-custom
+	${RM} $(OBJ) $(BIN)
+
+$(BIN): $(OBJ)
+	$(CPP) $(LINKOBJ) -o $(BIN) $(LIBS)
+
+src/main.o: src/main.cpp
+	$(CPP) -c src/main.cpp -o src/main.o $(CXXFLAGS)
+
+../../Components/TPNDataConverter/tpn_converter.o: ../../Components/TPNDataConverter/tpn_converter.cpp
+	$(CPP) -c ../../Components/TPNDataConverter/tpn_converter.cpp -o ../../Components/TPNDataConverter/tpn_converter.o $(CXXFLAGS)
+
+../../Components/TPNQuaternion/tpn_quat_lib.o: ../../Components/TPNQuaternion/tpn_quat_lib.cpp
+	$(CPP) -c ../../Components/TPNQuaternion/tpn_quat_lib.cpp -o ../../Components/TPNQuaternion/tpn_quat_lib.o $(CXXFLAGS)
+
+../../Components/TPNParser/tpn_data_reader.o: ../../Components/TPNParser/tpn_data_reader.cpp
+	$(CPP) -c ../../Components/TPNParser/tpn_data_reader.cpp -o ../../Components/TPNParser/tpn_data_reader.o $(CXXFLAGS)
+
+../../Components/TPNParser/tpn_packet_parser.o: ../../Components/TPNParser/tpn_packet_parser.cpp
+	$(CPP) -c ../../Components/TPNParser/tpn_packet_parser.cpp -o ../../Components/TPNParser/tpn_packet_parser.o $(CXXFLAGS)
+
+../../Components/CoordinateConverter/Src/CoordinateConverter.o: ../../Components/CoordinateConverter/Src/CoordinateConverter.cpp
+	$(CPP) -c ../../Components/CoordinateConverter/Src/CoordinateConverter.cpp -o ../../Components/CoordinateConverter/Src/CoordinateConverter.o $(CXXFLAGS)

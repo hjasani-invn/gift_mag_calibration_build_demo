@@ -1,0 +1,54 @@
+{
+  "name": "ICA",
+  "venue" :
+        {
+            "id" : 24,
+			"type" : 3,
+            "origin_lattitude" : 51.064849040428605,
+			"origin_longitude" : -114.145006669211980,
+			"origin_azimuth" : -32.928867600211099,
+			"alfa" : 0.000000150373784,
+            "beta" : -0.000000240390318,
+            "origin_altitude" : 0.0,
+            "floors_count" : 1,
+			"floor_height" : 5.0,
+            "size_x" : 50,
+            "size_y" : 28,
+			"magX" : 15.62,
+			"magY" : 3.96,
+			"magZ" : -53.78
+        },
+  "default_mag_validators" :"for_mapper",  
+  "folder_fp": "ica",
+  "folder_in": "//cayyc-proj01/compute01/ykotik/Inven_CA_M1/",
+  "folder_out": "ica",
+  "folder_grid": "ica",
+  "magnetic_grid" :
+        {
+            "celltype" : 0,	
+            "cellsize" : 2.0,
+            "min" : [0, 0, 0],
+            "max" : [50, 28, 0]
+        },
+  "wifi_grid" :
+        {
+            "celltype" : 0,
+            "cellsize" : 2.5,
+            "min" : [0, 0, 0],
+            "max" : [50, 28, 0]
+        },
+  "ble_grid" :
+        {
+            "celltype" : 0,
+            "cellsize" : 2.5,
+            "min" : [0, 0, 0],
+            "max" : [50, 28, 0]
+        },
+  "magnetic_cellsize": 2.0,
+  "wifi_cellsize": 2.5,
+  "ble_cellsize": 2.5,
+  "magnetic_enable": true,
+  "WiFi_enable" : true,
+  "BLE_enable" : true,
+  "data_format" : 2
+}

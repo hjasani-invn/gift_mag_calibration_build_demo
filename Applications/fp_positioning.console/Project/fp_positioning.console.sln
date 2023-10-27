@@ -1,0 +1,35 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.21005.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "fp_positioning.console", "fp_positioning.console.vcxproj", "{F6018215-BD33-4666-BEEA-C4FAE516DA9E}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "fppe", "..\..\..\Libraries\FPPositioningLib\Project\fppe\fppe.vcxproj", "{54A3AE3D-47CB-4A93-8864-C6F51C7B263A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Debug|x64 = Debug|x64
+		Release|Win32 = Release|Win32
+		Release|x64 = Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F6018215-BD33-4666-BEEA-C4FAE516DA9E}.Debug|Win32.ActiveCfg = Debug|Win32
+		{F6018215-BD33-4666-BEEA-C4FAE516DA9E}.Debug|Win32.Build.0 = Debug|Win32
+		{F6018215-BD33-4666-BEEA-C4FAE516DA9E}.Debug|x64.ActiveCfg = Debug|Win32
+		{F6018215-BD33-4666-BEEA-C4FAE516DA9E}.Debug|x64.Build.0 = Debug|Win32
+		{F6018215-BD33-4666-BEEA-C4FAE516DA9E}.Release|Win32.ActiveCfg = Release|Win32
+		{F6018215-BD33-4666-BEEA-C4FAE516DA9E}.Release|Win32.Build.0 = Release|Win32
+		{F6018215-BD33-4666-BEEA-C4FAE516DA9E}.Release|x64.ActiveCfg = Release|Win32
+		{54A3AE3D-47CB-4A93-8864-C6F51C7B263A}.Debug|Win32.ActiveCfg = Debug_dll|Win32
+		{54A3AE3D-47CB-4A93-8864-C6F51C7B263A}.Debug|Win32.Build.0 = Debug_dll|Win32
+		{54A3AE3D-47CB-4A93-8864-C6F51C7B263A}.Debug|x64.ActiveCfg = Release_dll|Win32
+		{54A3AE3D-47CB-4A93-8864-C6F51C7B263A}.Release|Win32.ActiveCfg = Release_dll|Win32
+		{54A3AE3D-47CB-4A93-8864-C6F51C7B263A}.Release|Win32.Build.0 = Release_dll|Win32
+		{54A3AE3D-47CB-4A93-8864-C6F51C7B263A}.Release|x64.ActiveCfg = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,1 @@
+.\Debug\MapperDataConverter.exe --settings target_sj_central.json --input_path in1 --output_path out1

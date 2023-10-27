@@ -1,0 +1,54 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" DefaultTargets="Build">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{89cd635c-2d6c-4762-a437-0a733253c827}</ProjectGuid>
+    <ProjectHome />
+    <StartupFile>main.py</StartupFile>
+    <SearchPath />
+    <WorkingDirectory>.</WorkingDirectory>
+    <OutputPath>.</OutputPath>
+    <ProjectTypeGuids>{888888a0-9f3d-457c-b088-3a5042f75d52}</ProjectTypeGuids>
+    <LaunchProvider>Standard Python launcher</LaunchProvider>
+    <InterpreterId />
+    <IsWindowsApplication>False</IsWindowsApplication>
+    <CommandLineArguments>venues/ICA/venue.json venues/ICA/CoordinatesFile.txt  venues/ICA/invensense_calgary_office_Transperant_Final.png  0 venues/ICA/out/particles_out_for_visual.log</CommandLineArguments>
+    <EnableNativeCodeDebugging>False</EnableNativeCodeDebugging>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)' == 'Debug'" />
+  <PropertyGroup Condition="'$(Configuration)' == 'Release'" />
+  <PropertyGroup>
+    <VisualStudioVersion Condition=" '$(VisualStudioVersion)' == '' ">10.0</VisualStudioVersion>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="color_map.py" />
+    <Compile Include="coordinates_venue_angles_parser.py" />
+    <Compile Include="Geo2LocalCoordinateConverter.py" />
+    <Compile Include="main.py" />
+    <Compile Include="patricles_player.py" />
+    <Compile Include="reading_particles_file.py" />
+    <Compile Include="reading_positions_file.py" />
+    <Compile Include="thread_for_draw.py" />
+    <Compile Include="TransformParametersCalculation.py" />
+    <Compile Include="venueparameters.py" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="venues\AeonShintoshinMall\Aeon_level_2_V3_CoordinatesFile.txt" />
+    <Content Include="venues\AeonShintoshinMall\version_2_floor_2_fullsize_3_layers.png" />
+    <Content Include="venues\Lowes_Central_Charlotte_Store\CentralCharlotteStore2348_CoordinatesFile.txt" />
+    <Content Include="venues\Lowes_Central_Charlotte_Store\Overlay.jpg" />
+    <Content Include="venues\Lowes_Central_Charlotte_Store\Overlay.png" />
+    <Content Include="venues\schnucksDesPeres\209DesPeres_CoordinatesFile.txt" />
+    <Content Include="venues\schnucksDesPeres\DesPeres.png" />
+    <Content Include="venues\schnucksDesPeres\DesPeres_small.png" />
+    <Content Include="venues\schnucksDesPeres\venue.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="venues\" />
+    <Folder Include="venues\AeonShintoshinMall" />
+    <Folder Include="venues\Lowes_Central_Charlotte_Store" />
+    <Folder Include="venues\schnucksDesPeres" />
+  </ItemGroup>
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
+</Project>

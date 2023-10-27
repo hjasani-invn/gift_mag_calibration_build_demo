@@ -1,0 +1,23 @@
+#ifndef FPBL_VERSION_H
+#define FPBL_VERSION_H
+//TODO tis file should be generated
+
+#define FPBL_VERSION_MAJOR 1
+#define FPBL_VERSION_MINOR 6
+
+//from VCS
+#define FPBL_VERSION_BUILD 1 
+	
+//must be consistent with  library header
+#define  FPBL_VERSION_RELEASE_ID_ALFA 0
+#define  FPBL_VERSION_RELEASE_ID_BETA 1
+#define  FPBL_VERSION_RELEASE_ID_RC   2
+#define  FPBL_VERSION_RELEASE_ID_RELEASE 3
+
+
+#define  FPBL_VERSION_RELEASE_ID_GAMMA 11
+#define  FPBL_VERSION_RELEASE_ID_DELTA 12
+
+#define  FPBL_VERSION_RELEASE_ID FPBL_VERSION_RELEASE_ID_ALFA
+
+#endif

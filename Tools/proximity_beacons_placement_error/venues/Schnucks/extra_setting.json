@@ -1,0 +1,17 @@
+{
+  "incorrect_beacon_detection": 
+   {
+      "max_position_intolerance": 5,
+      "max_position_intolerance_hint": "Maximal allowed difference of estimated beacon position and original beacon position in proximity database. The beacon is added to ignore list if the difference is more then this value",
+      "min_cells_number" : 1,
+      "min_cells_number_hint" : "Minimal number of cells for beacon position assessment",
+      "max_cells_number" : 10,
+      "max_cells_number_hint" : "Maximal number of cells for beacon position assessment",
+      "max_iterations_number" : 20,
+      "max_iterations_number_hint" : "assessment iterations number limit",
+      "RSSI_cutoff_threshold" : -13,
+      "RSSI_cutoff_threshold_hint" : "RSSI cutoff threshold (< 0) relative to beacon Tx power for using proximity BFP data in assessment",
+      "min_bfp_cell_weight" : 0.25,
+      "min_bfp_cell_weight_hint" : "Minimal weight of non-empty mode of proximity BFP cell for using proximity BFP data in assessment"
+   } 
+}

@@ -1,0 +1,219 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{0FAA0B1F-1888-4102-8BB2-76A4AA7FDF86}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>FP_builder</RootNamespace>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v120</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v120</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v120</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v120</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+    <IntDir>$(SolutionDir)\$(Platform)\$(Configuration)\</IntDir>
+    <OutDir>$(SolutionDir)\$(Platform)\$(Configuration)\</OutDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <LinkIncremental>true</LinkIncremental>
+    <OutDir>$(SolutionDir)\$(Platform)\$(Configuration)\</OutDir>
+    <IntDir>$(SolutionDir)\$(Platform)\$(Configuration)\</IntDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+    <OutDir>$(SolutionDir)\$(Platform)\$(Configuration)\</OutDir>
+    <IntDir>$(SolutionDir)\$(Platform)\$(Configuration)\</IntDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <LinkIncremental>false</LinkIncremental>
+    <OutDir>$(SolutionDir)\$(Platform)\$(Configuration)\</OutDir>
+    <IntDir>$(SolutionDir)\$(Platform)\$(Configuration)\</IntDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>..\..\..\Libraries\FPBuilderLib\Include;..\..\..\Components\CmdReader;..\..\..\ExternLibraries\jsoncons\src\;..\..\..\Components\TPNParser;..\..\..\Components\CRC;..\..\..\Components\DirEnt;..\..\..\Components\Data_Formats\;..\..\..\Components\TPNDataConverter;..\..\..\Components\CoordinateConverter\include;..\..\..\Components\SettingsParser;..\..\..\Components\MacAddressConverter;..\..\..\Libraries\TrackProcessorLib\Src;..\..\..\ExternLibraries/Eigen/eigen-3.2.4;..\..\..\Components\FloorConverter;..\..\..\Components\BLEHash;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <ProgramDataBaseFileName>$(ProjectName).pdb</ProgramDataBaseFileName>
+      <AdditionalOptions>/FS %(AdditionalOptions)</AdditionalOptions>
+      <DebugInformationFormat>EditAndContinue</DebugInformationFormat>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalLibraryDirectories>..\..\..\Libraries\FPBuilderLib\Project\$(Platform)\$(Configuration);..\..\Libraries\TrackProcessorLib\TrackProcessorLib\\$(Platform)$(Configuration)\;..\..\..\ExternLibraries\armadillo\armadillo-4.600.3\lib\$(Platform)\$(Configuration)\;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>FPBuilderLib.lib;MfpBuilderLib.lib;WiFiBuilderLib.lib;BleBuilderLib.lib;lapack_win32_MTd.lib;blas_win32_MTd.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+    <CustomBuildStep />
+    <PostBuildEvent>
+      <Command>copy "..\..\..\ExternLibraries\armadillo\armadillo-4.600.3\lib\$(Platform)\$(Configuration)\*.dll" "$(OutDir)"</Command>
+    </PostBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>..\..\..\Libraries\FPBuilderLib\Include;..\..\..\Components\CmdReader;..\..\..\ExternLibraries\jsoncons\src\;..\..\..\Components\TPNParser;..\..\..\Components\DirEnt;..\..\..\Components\Data_Formats\;..\..\..\Components\TPNDataConverter;..\..\..\Components\CoordinateConverter\include;..\..\..\Libraries\TrackProcessorLib\Src;../../../ExternLibraries/Eigen/eigen-3.2.4;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <ProgramDataBaseFileName>$(ProjectName).pdb</ProgramDataBaseFileName>
+      <AdditionalOptions>/FS %(AdditionalOptions)</AdditionalOptions>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalLibraryDirectories>..\..\..\Libraries\FPBuilderLib\Project\MfpBuilder\$(Platform)\$(Configuration)\;..\..\..\Libraries\FPBuilderLib\Project\$(Platform)\$(Configuration)\;$(SolutionDir)$(Platform)\$(Configuration)\;..\..\..\Libraries\TrackProcessorLib\TrackProcessorLib\$(Platform)\$(Configuration)\;..\..\..\ExternLibraries\armadillo\armadillo-4.600.3\lib\$(Platform)\$(Configuration)\;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>FPBuilderLib.lib;MfpBuilderLib.lib;WiFiBuilderLib.lib;BleBuilderLib.lib;lapack_win64_MTd.lib;blas_win64_MTd.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+    <CustomBuildStep />
+    <PostBuildEvent>
+      <Command>copy /Y  "..\..\..\ExternLibraries\armadillo\armadillo-4.600.3\lib\$(Platform)\$(Configuration)\*.dll" "$(OutDir)"</Command>
+    </PostBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_CONSOLE;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>..\..\..\Libraries\FPBuilderLib\Include;..\..\..\Components\CmdReader;..\..\..\ExternLibraries\jsoncons\src\;..\..\..\Components\TPNParser;..\..\..\Components\CRC;..\..\..\Components\DirEnt;..\..\..\Components\Data_Formats\;..\..\..\Components\TPNDataConverter;..\..\..\Components\CoordinateConverter\include;..\..\..\Components\SettingsParser;..\..\..\Components\MacAddressConverter;..\..\..\Libraries\TrackProcessorLib\Src;..\..\..\ExternLibraries/Eigen/eigen-3.2.4;..\..\..\Components\FloorConverter;..\..\..\Components\BLEHash;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <ProgramDataBaseFileName>$(ProjectName).pdb</ProgramDataBaseFileName>
+      <AdditionalOptions>/FS %(AdditionalOptions)</AdditionalOptions>
+      <DebugInformationFormat>None</DebugInformationFormat>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <AdditionalLibraryDirectories>..\..\..\Libraries\FPBuilderLib\Project\MfpBuilder\$(Platform)\$(Configuration)\;..\..\..\Libraries\FPBuilderLib\Project\$(Platform)\$(Configuration)\;$(SolutionDir)$(Configuration)\;..\..\..\Libraries\TrackProcessorLib\TrackProcessorLib\$(Platform)\$(Configuration)\;..\..\..\ExternLibraries\armadillo\armadillo-4.600.3\lib\$(Platform)\$(Configuration)\;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>FPBuilderLib.lib;MfpBuilderLib.lib;WiFiBuilderLib.lib;BleBuilderLib.lib;lapack_win32_MT.lib;blas_win32_MT.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <ProgramDatabaseFile>$(OutDir)$(TargetName).pdb</ProgramDatabaseFile>
+    </Link>
+    <PostBuildEvent>
+      <Command>copy "..\..\..\ExternLibraries\armadillo\armadillo-4.600.3\lib\$(Platform)\$(Configuration)\*.dll" "$(OutDir)"</Command>
+    </PostBuildEvent>
+    <CustomBuildStep>
+      <Command>copy "..\..\..\ExternLibraries\armadillo\armadillo-4.600.3\lib\win32\*.dll" "$(OutDir)"</Command>
+    </CustomBuildStep>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_CONSOLE;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>..\..\..\Libraries\FPBuilderLib\Include;..\..\..\Components\CmdReader;..\..\..\ExternLibraries\jsoncons\src\;..\..\..\Components\TPNParser;..\..\..\Components\DirEnt;..\..\..\Components\Data_Formats\;..\..\..\Components\TPNDataConverter;..\..\..\Components\CoordinateConverter\include;..\..\..\Libraries\TrackProcessorLib\Src;../../../ExternLibraries/Eigen/eigen-3.2.4;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <ProgramDataBaseFileName>$(ProjectName).pdb</ProgramDataBaseFileName>
+      <AdditionalOptions>/FS %(AdditionalOptions)</AdditionalOptions>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <AdditionalLibraryDirectories>..\..\..\Libraries\FPBuilderLib\Project\MfpBuilder\$(Platform)\$(Configuration)\;..\..\..\Libraries\FPBuilderLib\Project\$(Platform)\$(Configuration)\;$(SolutionDir)$(Platform)\$(Configuration)\;..\..\..\Libraries\TrackProcessorLib\TrackProcessorLib\$(Platform)\$(Configuration)\;..\..\..\ExternLibraries\armadillo\armadillo-4.600.3\lib\$(Platform)\$(Configuration)\;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>FPBuilderLib.lib;MfpBuilderLib.lib;WiFiBuilderLib.lib;BleBuilderLib.lib;lapack_win64_MT.lib;blas_win64_MT.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+    <PostBuildEvent>
+      <Command>copy "..\..\..\ExternLibraries\armadillo\armadillo-4.600.3\lib\$(Platform)\$(Configuration)\*.dll" "$(OutDir)"</Command>
+    </PostBuildEvent>
+    <CustomBuildStep>
+      <Command>copy "..\..\..\ExternLibraries\armadillo\armadillo-4.600.3\lib\win32\*.dll" "$(OutDir)"</Command>
+    </CustomBuildStep>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\..\Components\CmdReader\CmdReader.hpp" />
+    <ClInclude Include="..\..\..\Components\SettingsParser\DatasetsListProcessor.hpp" />
+    <ClInclude Include="..\..\..\Components\SettingsParser\SettingsParser.hpp" />
+    <ClInclude Include="..\..\..\Components\TPNParser\tpn_data_reader.hpp" />
+    <ClInclude Include="..\..\..\Components\TPNParser\tpn_packet_parser.hpp" />
+    <ClInclude Include="..\Src\FP_builder.hpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\..\Components\MacAddressConverter\stringMac_to_intMac.cpp" />
+    <ClCompile Include="..\..\..\Components\SettingsParser\BLPIgnoreListParser.cpp" />
+    <ClCompile Include="..\..\..\Components\SettingsParser\DatasetsListProcessor.cpp" />
+    <ClCompile Include="..\..\..\Components\SettingsParser\SettingsParser.cpp" />
+    <ClCompile Include="..\..\..\Components\SettingsParser\WiFiIgnoreListParser.cpp" />
+    <ClCompile Include="..\..\..\Components\TPNParser\tpn_data_reader.cpp" />
+    <ClCompile Include="..\..\..\Components\TPNParser\tpn_packet_parser.cpp" />
+    <ClCompile Include="..\Src\FP_builder.cpp">
+      <Optimization Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Disabled</Optimization>
+      <Optimization Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Disabled</Optimization>
+    </ClCompile>
+    <ClCompile Include="..\Src\main.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\..\Libraries\TrackProcessorLib\TrackProcessorLib\TrackProcessorLib.vcxproj">
+      <Project>{426ccd8a-8dcf-4ef9-aaa8-7a72a6541c51}</Project>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

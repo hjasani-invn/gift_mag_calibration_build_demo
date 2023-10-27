@@ -1,0 +1,75 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="..\Src\FP_builder.cpp" />
+    <ClCompile Include="..\Src\main.cpp" />
+    <ClCompile Include="..\..\..\Components\MacAddressConverter\stringMac_to_intMac.cpp">
+      <Filter>Components\MacAddressConverter</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Components\SettingsParser\SettingsParser.cpp">
+      <Filter>Components\SettingsParser</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Components\TPNParser\tpn_packet_parser.cpp">
+      <Filter>Components\TPNParser</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Components\TPNParser\tpn_data_reader.cpp">
+      <Filter>Components\TPNParser</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Components\SettingsParser\WiFiIgnoreListParser.cpp">
+      <Filter>Components\SettingsParser</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Components\SettingsParser\BLPIgnoreListParser.cpp">
+      <Filter>Components\SettingsParser</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Components\SettingsParser\DatasetsListProcessor.cpp">
+      <Filter>Components\SettingsParser</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\Src\FP_builder.hpp" />
+    <ClInclude Include="..\..\..\Components\SettingsParser\SettingsParser.hpp">
+      <Filter>Components\SettingsParser</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Components\CmdReader\CmdReader.hpp">
+      <Filter>Components\CmdReader</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Components\TPNParser\tpn_packet_parser.hpp">
+      <Filter>Components\TPNParser</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Components\TPNParser\tpn_data_reader.hpp">
+      <Filter>Components\TPNParser</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Components\SettingsParser\BLPIgnoreListParser.hpp">
+      <Filter>Components\SettingsParser</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Components\SettingsParser\WiFiIgnoreListParser.hpp">
+      <Filter>Components\SettingsParser</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Components\SettingsParser\DatasetsListProcessor.hpp">
+      <Filter>Components\SettingsParser</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Components">
+      <UniqueIdentifier>{2e962fc2-b16c-44b3-8067-e785fe88a59e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Components\MacAddressConverter">
+      <UniqueIdentifier>{22b5f283-872c-4798-a891-b55079561e73}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Components\CRC">
+      <UniqueIdentifier>{e8fe30d5-e3d6-4857-8aad-5f314568eff4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Components\SettingsParser">
+      <UniqueIdentifier>{f1c23e57-7277-405e-a596-804115988258}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Components\CmdReader">
+      <UniqueIdentifier>{08981e7b-0f0a-486d-a11a-c18508d0959c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Components\TPNParser">
+      <UniqueIdentifier>{2fc6df59-fa67-4b5d-b568-4e825f3c00f4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Components\Data_Formats">
+      <UniqueIdentifier>{7f54f4b2-2659-47d7-972c-23ea10c349df}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

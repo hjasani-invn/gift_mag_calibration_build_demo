@@ -1,0 +1,9 @@
+{
+	"FP_builder_name": "FP_builder.exe",
+	"json_FP_builder": "//cayyc-proj01/compute02/dchurikov/fp_tracks/Schnucks_M1/schnucks_fpl_srv.json",
+	"mapper_data": 1,
+	"mapper_data_path": "//cayyc-proj01/compute02/dchurikov/fp_tracks/Schnucks_M1/sesion_two.ble_reinstall",
+	"mapper_data_is_archived": 0,
+        "remove_bad_mapper_data":  0,
+        "integration_testing": "OFF"
+}

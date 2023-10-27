@@ -1,0 +1,56 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" DefaultTargets="Build">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{b8f17f61-ee76-4684-a634-99e9083c75f7}</ProjectGuid>
+    <ProjectHome />
+    <StartupFile>ja_main.py</StartupFile>
+    <SearchPath />
+    <WorkingDirectory>.</WorkingDirectory>
+    <OutputPath>.</OutputPath>
+    <ProjectTypeGuids>{888888a0-9f3d-457c-b088-3a5042f75d52}</ProjectTypeGuids>
+    <LaunchProvider>Standard Python launcher</LaunchProvider>
+    <InterpreterId />
+    <IsWindowsApplication>False</IsWindowsApplication>
+    <CommandLineArguments>template.json examples/IJP_MultiFloor/venue.json examples/IJP_MultiFloor/IJP_MultiFloor_CoordinatesFile.txt examples/IJP_MultiFloor/floors.json</CommandLineArguments>
+    <EnableNativeCodeDebugging>False</EnableNativeCodeDebugging>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)' == 'Debug'" />
+  <PropertyGroup Condition="'$(Configuration)' == 'Release'" />
+  <PropertyGroup>
+    <VisualStudioVersion Condition=" '$(VisualStudioVersion)' == '' ">10.0</VisualStudioVersion>
+  </PropertyGroup>
+  <ItemGroup>
+    <Content Include="examples\AeonShintoshinMall\Overlay_level_1_v2_CoordinatesFile.txt" />
+    <Content Include="examples\AlibabaOffice\Alibaba_CoordinatesFile.txt" />
+    <Content Include="examples\AlibabaOffice\V1.png" />
+    <Content Include="examples\Bridgestone_Kitakyushu\Bridgestone_Floor_1_G_Fixed_CoordinatesFile.txt" />
+    <Content Include="examples\Bridgestone_Kitakyushu\Floor_1.png" />
+    <Content Include="examples\BSK\coordinates.txt" />
+    <Content Include="examples\Docomo_YRP\Docomo_F1_CoordinatesFile.txt" />
+    <Content Include="examples\ICA_MultiFloor\venue1.png" />
+    <Content Include="examples\ICA_MultiFloor\venue4.png" />
+    <Content Include="examples\KyotoUniversityHospital\Floor_1_v2_CoordinatesFile.txt" />
+    <Content Include="examples\test_venue\coordinates.txt" />
+    <Content Include="realnotes.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="coordinates_venue_angles_parser.py" />
+    <Compile Include="ja_main.py" />
+    <Compile Include="merge.py" />
+    <Compile Include="TransformParametersCalculation.py" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="examples\" />
+    <Folder Include="examples\AeonShintoshinMall" />
+    <Folder Include="examples\AlibabaOffice" />
+    <Folder Include="examples\Bridgestone_Kitakyushu" />
+    <Folder Include="examples\BSK" />
+    <Folder Include="examples\Docomo_YRP" />
+    <Folder Include="examples\ICA_MultiFloor" />
+    <Folder Include="examples\KyotoUniversityHospital" />
+    <Folder Include="examples\test_venue" />
+  </ItemGroup>
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
+</Project>

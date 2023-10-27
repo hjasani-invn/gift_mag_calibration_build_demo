@@ -1,0 +1,391 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug_dll|Win32">
+      <Configuration>Debug_dll</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug_dll|x64">
+      <Configuration>Debug_dll</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release_dll|Win32">
+      <Configuration>Release_dll</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release_dll|x64">
+      <Configuration>Release_dll</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{54A3AE3D-47CB-4A93-8864-C6F51C7B263A}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>fppe</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0.17763.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug_dll|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug_dll|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release_dll|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release_dll|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug_dll|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug_dll|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release_dll|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release_dll|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+    <RunCodeAnalysis>false</RunCodeAnalysis>
+    <IntDir>$(SolutionDir)$(Configuration)\</IntDir>
+    <TargetName>fppe</TargetName>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <LinkIncremental>true</LinkIncremental>
+    <RunCodeAnalysis>false</RunCodeAnalysis>
+    <OutDir>$(SolutionDir)\$(Platform)\$(Configuration)\</OutDir>
+    <TargetName>fppe</TargetName>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug_dll|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+    <RunCodeAnalysis>false</RunCodeAnalysis>
+    <TargetName>fppe</TargetName>
+    <OutDir>$(SolutionDir)$(Platform)\Debug\</OutDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug_dll|x64'">
+    <LinkIncremental>true</LinkIncremental>
+    <RunCodeAnalysis>false</RunCodeAnalysis>
+    <TargetName>fppe</TargetName>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+    <IntDir>$(SolutionDir)$(Configuration)\</IntDir>
+    <TargetName>fppe</TargetName>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <LinkIncremental>false</LinkIncremental>
+    <TargetName>fppe</TargetName>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release_dll|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+    <TargetName>fppe</TargetName>
+    <OutDir>$(SolutionDir)$(Platform)\Release\</OutDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release_dll|x64'">
+    <LinkIncremental>false</LinkIncremental>
+    <OutDir>$(SolutionDir)$(Platform)\Release\</OutDir>
+    <TargetName>fppe</TargetName>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>../../../../Components/CoordinateConverter/Include;../../../../Components/TPNQuaternion;../../../../Components/TPNDataConverter;../../../../Components/DirEnt;../../../../Components/CRC;../../../../ExternLibraries/Eigen/eigen-3.2.4;../../src/Model;../../src/wifi;../../src/lhs;../../src/pdr_rt;../../src/pf2;../../src/ble_proximity;../../src/magnetic;../../../../Components/MacAddressConverter;../../include;../../src;../../../../Components/Data_Formats/;../../../../Components/Rand;../../../../Components/BLEHash;../../../../Components/FloorConverter;../../src/bias;../../../../Components/AltitudeFilter</AdditionalIncludeDirectories>
+      <WarningLevel>Level4</WarningLevel>
+      <EnablePREfast>false</EnablePREfast>
+      <EnableEnhancedInstructionSet>StreamingSIMDExtensions2</EnableEnhancedInstructionSet>
+      <FloatingPointModel>Strict</FloatingPointModel>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>../../../../Components/CoordinateConverter/Include;../../../../Components/TPNQuaternion;../../../../Components/TPNDataConverter;../../../../Components/DirEnt;../../../../ExternLibraries/Eigen/eigen-3.2.4;../../src/Model;../../src/wifi;../../src/lhs;../../src/pdr_rt;../../src/pf2;../../src/magnetic;../../../../Components/MacAddressConverter;../../include;../../src;../../../../Components/FloorConverter</AdditionalIncludeDirectories>
+      <WarningLevel>Level3</WarningLevel>
+      <EnablePREfast>false</EnablePREfast>
+      <EnableEnhancedInstructionSet>StreamingSIMDExtensions2</EnableEnhancedInstructionSet>
+      <FloatingPointModel>Strict</FloatingPointModel>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug_dll|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>../../../../Components/CoordinateConverter/Include;../../../../Components/TPNQuaternion;../../../../Components/TPNDataConverter;../../../../Components/DirEnt;../../../../Components/CRC;../../../../ExternLibraries/Eigen/eigen-3.2.4;../../src/Model;../../src/wifi;../../src/lhs;../../src/pdr_rt;../../src/pf2;../../src/ble_proximity;../../src/magnetic;../../../../Components/MacAddressConverter;../../include;../../src;../../../../Components/Data_Formats/;../../../../Components/Rand;../../../../Components/BLEHash;../../../../Components/FloorConverter;../../src/bias;../../../../Components/AltitudeFilter</AdditionalIncludeDirectories>
+      <WarningLevel>Level3</WarningLevel>
+      <EnablePREfast>false</EnablePREfast>
+      <EnableEnhancedInstructionSet>StreamingSIMDExtensions2</EnableEnhancedInstructionSet>
+      <FloatingPointModel>Strict</FloatingPointModel>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+    <PostBuildEvent />
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug_dll|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>../../../../Components/CoordinateConverter/Include;../../../../Components/TPNQuaternion;../../../../Components/TPNDataConverter;../../../../Components/DirEnt;../../../../ExternLibraries/Eigen/eigen-3.2.4;../../src/Model;../../src/wifi;../../src/lhs;../../src/pdr_rt;../../src/pf2;../../src/magnetic;../../../../Components/MacAddressConverter;../../include;../../src;../../../../Components/FloorConverter</AdditionalIncludeDirectories>
+      <WarningLevel>Level3</WarningLevel>
+      <EnablePREfast>false</EnablePREfast>
+      <EnableEnhancedInstructionSet>StreamingSIMDExtensions2</EnableEnhancedInstructionSet>
+      <FloatingPointModel>Strict</FloatingPointModel>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+    <PostBuildEvent />
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <AdditionalIncludeDirectories>../../../../Components/CoordinateConverter/Include;../../../../Components/TPNQuaternion;../../../../Components/TPNDataConverter;../../../../Components/DirEnt;../../../../Components/CRC;../../../../ExternLibraries/Eigen/eigen-3.2.4;../../src/Model;../../src/wifi;../../src/lhs;../../src/pdr_rt;../../src/pf2;../../src/ble_proximity;../../src/magnetic;../../../../Components/MacAddressConverter;../../include;../../src;../../../../Components/Data_Formats/;../../../../Components/Rand;../../../../Components/BLEHash;../../../../Components/FloorConverter;../../src/bias;../../../../Components/AltitudeFilter</AdditionalIncludeDirectories>
+      <EnableEnhancedInstructionSet>StreamingSIMDExtensions2</EnableEnhancedInstructionSet>
+      <FloatingPointModel>Strict</FloatingPointModel>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+    <Lib />
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <AdditionalIncludeDirectories>../../../../Components/CoordinateConverter/Include;../../../../Components/TPNQuaternion;../../../../Components/TPNDataConverter;../../../../Components/DirEnt;../../../../ExternLibraries/Eigen/eigen-3.2.4;../../src/Model;../../src/wifi;../../src/lhs;../../src/pdr_rt;../../src/pf2;../../src/magnetic;../../../../Components/MacAddressConverter;../../include;../../src;../../../../Components/FloorConverter</AdditionalIncludeDirectories>
+      <EnableEnhancedInstructionSet>StreamingSIMDExtensions2</EnableEnhancedInstructionSet>
+      <FloatingPointModel>Strict</FloatingPointModel>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+    <Lib />
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release_dll|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <AdditionalIncludeDirectories>../../../../Components/CoordinateConverter/Include;../../../../Components/TPNQuaternion;../../../../Components/TPNDataConverter;../../../../Components/DirEnt;../../../../Components/CRC;../../../../ExternLibraries/Eigen/eigen-3.2.4;../../src/Model;../../src/wifi;../../src/lhs;../../src/pdr_rt;../../src/pf2;../../src/ble_proximity;../../src/magnetic;../../../../Components/MacAddressConverter;../../include;../../src;../../../../Components/Data_Formats/;../../../../Components/Rand;../../../../Components/BLEHash;../../../../Components/FloorConverter;../../src/bias;../../../../Components/AltitudeFilter</AdditionalIncludeDirectories>
+      <EnableEnhancedInstructionSet>StreamingSIMDExtensions2</EnableEnhancedInstructionSet>
+      <FloatingPointModel>Strict</FloatingPointModel>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+    <Lib />
+    <PostBuildEvent />
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release_dll|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <AdditionalIncludeDirectories>../../../../Components/CoordinateConverter/Include;../../../../Components/TPNQuaternion;../../../../Components/TPNDataConverter;../../../../Components/DirEnt;../../../../ExternLibraries/Eigen/eigen-3.2.4;../../src/Model;../../src/wifi;../../src/lhs;../../src/pdr_rt;../../src/pf2;../../src/magnetic;../../../../Components/MacAddressConverter;../../include;../../src;../../../../Components/FloorConverter</AdditionalIncludeDirectories>
+      <EnableEnhancedInstructionSet>StreamingSIMDExtensions2</EnableEnhancedInstructionSet>
+      <FloatingPointModel>Strict</FloatingPointModel>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+    <Lib />
+    <PostBuildEvent />
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\..\..\Components\BLEHash\BleHash.h" />
+    <ClInclude Include="..\..\..\..\Components\CoordinateConverter\Include\CoordinateConverter.h" />
+    <ClInclude Include="..\..\..\..\Components\CRC\CRC.h" />
+    <ClInclude Include="..\..\..\..\Components\Data_Formats\CTpnData.h" />
+    <ClInclude Include="..\..\..\..\Components\Data_Formats\fpeDataTypes.h" />
+    <ClInclude Include="..\..\..\..\Components\Data_Formats\fpHeader.h" />
+    <ClInclude Include="..\..\..\..\Components\Data_Formats\fpHeader.hpp" />
+    <ClInclude Include="..\..\..\..\Components\Data_Formats\fpVenue.hpp" />
+    <ClInclude Include="..\..\..\..\Components\Data_Formats\MagData.hpp" />
+    <ClInclude Include="..\..\..\..\Components\Data_Formats\CMagData.h" />
+    <ClInclude Include="..\..\..\..\Components\Data_Formats\TpnData.hpp" />
+    <ClInclude Include="..\..\..\..\Components\Data_Formats\Venue.h" />
+    <ClInclude Include="..\..\..\..\Components\FloorConverter\FloorConverter.h" />
+    <ClInclude Include="..\..\..\..\Components\Rand\central_theorem_random.hpp" />
+    <ClInclude Include="..\..\..\..\Components\Rand\lfsr113.hpp" />
+    <ClInclude Include="..\..\..\..\Components\Rand\normal_random.hpp" />
+    <ClInclude Include="..\..\..\..\Components\Rand\rng32.hpp" />
+    <ClInclude Include="..\..\..\..\Components\Rand\uniform_random.hpp" />
+    <ClInclude Include="..\..\..\..\Components\Rand\ziggurat_random.hpp" />
+    <ClInclude Include="..\..\..\..\Components\TPNDataConverter\LocalData.hpp" />
+    <ClInclude Include="..\..\..\..\Components\TPNDataConverter\tpn_converter.hpp" />
+    <ClInclude Include="..\..\..\..\Components\TPNQuaternion\tpn_quat_lib.hpp" />
+    <ClInclude Include="..\..\Include\Fppe.hpp" />
+    <ClInclude Include="..\..\Include\CFppe.h" />
+    <ClInclude Include="..\..\Src\AltitudeFilter.hpp" />
+    <ClInclude Include="..\..\Src\bias\BLEProximityBiasEstimator.hpp" />
+    <ClInclude Include="..\..\Src\bias\WiFiBLEBiasEstimator.hpp" />
+    <ClInclude Include="..\..\Src\ble_proximity\ble_accumulation.hpp" />
+    <ClInclude Include="..\..\Src\ble_proximity\ble_mean.hpp" />
+    <ClInclude Include="..\..\Src\ble_proximity\ble_position.hpp" />
+    <ClInclude Include="..\..\Src\ble_proximity\ble_proximity_db.hpp" />
+    <ClInclude Include="..\..\Src\ble_proximity\ble_proximity_helper.hpp" />
+    <ClInclude Include="..\..\Src\ble_proximity\ble_proximity_if.hpp" />
+    <ClInclude Include="..\..\Src\ble_proximity\ble_proximity_loc.hpp" />
+    <ClInclude Include="..\..\Src\ble_proximity\ble_nonlinear_filter.hpp" />
+    <ClInclude Include="..\..\src\IFPEngine.hpp" />
+    <ClInclude Include="..\..\Src\lhs\LikelihoodPos.hpp" />
+    <ClInclude Include="..\..\src\magnetic\MFP.h" />
+    <ClInclude Include="..\..\src\magnetic\MgCalibration.hpp" />
+    <ClInclude Include="..\..\Src\Map_Matching\imm_gc.h" />
+    <ClInclude Include="..\..\Src\Map_Matching\imm_geoobject.h" />
+    <ClInclude Include="..\..\Src\Map_Matching\imm_header.h" />
+    <ClInclude Include="..\..\Src\Map_Matching\imm_list.h" />
+    <ClInclude Include="..\..\Src\Map_Matching\imm_macros.h" />
+    <ClInclude Include="..\..\Src\Map_Matching\imm_math.h" />
+    <ClInclude Include="..\..\Src\Map_Matching\imm_memory.h" />
+    <ClInclude Include="..\..\Src\Map_Matching\imm_types.h" />
+    <ClInclude Include="..\..\Src\Map_Matching\imm_vector.h" />
+    <ClInclude Include="..\..\Src\Map_Matching\MapMatching.hpp" />
+    <ClInclude Include="..\..\src\pf2\ff_config.h" />
+    <ClInclude Include="..\..\src\pf2\FusionFilter.hpp" />
+    <ClInclude Include="..\..\Src\pf2\IFFSettings.hpp" />
+    <ClInclude Include="..\..\Src\pf2\InitializerInArea.hpp" />
+    <ClInclude Include="..\..\Src\pf2\InitializerInAreaMapMatching.hpp" />
+    <ClInclude Include="..\..\Src\pf2\InitializerNormal.hpp" />
+    <ClInclude Include="..\..\src\pf2\InitializerMFP.hpp" />
+    <ClInclude Include="..\..\src\pf2\InitializerPF.hpp" />
+    <ClInclude Include="..\..\src\pf2\IPF.hpp" />
+    <ClInclude Include="..\..\src\pf2\Particle.hpp" />
+    <ClInclude Include="..\..\src\pf2\PF.hpp" />
+    <ClInclude Include="..\..\Src\pf2\PredictTPN3D.hpp" />
+    <ClInclude Include="..\..\Src\pf2\PredictVdr3D.hpp" />
+    <ClInclude Include="..\..\Src\pf2\RBFInitializer.hpp" />
+    <ClInclude Include="..\..\Src\pf2\UpdateBLEProximity.hpp" />
+    <ClInclude Include="..\..\src\pf2\UpdateCheckPoint.hpp" />
+    <ClInclude Include="..\..\Src\pf2\UpdateCollaboration.hpp" />
+    <ClInclude Include="..\..\Src\pf2\UpdateExternalPos.hpp" />
+    <ClInclude Include="..\..\src\pf2\UpdateMFP3D.hpp" />
+    <ClInclude Include="..\..\Src\pf2\UpdateMM.hpp" />
+    <ClInclude Include="..\..\Src\pf2\UpdatePortals.hpp" />
+    <ClInclude Include="..\..\src\pf2\UpdateRBFBias.hpp" />
+    <ClInclude Include="..\..\src\pf2\UpdateWiFi.hpp" />
+    <ClInclude Include="..\..\Src\version.h" />
+    <ClInclude Include="..\..\src\wifi\median.h" />
+    <ClInclude Include="..\..\src\wifi\wifi_data.hpp" />
+    <ClInclude Include="..\..\src\wifi\wifi_db.hpp" />
+    <ClInclude Include="..\..\src\wifi\wifi_db_hist.hpp" />
+    <ClInclude Include="..\..\src\wifi\wifi_helper.hpp" />
+    <ClInclude Include="..\..\src\wifi\wifi_if.hpp" />
+    <ClInclude Include="..\..\src\wifi\wifi_loc.hpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\..\..\Components\BLEHash\BleHash.cpp" />
+    <ClCompile Include="..\..\..\..\Components\CoordinateConverter\Src\CoordinateConverter.cpp" />
+    <ClCompile Include="..\..\..\..\Components\CRC\CRC.cpp" />
+    <ClCompile Include="..\..\..\..\Components\FloorConverter\FloorConverter.cpp" />
+    <ClCompile Include="..\..\..\..\Components\Rand\lfsr113.cpp" />
+    <ClCompile Include="..\..\..\..\Components\Rand\rng32.cpp" />
+    <ClCompile Include="..\..\..\..\Components\Rand\ziggurat_random.cpp" />
+    <ClCompile Include="..\..\..\..\Components\TPNDataConverter\tpn_converter.cpp" />
+    <ClCompile Include="..\..\..\..\Components\TPNQuaternion\tpn_quat_lib.cpp" />
+    <ClCompile Include="..\..\Src\bias\BLEProximityBiasEstimator.cpp" />
+    <ClCompile Include="..\..\Src\bias\WiFiBLEBiasEstimator.cpp" />
+    <ClCompile Include="..\..\Src\ble_proximity\ble_proximity_db.cpp" />
+    <ClCompile Include="..\..\Src\ble_proximity\ble_proximity_helper.cpp" />
+    <ClCompile Include="..\..\Src\ble_proximity\ble_proximity_loc.cpp" />
+    <ClCompile Include="..\..\Src\ble_proximity\ble_nonlinear_filter.cpp" />
+    <ClCompile Include="..\..\Src\CFppe.cpp" />
+    <ClCompile Include="..\..\src\Fppe.cpp" />
+    <ClInclude Include="..\..\src\FppeImp.hpp" />
+    <ClCompile Include="..\..\Src\lhs\LikelihoodPos.cpp" />
+    <ClCompile Include="..\..\src\magnetic\MFP.cpp" />
+    <ClCompile Include="..\..\Src\Map_Matching\imm.cpp" />
+    <ClCompile Include="..\..\Src\Map_Matching\imm_gc.cpp" />
+    <ClCompile Include="..\..\Src\Map_Matching\imm_geoobject.cpp" />
+    <ClCompile Include="..\..\Src\Map_Matching\imm_math.cpp" />
+    <ClCompile Include="..\..\Src\Map_Matching\imm_memory.cpp" />
+    <ClCompile Include="..\..\Src\Map_Matching\imm_vector.cpp" />
+    <ClCompile Include="..\..\Src\Map_Matching\MapMatching.cpp" />
+    <ClCompile Include="..\..\src\pf2\FusionFilter.cpp" />
+    <ClCompile Include="..\..\src\pf2\PF.cpp" />
+    <ClCompile Include="..\..\src\wifi\wifi_data.cpp" />
+    <ClCompile Include="..\..\Src\wifi\wifi_db.cpp" />
+    <ClCompile Include="..\..\src\wifi\wifi_db_hist.cpp" />
+    <ClCompile Include="..\..\src\wifi\wifi_helper.cpp" />
+    <ClCompile Include="..\..\src\wifi\wifi_loc.cpp" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

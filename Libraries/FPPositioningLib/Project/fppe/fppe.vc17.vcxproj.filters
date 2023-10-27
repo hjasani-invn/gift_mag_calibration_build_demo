@@ -1,0 +1,411 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Source Files\mfp">
+      <UniqueIdentifier>{d08263cf-ebc3-4394-9030-d271b8c63082}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\wifi">
+      <UniqueIdentifier>{2ff20edb-000d-426c-a0b8-d348b6676788}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\pf">
+      <UniqueIdentifier>{881f03d6-22ae-44b3-999e-530f517b477a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\ble_proximity">
+      <UniqueIdentifier>{aca8ddf5-bdf7-409f-94ce-b6c85c146371}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Rand">
+      <UniqueIdentifier>{958d26d8-5e2b-4ad3-a834-2db4df29471a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\lhs">
+      <UniqueIdentifier>{3458b779-1834-481c-85d1-db332c1f4991}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\BLEHash">
+      <UniqueIdentifier>{c56b66b2-8c69-4ccc-9644-80d071d4c99a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\CRC">
+      <UniqueIdentifier>{e81da120-32c1-4834-88e3-eb00d73dea04}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Data_Formats">
+      <UniqueIdentifier>{c3f1b328-03be-4dcb-b8b9-2c80fe044ebc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\FloorConverter">
+      <UniqueIdentifier>{89593b63-c0f8-4c86-9660-c5b1074b5dff}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\TPNQuaternion">
+      <UniqueIdentifier>{acdfc3e4-2627-4214-b640-d18c1eaaa6cc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\CoordinateConverter">
+      <UniqueIdentifier>{1001f6ce-86d7-428e-a4a1-c745f8102b5d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\TPNDataConverter">
+      <UniqueIdentifier>{d5286931-8efe-473b-b591-9ca06764868c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\bias">
+      <UniqueIdentifier>{f8b96168-ac67-4022-8338-5544c8b3da8d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\MapMatching">
+      <UniqueIdentifier>{05fca83c-416b-47c1-84ef-e9afea0e00d3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\MapMatching\imm">
+      <UniqueIdentifier>{d0ce4151-4f17-4f35-830b-a1911b73f890}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\Include\Fppe.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\IFPEngine.hpp">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\wifi\median.h">
+      <Filter>Source Files\wifi</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\wifi\wifi_data.hpp">
+      <Filter>Source Files\wifi</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\wifi\wifi_db.hpp">
+      <Filter>Source Files\wifi</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\wifi\wifi_db_hist.hpp">
+      <Filter>Source Files\wifi</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\wifi\wifi_helper.hpp">
+      <Filter>Source Files\wifi</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\wifi\wifi_if.hpp">
+      <Filter>Source Files\wifi</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\wifi\wifi_loc.hpp">
+      <Filter>Source Files\wifi</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\pf2\ff_config.h">
+      <Filter>Source Files\pf</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\pf2\InitializerMFP.hpp">
+      <Filter>Source Files\pf</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\pf2\InitializerPF.hpp">
+      <Filter>Source Files\pf</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\pf2\IPF.hpp">
+      <Filter>Source Files\pf</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\pf2\Particle.hpp">
+      <Filter>Source Files\pf</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\pf2\PF.hpp">
+      <Filter>Source Files\pf</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\pf2\UpdateCheckPoint.hpp">
+      <Filter>Source Files\pf</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\pf2\UpdateMFP3D.hpp">
+      <Filter>Source Files\pf</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\pf2\UpdateRBFBias.hpp">
+      <Filter>Source Files\pf</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\pf2\UpdateWiFi.hpp">
+      <Filter>Source Files\pf</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\magnetic\MFP.h">
+      <Filter>Source Files\mfp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\magnetic\MgCalibration.hpp">
+      <Filter>Source Files\mfp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Src\pf2\PredictTPN3D.hpp">
+      <Filter>Source Files\pf</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Src\pf2\InitializerNormal.hpp">
+      <Filter>Source Files\pf</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Src\pf2\RBFInitializer.hpp">
+      <Filter>Source Files\pf</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\pf2\FusionFilter.hpp">
+      <Filter>Source Files\pf</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\FppeImp.hpp">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Components\TPNDataConverter\LocalData.hpp">
+      <Filter>Source Files\TPNDataConverter</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Components\TPNDataConverter\tpn_converter.hpp">
+      <Filter>Source Files\TPNDataConverter</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Include\CFppe.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Src\pf2\IFFSettings.hpp">
+      <Filter>Source Files\pf</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Src\pf2\InitializerInArea.hpp">
+      <Filter>Source Files\pf</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Src\pf2\UpdateExternalPos.hpp">
+      <Filter>Source Files\pf</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Src\version.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Src\pf2\UpdateBLEProximity.hpp">
+      <Filter>Source Files\pf</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Src\ble_proximity\ble_proximity_helper.hpp">
+      <Filter>Source Files\ble_proximity</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Src\ble_proximity\ble_proximity_loc.hpp">
+      <Filter>Source Files\ble_proximity</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Src\ble_proximity\ble_proximity_if.hpp">
+      <Filter>Source Files\ble_proximity</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Src\ble_proximity\ble_proximity_db.hpp">
+      <Filter>Source Files\ble_proximity</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Components\Rand\central_theorem_random.hpp">
+      <Filter>Source Files\Rand</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Components\Rand\lfsr113.hpp">
+      <Filter>Source Files\Rand</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Components\Rand\normal_random.hpp">
+      <Filter>Source Files\Rand</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Components\Rand\rng32.hpp">
+      <Filter>Source Files\Rand</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Components\Rand\uniform_random.hpp">
+      <Filter>Source Files\Rand</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Components\Rand\ziggurat_random.hpp">
+      <Filter>Source Files\Rand</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Src\lhs\LikelihoodPos.hpp">
+      <Filter>Source Files\lhs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Components\BLEHash\BleHash.h">
+      <Filter>Source Files\BLEHash</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Components\CRC\CRC.h">
+      <Filter>Source Files\CRC</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Components\Data_Formats\Venue.h">
+      <Filter>Source Files\Data_Formats</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Components\Data_Formats\fpVenue.hpp">
+      <Filter>Source Files\Data_Formats</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Components\Data_Formats\fpHeader.hpp">
+      <Filter>Source Files\Data_Formats</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Components\Data_Formats\fpHeader.h">
+      <Filter>Source Files\Data_Formats</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Src\ble_proximity\ble_nonlinear_filter.hpp">
+      <Filter>Source Files\ble_proximity</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Src\ble_proximity\ble_accumulation.hpp">
+      <Filter>Source Files\ble_proximity</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Components\Data_Formats\TpnData.hpp">
+      <Filter>Source Files\Data_Formats</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Components\TPNQuaternion\tpn_quat_lib.hpp">
+      <Filter>Source Files\TPNQuaternion</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Components\Data_Formats\MagData.hpp">
+      <Filter>Source Files\Data_Formats</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Components\Data_Formats\CTpnData.h">
+      <Filter>Source Files\Data_Formats</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Components\CoordinateConverter\Include\CoordinateConverter.h">
+      <Filter>Source Files\CoordinateConverter</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Components\Data_Formats\CMagData.h">
+      <Filter>Source Files\Data_Formats</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Src\bias\WiFiBLEBiasEstimator.hpp">
+      <Filter>Source Files\bias</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Src\ble_proximity\ble_mean.hpp">
+      <Filter>Source Files\ble_proximity</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Src\ble_proximity\ble_position.hpp">
+      <Filter>Source Files\ble_proximity</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Components\FloorConverter\FloorConverter.h">
+      <Filter>Source Files\FloorConverter</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Src\bias\BLEProximityBiasEstimator.hpp">
+      <Filter>Source Files\bias</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Components\Data_Formats\fpeDataTypes.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Src\Map_Matching\MapMatching.hpp">
+      <Filter>Source Files\MapMatching</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Src\Map_Matching\imm_gc.h">
+      <Filter>Source Files\MapMatching\imm</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Src\Map_Matching\imm_geoobject.h">
+      <Filter>Source Files\MapMatching\imm</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Src\Map_Matching\imm_header.h">
+      <Filter>Source Files\MapMatching\imm</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Src\Map_Matching\imm_list.h">
+      <Filter>Source Files\MapMatching\imm</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Src\Map_Matching\imm_macros.h">
+      <Filter>Source Files\MapMatching\imm</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Src\Map_Matching\imm_math.h">
+      <Filter>Source Files\MapMatching\imm</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Src\Map_Matching\imm_memory.h">
+      <Filter>Source Files\MapMatching\imm</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Src\Map_Matching\imm_types.h">
+      <Filter>Source Files\MapMatching\imm</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Src\Map_Matching\imm_vector.h">
+      <Filter>Source Files\MapMatching\imm</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Src\pf2\UpdateMM.hpp">
+      <Filter>Source Files\pf</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Src\pf2\InitializerInAreaMapMatching.hpp">
+      <Filter>Source Files\pf</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Src\pf2\PredictVdr3D.hpp">
+      <Filter>Source Files\pf</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Src\pf2\UpdatePortals.hpp">
+      <Filter>Source Files\pf</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Src\AltitudeFilter.hpp">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Src\pf2\UpdateCollaboration.hpp">
+      <Filter>Source Files\pf</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\src\Fppe.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\wifi\wifi_data.cpp">
+      <Filter>Source Files\wifi</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\wifi\wifi_db_hist.cpp">
+      <Filter>Source Files\wifi</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\wifi\wifi_helper.cpp">
+      <Filter>Source Files\wifi</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\wifi\wifi_loc.cpp">
+      <Filter>Source Files\wifi</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\pf2\FusionFilter.cpp">
+      <Filter>Source Files\pf</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\pf2\PF.cpp">
+      <Filter>Source Files\pf</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\magnetic\MFP.cpp">
+      <Filter>Source Files\mfp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Components\TPNDataConverter\tpn_converter.cpp">
+      <Filter>Source Files\TPNDataConverter</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Src\wifi\wifi_db.cpp">
+      <Filter>Source Files\wifi</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Src\ble_proximity\ble_proximity_helper.cpp">
+      <Filter>Source Files\ble_proximity</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Src\ble_proximity\ble_proximity_loc.cpp">
+      <Filter>Source Files\ble_proximity</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Src\ble_proximity\ble_proximity_db.cpp">
+      <Filter>Source Files\ble_proximity</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Src\CFppe.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Components\Rand\lfsr113.cpp">
+      <Filter>Source Files\Rand</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Components\Rand\rng32.cpp">
+      <Filter>Source Files\Rand</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Components\Rand\ziggurat_random.cpp">
+      <Filter>Source Files\Rand</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Src\lhs\LikelihoodPos.cpp">
+      <Filter>Source Files\lhs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Components\BLEHash\BleHash.cpp">
+      <Filter>Source Files\BLEHash</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Components\CRC\CRC.cpp">
+      <Filter>Source Files\CRC</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Src\ble_proximity\ble_nonlinear_filter.cpp">
+      <Filter>Source Files\ble_proximity</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Components\TPNQuaternion\tpn_quat_lib.cpp">
+      <Filter>Source Files\TPNQuaternion</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Components\CoordinateConverter\Src\CoordinateConverter.cpp">
+      <Filter>Source Files\CoordinateConverter</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Src\bias\WiFiBLEBiasEstimator.cpp">
+      <Filter>Source Files\bias</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Components\FloorConverter\FloorConverter.cpp">
+      <Filter>Source Files\FloorConverter</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Src\bias\BLEProximityBiasEstimator.cpp">
+      <Filter>Source Files\bias</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Src\Map_Matching\MapMatching.cpp">
+      <Filter>Source Files\MapMatching</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Src\Map_Matching\imm.cpp">
+      <Filter>Source Files\MapMatching\imm</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Src\Map_Matching\imm_gc.cpp">
+      <Filter>Source Files\MapMatching\imm</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Src\Map_Matching\imm_geoobject.cpp">
+      <Filter>Source Files\MapMatching\imm</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Src\Map_Matching\imm_math.cpp">
+      <Filter>Source Files\MapMatching\imm</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Src\Map_Matching\imm_memory.cpp">
+      <Filter>Source Files\MapMatching\imm</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Src\Map_Matching\imm_vector.cpp">
+      <Filter>Source Files\MapMatching\imm</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,48 @@
+{
+ // example fingerprint settings for FPBL console
+ 
+  "name": "IS_SJ_4",
+  
+  "venue" :
+  {
+      "id" : 15, 
+	  "type" : 3,
+      
+	  "origin_lattitude" :   37.367740264539968,
+      "origin_longitude" : -121.920821758493180,
+      "origin_azimuth" :    -26.053972690473778,
+      "alfa" :  0.000000151295867,
+      "beta" : -0.000000190520338,
+      "origin_altitude" : 0.0,
+	  
+      "floors_count" : 4,
+      "floor_shift" :  1,
+      "floor_height" : 5,
+      "floor_zero_enable" : "false",
+
+	  "size_x" : 85,
+      "size_y" : 39,
+      
+	  "magX" : 22.39,
+      "magY" : 5.43, 
+      "magZ" : -42.13
+  },
+  
+  "data_format" : 4, 
+  
+  "default_mag_validators" :"for_mapper",
+
+  "magnetic_cellsize": 2.0, 
+  "wifi_cellsize": 5.0,   
+  "ble_cellsize": 5.0,  
+  
+  "magnetic_enable": true,
+  "WiFi_enable" : true, 
+  "BLE_enable" : true, 
+  "ble_proximity_enable" : true,
+  
+  "folder_out": "out", 
+  "folder_fp": "fp", 
+  "folder_in": "in", 
+  "folder_grid": "grid"
+}

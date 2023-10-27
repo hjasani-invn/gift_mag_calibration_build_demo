@@ -1,0 +1,946 @@
+data_set_name; data_set_validity; reject_outside_position; correction_state; reject_mag_by_pos_unc; correction_state; mag_bias_level; check state; mag_bias_cov; check state; B_value; check state; mean_mag_hor_dev; check state; mean_mag_Z_dev; check state; reject_mag_spike; correction_state; set_mag_meas_cov_matrix_to_max; correction_state; reject_mag_in_stops; correction_state
+C:/Share/Vectors/February_8_2016_Loves/Calgary-all/\Back-Pocket-Pool\2017-01-04_Test10_10min_iP00001-BackLeftPocket-MS\irl_out.dat; 1; 0; 1; 0.32; 1; 2; 1; 1.3; 1; 7.5; 1; 0.32; 1; 25; 1; 14; 1; 12889; 1; 0.47; 1
+C:/Share/Vectors/February_8_2016_Loves/Calgary-all/\Back-Pocket-Pool\2017-01-04_Test10_10min_iP00003-BackLeftPocket-CB\irl_out.dat; 1; 0; 1; 0.70; 1; 2; 1; 1.1; 1; 7.9; 1; 4.2; 1; 20; 1; 1; 1; 12784; 1; 0.46; 1
+C:/Share/Vectors/February_8_2016_Loves/Calgary-all/\Back-Pocket-Pool\2017-01-04_Test10_10min_iP00007-BackRightPocket-MS\irl_out.dat; 1; 0; 1; 0.82; 1; 3; 1; 0.77; 1; 6.4; 1; 3; 1; 17; 1; 1; 1; 12916; 1; 0.48; 1
+C:/Share/Vectors/February_8_2016_Loves/Calgary-all/\Back-Pocket-Pool\2017-01-04_Test10_10min_SS6011-BackRightPocket-CB\irl_out.dat; 0; 0; 1; 0.95; 1; 0; 0
+C:/Share/Vectors/February_8_2016_Loves/Calgary-all/\Back-Pocket-Pool\2017-01-04_Test11_5min_iP00001-BackLeftPocket-MS\irl_out.dat; 1; 0; 1; 0.75; 1; 1; 1; 2.2; 1; 9.7; 1; 1.2; 1; 17; 1; 0; 1; 6833; 1; 0.47; 1
+C:/Share/Vectors/February_8_2016_Loves/Calgary-all/\Back-Pocket-Pool\2017-01-04_Test11_5min_iP00003-BackLeftPocket-CB\irl_out.dat; 0; 0; 1; 0.45; 1; 2; 1; 1.5; 1; 72; 0
+C:/Share/Vectors/February_8_2016_Loves/Calgary-all/\Back-Pocket-Pool\2017-01-04_Test11_5min_iP00007-BackRightPocket-MS\irl_out.dat; 1; 0; 1; 0.46; 1; 1; 1; 2.5; 1; 41; 1; 0.5; 1; 20; 1; 1; 1; 6755; 1; 0.47; 1
+C:/Share/Vectors/February_8_2016_Loves/Calgary-all/\Back-Pocket-Pool\2017-01-04_Test11_5min_SS6011-BackRightPocket-CB\irl_out.dat; 0; 0; 1; 0.42; 1; 0; 0
+C:/Share/Vectors/February_8_2016_Loves/Calgary-all/\Back-Pocket-Pool\2017-01-04_Test12_5min_iP00001-BackLeftPocket-MS\irl_out.dat; 1; 0; 1; 0.38; 1; 1; 1; 1.8; 1; 7; 1; 1.2; 1; 20; 1; 0; 1; 7215; 1; 0.34; 1
+C:/Share/Vectors/February_8_2016_Loves/Calgary-all/\Back-Pocket-Pool\2017-01-04_Test12_5min_iP00003-BackLeftPocket-CB\irl_out.dat; 1; 0; 1; 0.83; 1; 2; 1; 0.77; 1; 43; 1; 0.36; 1; 8.3; 1; 1; 1; 7029; 1; 0.31; 1
+C:/Share/Vectors/February_8_2016_Loves/Calgary-all/\Back-Pocket-Pool\2017-01-04_Test12_5min_iP00007-BackRightPocket-MS\irl_out.dat; 0; 0; 1; 0.13; 1; 2; 1; 1.2; 1; 69; 0
+C:/Share/Vectors/February_8_2016_Loves/Calgary-all/\Back-Pocket-Pool\2017-01-04_Test12_5min_SS6011-BackRightPocket-CB\irl_out.dat; 0; 0; 1; 0.43; 1; 0; 0
+C:/Share/Vectors/February_8_2016_Loves/Calgary-all/\Back-Pocket-Pool\2017-01-04_Test1_45min_iP00003-BackLeftPocket-CB\irl_out.dat; 0; 0; 1; 0.72; 1; 0; 0
+C:/Share/Vectors/February_8_2016_Loves/Calgary-all/\Back-Pocket-Pool\2017-01-04_Test1_45min_SS6011-BackRightPocket-CB\irl_out.dat; 0; 0; 1; 0.59; 1; 0; 0
+C:/Share/Vectors/February_8_2016_Loves/Calgary-all/\Back-Pocket-Pool\2017-01-04_Test2_30min_iP00003-BackLeftPocket-CB\irl_out.dat; 1; 0; 1; 0.73; 1; 3; 1; 0.41; 1; 6.7; 1; 1.7; 1; 23; 1; 7; 1; 37544; 1; 0.52; 1
+C:/Share/Vectors/February_8_2016_Loves/Calgary-all/\Back-Pocket-Pool\2017-01-04_Test2_30min_SS6011-BackRightPocket-CB\irl_out.dat; 0; 0; 1; 0.37; 1; 0; 0
+C:/Share/Vectors/February_8_2016_Loves/Calgary-all/\Back-Pocket-Pool\2017-01-04_Test3_25min_iP00003-BackLeftPocket-CB\irl_out.dat; 1; 0; 1; 0.27; 1; 3; 1; 0.42; 1; 15; 1; 2.9; 1; 23; 1; 14; 1; 29729; 1; 0.52; 1
+C:/Share/Vectors/February_8_2016_Loves/Calgary-all/\Back-Pocket-Pool\2017-01-04_Test3_25min_SS6011-BackRightPocket-CB\irl_out.dat; 0; 0; 1; 0.65; 1; 0; 0
+C:/Share/Vectors/February_8_2016_Loves/Calgary-all/\Back-Pocket-Pool\2017-01-04_Test4_20min_iP00001-BackLeftPocket-MS\irl_out.dat; 0; 0; 1; 0.19; 1; 0; 0
+C:/Share/Vectors/February_8_2016_Loves/Calgary-all/\Back-Pocket-Pool\2017-01-04_Test4_20min_iP00003-BackLeftPocket-CB\irl_out.dat; 1; 0; 1; 0.59; 1; 3; 1; 0.74; 1; 4.7; 1; 3.7; 1; 29; 1; 11; 1; 24270; 1; 0.54; 1
+C:/Share/Vectors/February_8_2016_Loves/Calgary-all/\Back-Pocket-Pool\2017-01-04_Test4_20min_SS6011-BackRightPocket-CB\irl_out.dat; 0; 0; 1; 0.59; 1; 0; 0
+C:/Share/Vectors/February_8_2016_Loves/Calgary-all/\Back-Pocket-Pool\2017-01-04_Test5_20min_iP00003-BackLeftPocket-CB\irl_out.dat; 1; 0; 1; 0.18; 1; 4; 1; 0.65; 1; 3.9; 1; 2.2; 1; 20; 1; 2; 1; 24576; 1; 0.45; 1
+C:/Share/Vectors/February_8_2016_Loves/Calgary-all/\Back-Pocket-Pool\2017-01-04_Test6_15min_iP00001-BackLeftPocket-MS\irl_out.dat; 0; 0; 1; 0.66; 1; 0; 0
+C:/Share/Vectors/February_8_2016_Loves/Calgary-all/\Back-Pocket-Pool\2017-01-04_Test6_15min_iP00003-BackLeftPocket-CB\irl_out.dat; 1; 0; 1; 0.63; 1; 1; 1; 1.8; 1; 5.8; 1; 3.5; 1; 28; 1; 11; 1; 18079; 1; 0.52; 1
+C:/Share/Vectors/February_8_2016_Loves/Calgary-all/\Back-Pocket-Pool\2017-01-04_Test6_15min_iP00007-BackRightPocket-MS\irl_out.dat; 0; 0; 1; 0.68; 1; 1; 1; 1.2; 1; 95; 0
+C:/Share/Vectors/February_8_2016_Loves/Calgary-all/\Back-Pocket-Pool\2017-01-04_Test6_15min_SS6011-BackRightPocket-CB\irl_out.dat; 0; 0; 1; 0.82; 1; 0; 0
+C:/Share/Vectors/February_8_2016_Loves/Calgary-all/\Back-Pocket-Pool\2017-01-04_Test7_15min_iP00003-BackLeftPocket-CB\irl_out.dat; 1; 0; 1; 0.65; 1; 5; 1; 0.64; 1; 7.4; 1; 5; 1; 22; 1; 0; 1; 18495; 1; 0.50; 1
+C:/Share/Vectors/February_8_2016_Loves/Calgary-all/\Back-Pocket-Pool\2017-01-04_Test7_15min_SS6011-BackRightPocket-CB\irl_out.dat; 0; 0; 1; 0.57; 1; 0; 0
+C:/Share/Vectors/February_8_2016_Loves/Calgary-all/\Back-Pocket-Pool\2017-01-04_Test8_10min_iP00001-BackLeftPocket-MS\irl_out.dat; 1; 0; 1; 0.80; 1; 1; 1; 2.1; 1; 4.2; 1; 0.81; 1; 18; 1; 0; 1; 12703; 1; 0.37; 1
+C:/Share/Vectors/February_8_2016_Loves/Calgary-all/\Back-Pocket-Pool\2017-01-04_Test8_10min_iP00003-BackLeftPocket-CB\irl_out.dat; 1; 0; 1; 0.55; 1; 2; 1; 0.93; 1; 24; 1; 1.6; 1; 19; 1; 4; 1; 12539; 1; 0.36; 1
+C:/Share/Vectors/February_8_2016_Loves/Calgary-all/\Back-Pocket-Pool\2017-01-04_Test8_10min_iP00007-BackRightPocket-MS\irl_out.dat; 0; 0; 1; 0.85; 1; 3; 1; 0.53; 1; 56; 0
+C:/Share/Vectors/February_8_2016_Loves/Calgary-all/\Back-Pocket-Pool\2017-01-04_Test8_10min_SS6011-BackRightPocket-CB\irl_out.dat; 0; 0; 1; 0.08; 1; 0; 0
+C:/Share/Vectors/February_8_2016_Loves/Calgary-all/\Back-Pocket-Pool\2017-01-04_Test9_10min_iP00001-BackLeftPocket-MS\irl_out.dat; 1; 0; 1; 0.12; 1; 2; 1; 2.1; 1; 3.7; 1; 2.3; 1; 24; 1; 7; 1; 12892; 1; 0.41; 1
+C:/Share/Vectors/February_8_2016_Loves/Calgary-all/\Back-Pocket-Pool\2017-01-04_Test9_10min_iP00003-BackLeftPocket-CB\irl_out.dat; 1; 0; 1; 0.50; 1; 1; 1; 2; 1; 4.7; 1; 1.9; 1; 21; 1; 6; 1; 12893; 1; 0.41; 1
+C:/Share/Vectors/February_8_2016_Loves/Calgary-all/\Back-Pocket-Pool\2017-01-04_Test9_10min_SS6011-BackRightPocket-CB\irl_out.dat; 0; 0; 1; 0.32; 1; 0; 0
+C:/Share/Vectors/February_8_2016_Loves/Calgary-all/\Back-Pocket-Pool\2017-01-05_Test10_10min_iP00003-BackLeftPocket-MS\irl_out.dat; 1; 0; 1; 0.32; 1; 3; 1; 0.58; 1; 4.2; 1; 1.7; 1; 15; 1; 1; 1; 13007; 1; 0.36; 1
+C:/Share/Vectors/February_8_2016_Loves/Calgary-all/\Back-Pocket-Pool\2017-01-05_Test10_10min_iP00007-BackLeftPocket-CB\irl_out.dat; 0; 0; 1; 0.51; 1; 0; 0
+C:/Share/Vectors/February_8_2016_Loves/Calgary-all/\Back-Pocket-Pool\2017-01-05_Test11_5min_iP00003-BackLeftPocket-MS\irl_out.dat; 1; 0; 1; 0.26; 1; 1; 1; 0.86; 1; 2.2; 1; 1.1; 1; 15; 1; 1; 1; 7705; 1; 0.40; 1
+C:/Share/Vectors/February_8_2016_Loves/Calgary-all/\Back-Pocket-Pool\2017-01-05_Test11_5min_iP00007-BackLeftPocket-CB\irl_out.dat; 1; 0; 1; 0.26; 1; 2; 1; 1.3; 1; 22; 1; 0.52; 1; 24; 1; 8; 1; 7762; 1; 0.42; 1
+C:/Share/Vectors/February_8_2016_Loves/Calgary-all/\Back-Pocket-Pool\2017-01-05_Test11_5min_S00078-BackRightPocket-KC\irl_out.dat; 0; 0; 1; 0.19; 1; 0; 0
+C:/Share/Vectors/February_8_2016_Loves/Calgary-all/\Back-Pocket-Pool\2017-01-05_Test12_5min_iP00003-BackLeftPocket-MS\irl_out.dat; 1; 0; 1; 0.25; 1; 2; 1; 2; 1; 4.8; 1; 1.2; 1; 17; 1; 1; 1; 7081; 1; 0.36; 1
+C:/Share/Vectors/February_8_2016_Loves/Calgary-all/\Back-Pocket-Pool\2017-01-05_Test12_5min_iP00007-BackLeftPocket-CB\irl_out.dat; 1; 0; 1; 0.08; 1; 1; 1; 3.1; 1; 49; 1; 3.4; 1; 27; 1; 9; 1; 6742; 1; 0.35; 1
+C:/Share/Vectors/February_8_2016_Loves/Calgary-all/\Back-Pocket-Pool\2017-01-05_Test12_5min_S00078-BackRightPocket-KC\irl_out.dat; 0; 0; 1; 0.22; 1; 0; 0
+C:/Share/Vectors/February_8_2016_Loves/Calgary-all/\Back-Pocket-Pool\2017-01-05_Test6_15min_iP00003-BackLeftPocket-MS\irl_out.dat; 1; 0; 1; 0.57; 1; 3; 1; 0.66; 1; 15; 1; 0.15; 1; 15; 1; 2; 1; 18245; 1; 0.49; 1
+C:/Share/Vectors/February_8_2016_Loves/Calgary-all/\Back-Pocket-Pool\2017-01-05_Test6_15min_iP00007-BackLeftPocket-CB\irl_out.dat; 1; 0; 1; 0.31; 1; 3; 1; 0.47; 1; 34; 1; 1.7; 1; 26; 1; 17; 1; 17965; 1; 0.46; 1
+C:/Share/Vectors/February_8_2016_Loves/Calgary-all/\Back-Pocket-Pool\2017-01-05_Test7_15min_iP00003-BackLeftPocket-MS\irl_out.dat; 0; 0; 1; 0.49; 1; 0; 0
+C:/Share/Vectors/February_8_2016_Loves/Calgary-all/\Back-Pocket-Pool\2017-01-05_Test7_15min_iP00007-BackLeftPocket-CB\irl_out.dat; 1; 0; 1; 0.31; 1; 3; 1; 0.88; 1; 9; 1; 0.75; 1; 28; 1; 19; 1; 18181; 1; 0.43; 1
+C:/Share/Vectors/February_8_2016_Loves/Calgary-all/\Back-Pocket-Pool\2017-01-05_Test8_10min_iP00003-BackLeftPocket-MS\irl_out.dat; 0; 0; 1; 0.03; 1; 1; 1; 1.7; 1; 58; 0
+C:/Share/Vectors/February_8_2016_Loves/Calgary-all/\Back-Pocket-Pool\2017-01-05_Test8_10min_iP00007-BackLeftPocket-CB\irl_out.dat; 0; 0; 1; 0.20; 1; 0; 0
+C:/Share/Vectors/February_8_2016_Loves/Calgary-all/\Back-Pocket-Pool\2017-01-05_Test9_10min_iP00003-BackLeftPocket-MS\irl_out.dat; 1; 0; 1; 0.35; 1; 2; 1; 1.3; 1; 3.2; 1; 4; 1; 20; 1; 2; 1; 12802; 1; 0.49; 1
+C:/Share/Vectors/February_8_2016_Loves/Calgary-all/\Back-Pocket-Pool\2017-01-05_Test9_10min_iP00007-BackLeftPocket-CB\irl_out.dat; 0; 0; 1; 0.17; 1; 2; 1; 1.7; 1; 9; 1; 3.3; 1; 31; 0
+C:/Share/Vectors/February_8_2016_Loves/Calgary-all/\Back-Pocket-Pool\2017-01-06_Test10_10min_iP00006-BackRightPocket-MS\irl_out.dat; 0; 0; 1; 0.40; 1; 0; 0
+C:/Share/Vectors/February_8_2016_Loves/Calgary-all/\Back-Pocket-Pool\2017-01-06_Test10_10min_S00078-BackLeftPocket-CB\irl_out.dat; 0; 0; 1; 0.87; 1; 0; 0
+C:/Share/Vectors/February_8_2016_Loves/Calgary-all/\Back-Pocket-Pool\2017-01-06_Test10_10min_SS6005-BackRightPocket-CB\irl_out.dat; 0; 0; 1; 0.23; 1; 0; 0
+C:/Share/Vectors/February_8_2016_Loves/Calgary-all/\Back-Pocket-Pool\2017-01-06_Test10_10min_SS6011-BackLeftPocket-MS\irl_out.dat; 0; 0; 1; 0.35; 1; 0; 0
+C:/Share/Vectors/February_8_2016_Loves/Calgary-all/\Back-Pocket-Pool\2017-01-06_Test11_5min_iP00006-BackRightPocket-MS\irl_out.dat; 0; 0; 1; 0.01; 1; 0; 0
+C:/Share/Vectors/February_8_2016_Loves/Calgary-all/\Back-Pocket-Pool\2017-01-06_Test11_5min_S00078-BackLeftPocket-CB\irl_out.dat; 0; 0; 1; 0.28; 1; 0; 0
+C:/Share/Vectors/February_8_2016_Loves/Calgary-all/\Back-Pocket-Pool\2017-01-06_Test11_5min_SS6005-BackRightPocket-CB\irl_out.dat; 0; 0; 1; 0.00; 1; 0; 0
+C:/Share/Vectors/February_8_2016_Loves/Calgary-all/\Back-Pocket-Pool\2017-01-06_Test11_5min_SS6011-BackLeftPocket-MS\irl_out.dat; 0; 0; 1; 0.03; 1; 0; 0
+C:/Share/Vectors/February_8_2016_Loves/Calgary-all/\Back-Pocket-Pool\2017-01-06_Test12_5min_iP00006-BackRightPocket-MS\irl_out.dat; 1; 0; 1; 0.07; 1; 1; 1; 3.3; 1; 28; 1; 1.7; 1; 24; 1; 6; 1; 7873; 1; 0.43; 1
+C:/Share/Vectors/February_8_2016_Loves/Calgary-all/\Back-Pocket-Pool\2017-01-06_Test12_5min_S00078-BackLeftPocket-CB\irl_out.dat; 0; 0; 1; 0.01; 1; 0; 0
+C:/Share/Vectors/February_8_2016_Loves/Calgary-all/\Back-Pocket-Pool\2017-01-06_Test12_5min_SS6005-BackRightPocket-CB\irl_out.dat; 0; 0; 1; 0.30; 1; 0; 0
+C:/Share/Vectors/February_8_2016_Loves/Calgary-all/\Back-Pocket-Pool\2017-01-06_Test12_5min_SS6011-BackLeftPocket-MS\irl_out.dat; 1; 0; 1; 0.83; 1; 1; 1; 2.3; 1; 50; 1; 0.22; 1; 26; 1; 2; 1; 7973; 1; 0.43; 1
+C:/Share/Vectors/February_8_2016_Loves/Calgary-all/\Back-Pocket-Pool\2017-01-06_Test1_45min_S00078-BackLeftPocket-CB\irl_out.dat; 0; 0; 1; 0.70; 1; 0; 0
+C:/Share/Vectors/February_8_2016_Loves/Calgary-all/\Back-Pocket-Pool\2017-01-06_Test2_30min_S00078-BackLeftPocket-CB\irl_out.dat; 0; 0; 1; 0.62; 1; 0; 0
+C:/Share/Vectors/February_8_2016_Loves/Calgary-all/\Back-Pocket-Pool\2017-01-06_Test2_30min_SS6005-BackRightPocket-CB\irl_out.dat; 0; 0; 1; 0.86; 1; 0; 0
+C:/Share/Vectors/February_8_2016_Loves/Calgary-all/\Back-Pocket-Pool\2017-01-06_Test3_25min_iP00006-BackRightPocket-MS\irl_out.dat; 0; 0; 1; 0.53; 1; 0; 0
+C:/Share/Vectors/February_8_2016_Loves/Calgary-all/\Back-Pocket-Pool\2017-01-06_Test3_25min_S00078-BackLeftPocket-CB\irl_out.dat; 0; 0; 1; 0.63; 1; 0; 0
+C:/Share/Vectors/February_8_2016_Loves/Calgary-all/\Back-Pocket-Pool\2017-01-06_Test3_25min_SS6005-BackRightPocket-CB\irl_out.dat; 0; 0; 1; 0.39; 1; 0; 0
+C:/Share/Vectors/February_8_2016_Loves/Calgary-all/\Back-Pocket-Pool\2017-01-06_Test4_20min_SS6005-BackRightPocket-CB\irl_out.dat; 0; 0; 1; 0.41; 1; 0; 0
+C:/Share/Vectors/February_8_2016_Loves/Calgary-all/\Back-Pocket-Pool\2017-01-06_Test5_20min_iP00006-BackRightPocket-MS\irl_out.dat; 0; 0; 1; 0.72; 1; 0; 0
+C:/Share/Vectors/February_8_2016_Loves/Calgary-all/\Back-Pocket-Pool\2017-01-06_Test5_20min_S00078-BackLeftPocket-CB\irl_out.dat; 0; 0; 1; 0.40; 1; 0; 0
+C:/Share/Vectors/February_8_2016_Loves/Calgary-all/\Back-Pocket-Pool\2017-01-06_Test6_15min_iP00006-BackRightPocket-MS\irl_out.dat; 1; 0; 1; 0.48; 1; 1; 1; 1.3; 1; 15; 1; 0.079; 1; 20; 1; 2; 1; 18978; 1; 0.52; 1
+C:/Share/Vectors/February_8_2016_Loves/Calgary-all/\Back-Pocket-Pool\2017-01-06_Test6_15min_S00078-BackLeftPocket-CB\irl_out.dat; 0; 0; 1; 0.82; 1; 0; 0
+C:/Share/Vectors/February_8_2016_Loves/Calgary-all/\Back-Pocket-Pool\2017-01-06_Test6_15min_SS6011-BackLeftPocket-MS\irl_out.dat; 0; 0; 1; 0.67; 1; 0; 0
+C:/Share/Vectors/February_8_2016_Loves/Calgary-all/\Back-Pocket-Pool\2017-01-06_Test7_15min_S00078-BackLeftPocket-CB\irl_out.dat; 0; 0; 1; 0.06; 1; 0; 0
+C:/Share/Vectors/February_8_2016_Loves/Calgary-all/\Back-Pocket-Pool\2017-01-06_Test7_15min_SS6005-BackRightPocket-CB\irl_out.dat; 0; 0; 1; 0.54; 1; 0; 0
+C:/Share/Vectors/February_8_2016_Loves/Calgary-all/\Back-Pocket-Pool\2017-01-06_Test8_10min_iP00006-BackRightPocket-MS\irl_out.dat; 0; 0; 1; 0.35; 1; 0; 0
+C:/Share/Vectors/February_8_2016_Loves/Calgary-all/\Back-Pocket-Pool\2017-01-06_Test8_10min_S00078-BackLeftPocket-CB\irl_out.dat; 0; 0; 1; 0.32; 1; 0; 0
+C:/Share/Vectors/February_8_2016_Loves/Calgary-all/\Back-Pocket-Pool\2017-01-06_Test8_10min_SS6005-BackRightPocket-CB\irl_out.dat; 0; 0; 1; 0.76; 1; 0; 0
+C:/Share/Vectors/February_8_2016_Loves/Calgary-all/\Back-Pocket-Pool\2017-01-06_Test8_10min_SS6011-BackLeftPocket-MS\irl_out.dat; 0; 0; 1; 0.30; 1; 0; 0
+C:/Share/Vectors/February_8_2016_Loves/Calgary-all/\Back-Pocket-Pool\2017-01-06_Test9_10min_iP00006-BackRightPocket-MS\irl_out.dat; 0; 0; 1; 0.62; 1; 0; 0
+C:/Share/Vectors/February_8_2016_Loves/Calgary-all/\Back-Pocket-Pool\2017-01-06_Test9_10min_S00078-BackLeftPocket-CB\irl_out.dat; 0; 0; 1; 0.06; 1; 0; 0
+C:/Share/Vectors/February_8_2016_Loves/Calgary-all/\Back-Pocket-Pool\2017-01-06_Test9_10min_SS6005-BackRightPocket-CB\irl_out.dat; 0; 0; 1; 0.47; 1; 0; 0
+C:/Share/Vectors/February_8_2016_Loves/Calgary-all/\Back-Pocket-Pool\2017-01-06_Test9_10min_SS6011-BackLeftPocket-MS\irl_out.dat; 0; 0; 1; 0.92; 1; 0; 0
+C:/Share/Vectors/February_8_2016_Loves/Calgary-all/\Back-Pocket-Pool\2017-01-09_Test10_10min_iP00003-BackLeftPocket-Josh\irl_out.dat; 1; 0; 1; 0.15; 1; 3; 1; 1.3; 1; 34; 1; 1.5; 1; 16; 1; 1; 1; 12875; 1; 0.60; 1
+C:/Share/Vectors/February_8_2016_Loves/Calgary-all/\Back-Pocket-Pool\2017-01-09_Test10_10min_iP00006-BackRightPocket-CB\irl_out.dat; 1; 0; 1; 0.33; 1; 2; 1; 0.84; 1; 5.7; 1; 1; 1; 24; 1; 6; 1; 12528; 1; 0.58; 1
+C:/Share/Vectors/February_8_2016_Loves/Calgary-all/\Back-Pocket-Pool\2017-01-09_Test10_10min_S00078-BackLeftPocket-CB\irl_out.dat; 0; 0; 1; 0.04; 1; 0; 0
+C:/Share/Vectors/February_8_2016_Loves/Calgary-all/\Back-Pocket-Pool\2017-01-09_Test10_10min_SS6005-BackRightPocket-Josh\irl_out.dat; 0; 0; 1; 0.00; 1; 0; 0
+C:/Share/Vectors/February_8_2016_Loves/Calgary-all/\Back-Pocket-Pool\2017-01-09_Test11_5min_iP00003-BackLeftPocket-Josh\irl_out.dat; 1; 0; 1; 0.03; 1; 2; 1; 2; 1; 13; 1; 0.11; 1; 13; 1; 0; 1; 6832; 1; 0.42; 1
+C:/Share/Vectors/February_8_2016_Loves/Calgary-all/\Back-Pocket-Pool\2017-01-09_Test11_5min_iP00006-BackRightPocket-CB\irl_out.dat; 1; 0; 1; 0.63; 1; 2; 1; 1.2; 1; 44; 1; 0.37; 1; 20; 1; 0; 1; 6438; 1; 0.37; 1
+C:/Share/Vectors/February_8_2016_Loves/Calgary-all/\Back-Pocket-Pool\2017-01-09_Test11_5min_S00078-BackLeftPocket-CB\irl_out.dat; 0; 0; 1; 0.54; 1; 0; 0
+C:/Share/Vectors/February_8_2016_Loves/Calgary-all/\Back-Pocket-Pool\2017-01-09_Test11_5min_SS6005-BackRightPocket-Josh\irl_out.dat; 0; 0; 1; 0.56; 1; 0; 0
+C:/Share/Vectors/February_8_2016_Loves/Calgary-all/\Back-Pocket-Pool\2017-01-09_Test12_5min_iP00003-BackLeftPocket-Josh\irl_out.dat; 0; 0; 1; 0.50; 1; 2; 1; 0.93; 1; 77; 0
+C:/Share/Vectors/February_8_2016_Loves/Calgary-all/\Back-Pocket-Pool\2017-01-09_Test12_5min_iP00006-BackRightPocket-CB\irl_out.dat; 0; 0; 1; 0.04; 1; 0; 0
+C:/Share/Vectors/February_8_2016_Loves/Calgary-all/\Back-Pocket-Pool\2017-01-09_Test12_5min_S00078-BackLeftPocket-CB\irl_out.dat; 0; 0; 1; 0.50; 1; 0; 0
+C:/Share/Vectors/February_8_2016_Loves/Calgary-all/\Back-Pocket-Pool\2017-01-09_Test12_5min_SS6005-BackRightPocket-Josh\irl_out.dat; 0; 0; 1; 0.19; 1; 0; 0
+C:/Share/Vectors/February_8_2016_Loves/Calgary-all/\Back-Pocket-Pool\2017-01-09_Test1_45min_iP00003-BackLeftPocket-Josh\irl_out.dat; 1; 0; 1; 0.72; 1; 3; 1; 0.47; 1; 29; 1; 1.1; 1; 20; 1; 11; 1; 55542; 1; 0.57; 1
+C:/Share/Vectors/February_8_2016_Loves/Calgary-all/\Back-Pocket-Pool\2017-01-09_Test1_45min_iP00006-BackRightPocket-CB\irl_out.dat; 0; 0; 1; 0.64; 1; 0; 0
+C:/Share/Vectors/February_8_2016_Loves/Calgary-all/\Back-Pocket-Pool\2017-01-09_Test1_45min_S00078-BackLeftPocket-CB\irl_out.dat; 0; 0; 1; 0.54; 1; 0; 0
+C:/Share/Vectors/February_8_2016_Loves/Calgary-all/\Back-Pocket-Pool\2017-01-09_Test2_30min_iP00003-BackLeftPocket-Josh\irl_out.dat; 1; 0; 1; 0.09; 1; 3; 1; 0.66; 1; 8.2; 1; 0.33; 1; 16; 1; 2; 1; 36341; 1; 0.64; 1
+C:/Share/Vectors/February_8_2016_Loves/Calgary-all/\Back-Pocket-Pool\2017-01-09_Test2_30min_iP00006-BackRightPocket-CB\irl_out.dat; 0; 0; 1; 0.66; 1; 0; 0
+C:/Share/Vectors/February_8_2016_Loves/Calgary-all/\Back-Pocket-Pool\2017-01-09_Test2_30min_S00078-BackLeftPocket-CB\irl_out.dat; 0; 0; 1; 0.94; 1; 0; 0
+C:/Share/Vectors/February_8_2016_Loves/Calgary-all/\Back-Pocket-Pool\2017-01-09_Test2_30min_SS6005-BackRightPocket-Josh\irl_out.dat; 0; 0; 1; 0.60; 1; 0; 0
+C:/Share/Vectors/February_8_2016_Loves/Calgary-all/\Back-Pocket-Pool\2017-01-09_Test3_25min_iP00003-BackLeftPocket-Josh\irl_out.dat; 1; 0; 1; 0.57; 1; 4; 1; 0.61; 1; 29; 1; 0.98; 1; 19; 1; 9; 1; 30361; 1; 0.57; 1
+C:/Share/Vectors/February_8_2016_Loves/Calgary-all/\Back-Pocket-Pool\2017-01-09_Test3_25min_iP00006-BackRightPocket-CB\irl_out.dat; 0; 0; 1; 0.69; 1; 0; 0
+C:/Share/Vectors/February_8_2016_Loves/Calgary-all/\Back-Pocket-Pool\2017-01-09_Test3_25min_S00078-BackLeftPocket-CB\irl_out.dat; 0; 0; 1; 0.54; 1; 0; 0
+C:/Share/Vectors/February_8_2016_Loves/Calgary-all/\Back-Pocket-Pool\2017-01-09_Test3_25min_SS6005-BackRightPocket-Josh\irl_out.dat; 0; 0; 1; 0.63; 1; 0; 0
+C:/Share/Vectors/February_8_2016_Loves/Calgary-all/\Back-Pocket-Pool\2017-01-09_Test4_20min_iP00003-BackLeftPocket-Josh\irl_out.dat; 1; 0; 1; 0.79; 1; 3; 1; 0.98; 1; 29; 1; 2.7; 1; 14; 1; 0; 1; 23993; 1; 0.66; 1
+C:/Share/Vectors/February_8_2016_Loves/Calgary-all/\Back-Pocket-Pool\2017-01-09_Test4_20min_iP00006-BackRightPocket-CB\irl_out.dat; 0; 0; 1; 0.13; 1; 0; 0
+C:/Share/Vectors/February_8_2016_Loves/Calgary-all/\Back-Pocket-Pool\2017-01-09_Test4_20min_S00078-BackLeftPocket-CB\irl_out.dat; 0; 0; 1; 0.60; 1; 0; 0
+C:/Share/Vectors/February_8_2016_Loves/Calgary-all/\Back-Pocket-Pool\2017-01-09_Test4_20min_SS6005-BackRightPocket-Josh\irl_out.dat; 0; 0; 1; 0.97; 1; 0; 0
+C:/Share/Vectors/February_8_2016_Loves/Calgary-all/\Back-Pocket-Pool\2017-01-09_Test5_20min_iP00003-BackLeftPocket-Josh\irl_out.dat; 1; 0; 1; 0.41; 1; 3; 1; 0.42; 1; 22; 1; 1.5; 1; 15; 1; 0; 1; 24076; 1; 0.55; 1
+C:/Share/Vectors/February_8_2016_Loves/Calgary-all/\Back-Pocket-Pool\2017-01-09_Test5_20min_iP00006-BackRightPocket-CB\irl_out.dat; 0; 0; 1; 0.37; 1; 0; 0
+C:/Share/Vectors/February_8_2016_Loves/Calgary-all/\Back-Pocket-Pool\2017-01-09_Test5_20min_S00078-BackLeftPocket-CB\irl_out.dat; 0; 0; 1; 0.83; 1; 0; 0
+C:/Share/Vectors/February_8_2016_Loves/Calgary-all/\Back-Pocket-Pool\2017-01-09_Test5_20min_SS6005-BackRightPocket-Josh\irl_out.dat; 0; 0; 1; 0.61; 1; 0; 0
+C:/Share/Vectors/February_8_2016_Loves/Calgary-all/\Back-Pocket-Pool\2017-01-09_Test6_15min_iP00003-BackLeftPocket-Josh\irl_out.dat; 1; 0; 1; 0.31; 1; 4; 1; 0.5; 1; 27; 1; 1.3; 1; 16; 1; 1; 1; 17136; 1; 0.63; 1
+C:/Share/Vectors/February_8_2016_Loves/Calgary-all/\Back-Pocket-Pool\2017-01-09_Test6_15min_iP00006-BackRightPocket-CB\irl_out.dat; 1; 0; 1; 0.49; 1; 3; 1; 0.72; 1; 16; 1; 4.2; 1; 25; 1; 3; 1; 16688; 1; 0.66; 1
+C:/Share/Vectors/February_8_2016_Loves/Calgary-all/\Back-Pocket-Pool\2017-01-09_Test6_15min_S00078-BackLeftPocket-CB\irl_out.dat; 0; 0; 1; 0.05; 1; 0; 0
+C:/Share/Vectors/February_8_2016_Loves/Calgary-all/\Back-Pocket-Pool\2017-01-09_Test6_15min_SS6005-BackRightPocket-Josh\irl_out.dat; 0; 0; 1; 0.05; 1; 0; 0
+C:/Share/Vectors/February_8_2016_Loves/Calgary-all/\Back-Pocket-Pool\2017-01-09_Test7_15min_iP00003-BackLeftPocket-Josh\irl_out.dat; 1; 0; 1; 0.30; 1; 3; 1; 0.44; 1; 22; 1; 1.1; 1; 15; 1; 1; 1; 17678; 1; 0.62; 1
+C:/Share/Vectors/February_8_2016_Loves/Calgary-all/\Back-Pocket-Pool\2017-01-09_Test7_15min_iP00006-BackRightPocket-CB\irl_out.dat; 0; 0; 1; 0.43; 1; 0; 0
+C:/Share/Vectors/February_8_2016_Loves/Calgary-all/\Back-Pocket-Pool\2017-01-09_Test7_15min_S00078-BackLeftPocket-CB\irl_out.dat; 0; 0; 1; 0.40; 1; 0; 0
+C:/Share/Vectors/February_8_2016_Loves/Calgary-all/\Back-Pocket-Pool\2017-01-09_Test7_15min_SS6005-BackRightPocket-Josh\irl_out.dat; 0; 0; 1; 0.07; 1; 0; 0
+C:/Share/Vectors/February_8_2016_Loves/Calgary-all/\Back-Pocket-Pool\2017-01-09_Test8_10min_iP00003-BackLeftPocket-Josh\irl_out.dat; 0; 0; 1; 0.19; 1; 5; 1; 0.7; 1; 79; 0
+C:/Share/Vectors/February_8_2016_Loves/Calgary-all/\Back-Pocket-Pool\2017-01-09_Test8_10min_iP00006-BackRightPocket-CB\irl_out.dat; 1; 0; 1; 0.27; 1; 2; 1; 1.1; 1; 15; 1; 2; 1; 25; 1; 6; 1; 12275; 1; 0.55; 1
+C:/Share/Vectors/February_8_2016_Loves/Calgary-all/\Back-Pocket-Pool\2017-01-09_Test8_10min_S00078-BackLeftPocket-CB\irl_out.dat; 0; 0; 1; 0.42; 1; 0; 0
+C:/Share/Vectors/February_8_2016_Loves/Calgary-all/\Back-Pocket-Pool\2017-01-09_Test8_10min_SS6005-BackRightPocket-Josh\irl_out.dat; 0; 0; 1; 0.69; 1; 0; 0
+C:/Share/Vectors/February_8_2016_Loves/Calgary-all/\Back-Pocket-Pool\2017-01-09_Test9_10min_iP00003-BackLeftPocket-Josh\irl_out.dat; 1; 0; 1; 0.64; 1; 5; 1; 0.59; 1; 14; 1; 0.47; 1; 13; 1; 0; 1; 12676; 1; 0.47; 1
+C:/Share/Vectors/February_8_2016_Loves/Calgary-all/\Back-Pocket-Pool\2017-01-09_Test9_10min_iP00006-BackRightPocket-CB\irl_out.dat; 0; 0; 1; 0.16; 1; 0; 0
+C:/Share/Vectors/February_8_2016_Loves/Calgary-all/\Back-Pocket-Pool\2017-01-09_Test9_10min_S00078-BackLeftPocket-CB\irl_out.dat; 0; 0; 1; 0.33; 1; 0; 0
+C:/Share/Vectors/February_8_2016_Loves/Calgary-all/\Back-Pocket-Pool\2017-01-09_Test9_10min_SS6005-BackRightPocket-Josh\irl_out.dat; 0; 0; 1; 0.02; 1; 0; 0
+C:/Share/Vectors/February_8_2016_Loves/Calgary-all/\Back-Pocket-Pool\2017-01-10_Test3-15min_SS6013_Back_Right_Pocket\irl_out.dat; 0; 0; 1; 0.78; 1; 0; 0
+C:/Share/Vectors/February_8_2016_Loves/Calgary-all/\Back-Pocket-Pool\2017-01-10_Test4-10min_SS6012_Back_Left_Pocket\irl_out.dat; 0; 0; 1; 0.62; 1; 0; 0
+C:/Share/Vectors/February_8_2016_Loves/Calgary-all/\Back-Pocket-Pool\2017-01-10_Test5-5min_SS6013_Back_Right_Pocket\irl_out.dat; 0; 0; 1; 0.43; 1; 0; 0
+C:/Share/Vectors/February_8_2016_Loves/Calgary-all/\BackPocket\Test10_10min-iP00003-BackRightPocket-CB\irl_out.dat; 0; 0; 1; 0.23; 1; 0; 0
+C:/Share/Vectors/February_8_2016_Loves/Calgary-all/\BackPocket\Test10_10min-S00078-BackLeftPocket-CB\irl_out.dat; 0; 0; 1; 0.77; 1; 0; 0
+C:/Share/Vectors/February_8_2016_Loves/Calgary-all/\BackPocket\Test10_5min-iP0001-BackRightPocket-MS\irl_out.dat; 0; 0; 1; 0.21; 1; 0; 0
+C:/Share/Vectors/February_8_2016_Loves/Calgary-all/\BackPocket\Test10_5min-iP0003-BackLeftPocket-CB\irl_out.dat; 0; 0; 1; 0.39; 1; 1; 1; 1.9; 1; 58; 0
+C:/Share/Vectors/February_8_2016_Loves/Calgary-all/\BackPocket\Test10_5min-S00078-BackRightPocket-CB\irl_out.dat; 0; 0; 1; 0.29; 1; 0; 0
+C:/Share/Vectors/February_8_2016_Loves/Calgary-all/\BackPocket\Test10_5min-SS6005-BackLeftPocket-MS\irl_out.dat; 0; 0; 1; 0.85; 1; 0; 0
+C:/Share/Vectors/February_8_2016_Loves/Calgary-all/\BackPocket\Test10_8min-iP00003-BackLeftPocket-EP\irl_out.dat; 1; 0; 1; 0.55; 1; 2; 1; 1.5; 1; 8.4; 1; 0.87; 1; 15; 1; 0; 1; 9211; 1; 0.32; 1
+C:/Share/Vectors/February_8_2016_Loves/Calgary-all/\BackPocket\Test10_8min-iP00006-BackLeftPocket-MS\irl_out.dat; 1; 0; 1; 0.28; 1; 1; 1; 2.3; 1; 3; 1; 2.4; 1; 22; 1; 5; 1; 8914; 1; 0.26; 1
+C:/Share/Vectors/February_8_2016_Loves/Calgary-all/\BackPocket\Test10_8min-S00079-BackRightPocket-MS\irl_out.dat; 0; 0; 1; 0.26; 1; 0; 0
+C:/Share/Vectors/February_8_2016_Loves/Calgary-all/\BackPocket\Test10_8min-SS6010-BackRightPocket-EP\irl_out.dat; 0; 0; 1; 0.16; 1; 0; 0
+C:/Share/Vectors/February_8_2016_Loves/Calgary-all/\BackPocket\Test11_5min-iP00003-BackRightPocket-CB\irl_out.dat; 0; 0; 1; 0.21; 1; 1; 1; 3.1; 1; 64; 0
+C:/Share/Vectors/February_8_2016_Loves/Calgary-all/\BackPocket\Test11_5min-S00078-BackLeftPocket-CB\irl_out.dat; 0; 0; 1; 0.23; 1; 0; 0
+C:/Share/Vectors/February_8_2016_Loves/Calgary-all/\BackPocket\Test12_15min-iP00003-BackRightPocket-CB\irl_out.dat; 1; 0; 1; 0.50; 1; 3; 1; 0.85; 1; 13; 1; 1.6; 1; 16; 1; 3; 1; 21152; 1; 0.60; 1
+C:/Share/Vectors/February_8_2016_Loves/Calgary-all/\BackPocket\Test12_15min-S00078-BackLeftPocket-CB\irl_out.dat; 0; 0; 1; 0.84; 1; 0; 0
+C:/Share/Vectors/February_8_2016_Loves/Calgary-all/\BackPocket\Test1_10min-iP00003-BackLeftPocket-EP\irl_out.dat; 1; 0; 1; 0.10; 1; 3; 1; 0.37; 1; 11; 1; 0.89; 1; 17; 1; 4; 1; 14243; 1; 0.53; 1
+C:/Share/Vectors/February_8_2016_Loves/Calgary-all/\BackPocket\Test1_10min-iP00006-BackLeftPocket-MS\irl_out.dat; 0; 0; 1; 0.40; 1; 0; 0
+C:/Share/Vectors/February_8_2016_Loves/Calgary-all/\BackPocket\Test1_10min-S00079-BackRightPocket-MS\irl_out.dat; 0; 0; 1; 0.30; 1; 0; 0
+C:/Share/Vectors/February_8_2016_Loves/Calgary-all/\BackPocket\Test1_10min-SS6010-BackRightPocket-EP\irl_out.dat; 0; 0; 1; 0.01; 1; 0; 0
+C:/Share/Vectors/February_8_2016_Loves/Calgary-all/\BackPocket\Test1_20min-iP00001-BackLeftPocket-CB\irl_out.dat; 1; 0; 1; 0.29; 1; 1; 1; 1.8; 1; 38; 1; 0.25; 1; 15; 1; 0; 1; 24249; 1; 0.58; 1
+C:/Share/Vectors/February_8_2016_Loves/Calgary-all/\BackPocket\Test1_20min-iP0001-BackRightPocket-MS\irl_out.dat; 1; 0; 1; 0.82; 1; 3; 1; 0.57; 1; 42; 1; 3.7; 1; 23; 1; 11; 1; 23819; 1; 0.54; 1
+C:/Share/Vectors/February_8_2016_Loves/Calgary-all/\BackPocket\Test1_20min-iP0003-BackLeftPocket-CB\irl_out.dat; 0; 0; 1; 0.13; 1; 0; 0
+C:/Share/Vectors/February_8_2016_Loves/Calgary-all/\BackPocket\Test1_20min-S00078-BackRightPocket-CB\irl_out.dat; 0; 0; 1; 0.67; 1; 0; 0
+C:/Share/Vectors/February_8_2016_Loves/Calgary-all/\BackPocket\Test1_20min-SS6005-BackLeftPocket-MS\irl_out.dat; 0; 0; 1; 0.23; 1; 0; 0
+C:/Share/Vectors/February_8_2016_Loves/Calgary-all/\BackPocket\Test2_25min-iP00003-BackLeftPocket-EP\irl_out.dat; 1; 0; 1; 0.41; 1; 3; 1; 0.45; 1; 4.6; 1; 1; 1; 18; 1; 2; 1; 30123; 1; 0.58; 1
+C:/Share/Vectors/February_8_2016_Loves/Calgary-all/\BackPocket\Test2_25min-iP00006-BackLeftPocket-MS\irl_out.dat; 0; 0; 1; 0.37; 1; 0; 0
+C:/Share/Vectors/February_8_2016_Loves/Calgary-all/\BackPocket\Test2_25min-S00079-BackRightPocket-MS\irl_out.dat; 0; 0; 1; 0.44; 1; 0; 0
+C:/Share/Vectors/February_8_2016_Loves/Calgary-all/\BackPocket\Test2_25min-SS6010-BackRightPocket-EP\irl_out.dat; 0; 0; 1; 0.19; 1; 0; 0
+C:/Share/Vectors/February_8_2016_Loves/Calgary-all/\BackPocket\Test2_30min-iP00001-BackLeftPocket-CB\irl_out.dat; 0; 0; 1; 0.79; 1; 0; 0
+C:/Share/Vectors/February_8_2016_Loves/Calgary-all/\BackPocket\Test2_30min-iP0001-BackRightPocket-MS\irl_out.dat; 0; 0; 1; 0.53; 1; 0; 0
+C:/Share/Vectors/February_8_2016_Loves/Calgary-all/\BackPocket\Test2_30min-iP0003-BackLeftPocket-CB\irl_out.dat; 0; 0; 1; 0.52; 1; 3; 1; 0.66; 1; 69; 0
+C:/Share/Vectors/February_8_2016_Loves/Calgary-all/\BackPocket\Test2_30min-S00078-BackRightPocket-CB\irl_out.dat; 0; 0; 1; 0.55; 1; 0; 0
+C:/Share/Vectors/February_8_2016_Loves/Calgary-all/\BackPocket\Test2_30min-SS6005-BackLeftPocket-MS\irl_out.dat; 0; 0; 1; 0.62; 1; 0; 0
+C:/Share/Vectors/February_8_2016_Loves/Calgary-all/\BackPocket\Test3_15min-iP00003-BackLeftPocket-EP\irl_out.dat; 1; 0; 1; 0.37; 1; 4; 1; 0.73; 1; 3.7; 1; 4.9; 1; 17; 1; 0; 1; 19380; 1; 0.56; 1
+C:/Share/Vectors/February_8_2016_Loves/Calgary-all/\BackPocket\Test3_15min-iP00006-BackLeftPocket-MS\irl_out.dat; 0; 0; 1; 0.08; 1; 0; 0
+C:/Share/Vectors/February_8_2016_Loves/Calgary-all/\BackPocket\Test3_15min-S00079-BackRightPocket-MS\irl_out.dat; 0; 0; 1; 0.42; 1; 0; 0
+C:/Share/Vectors/February_8_2016_Loves/Calgary-all/\BackPocket\Test3_15min-SS6010-BackRightPocket-EP\irl_out.dat; 0; 0; 1; 0.68; 1; 0; 0
+C:/Share/Vectors/February_8_2016_Loves/Calgary-all/\BackPocket\Test3_25min-iP00001-BackLeftPocket-CB\irl_out.dat; 1; 0; 1; 0.55; 1; 3; 1; 0.93; 1; 20; 1; 0.2; 1; 20; 1; 2; 1; 22057; 1; 0.57; 1
+C:/Share/Vectors/February_8_2016_Loves/Calgary-all/\BackPocket\Test3_25min-S00078-BackRightPocket-CB\irl_out.dat; 0; 0; 1; 0.67; 1; 0; 0
+C:/Share/Vectors/February_8_2016_Loves/Calgary-all/\BackPocket\Test3_45min-iP0001-BackRightPocket-MS\irl_out.dat; 0; 0; 1; 0.37; 1; 0; 0
+C:/Share/Vectors/February_8_2016_Loves/Calgary-all/\BackPocket\Test3_45min-iP0003-BackLeftPocket-CB\irl_out.dat; 0; 0; 1; 0.60; 1; 0; 0
+C:/Share/Vectors/February_8_2016_Loves/Calgary-all/\BackPocket\Test4_10min-iP0001-BackRightPocket-MS\irl_out.dat; 1; 0; 1; 0.00; 1; 5; 1; 0.53; 1; 41; 1; 1.7; 1; 28; 1; 28; 1; 13989; 1; 0.48; 1
+C:/Share/Vectors/February_8_2016_Loves/Calgary-all/\BackPocket\Test4_10min-iP0003-BackLeftPocket-CB\irl_out.dat; 1; 0; 1; 0.39; 1; 1; 1; 1.8; 1; 39; 1; 0.084; 1; 18; 1; 0; 1; 13934; 1; 0.50; 1
+C:/Share/Vectors/February_8_2016_Loves/Calgary-all/\BackPocket\Test4_10min-S00078-BackRightPocket-CB\irl_out.dat; 0; 0; 1; 0.29; 1; 0; 0
+C:/Share/Vectors/February_8_2016_Loves/Calgary-all/\BackPocket\Test4_10min-SS6005-BackLeftPocket-MS\irl_out.dat; 0; 0; 1; 0.45; 1; 0; 0
+C:/Share/Vectors/February_8_2016_Loves/Calgary-all/\BackPocket\Test4_20min-iP00003-BackLeftPocket-EP\irl_out.dat; 1; 0; 1; 0.37; 1; 4; 1; 0.66; 1; 6.1; 1; 1.6; 1; 15; 1; 0; 1; 24613; 1; 0.55; 1
+C:/Share/Vectors/February_8_2016_Loves/Calgary-all/\BackPocket\Test4_20min-iP00006-BackLeftPocket-MS\irl_out.dat; 1; 0; 1; 0.49; 1; 3; 1; 0.96; 1; 3.7; 1; 3.6; 1; 25; 1; 18; 1; 24229; 1; 0.55; 1
+C:/Share/Vectors/February_8_2016_Loves/Calgary-all/\BackPocket\Test4_20min-S00079-BackRightPocket-MS\irl_out.dat; 0; 0; 1; 0.44; 1; 0; 0
+C:/Share/Vectors/February_8_2016_Loves/Calgary-all/\BackPocket\Test4_20min-SS6010-BackRightPocket-EP\irl_out.dat; 0; 0; 1; 0.48; 1; 0; 0
+C:/Share/Vectors/February_8_2016_Loves/Calgary-all/\BackPocket\Test4_45min-iP00001-BackLeftPocket-CB\irl_out.dat; 0; 0; 1; 0.42; 1; 0; 0
+C:/Share/Vectors/February_8_2016_Loves/Calgary-all/\BackPocket\Test4_45min-S00078-BackRightPocket-CB\irl_out.dat; 0; 0; 1; 0.82; 1; 0; 0
+C:/Share/Vectors/February_8_2016_Loves/Calgary-all/\BackPocket\Test5_10min-iP00001-BackLeftPocket-CB\irl_out.dat; 0; 0; 1; 0.71; 1; 0; 0
+C:/Share/Vectors/February_8_2016_Loves/Calgary-all/\BackPocket\Test5_10min-S00078-BackRightPocket-CB\irl_out.dat; 0; 0; 1; 0.79; 1; 0; 0
+C:/Share/Vectors/February_8_2016_Loves/Calgary-all/\BackPocket\Test5_20min-iP0001-BackRightPocket-MS\irl_out.dat; 1; 0; 1; 0.30; 1; 1; 1; 2.2; 1; 26; 1; 1.6; 1; 27; 1; 20; 1; 24372; 1; 0.52; 1
+C:/Share/Vectors/February_8_2016_Loves/Calgary-all/\BackPocket\Test5_20min-iP0003-BackLeftPocket-CB\irl_out.dat; 1; 0; 1; 0.43; 1; 3; 1; 0.87; 1; 6.4; 1; 0.95; 1; 16; 1; 1; 1; 24406; 1; 0.55; 1
+C:/Share/Vectors/February_8_2016_Loves/Calgary-all/\BackPocket\Test5_20min-S00078-BackRightPocket-CB\irl_out.dat; 0; 0; 1; 0.35; 1; 0; 0
+C:/Share/Vectors/February_8_2016_Loves/Calgary-all/\BackPocket\Test5_35min-iP00003-BackLeftPocket-EP\irl_out.dat; 1; 0; 1; 0.56; 1; 4; 1; 0.57; 1; 3.3; 1; 0.98; 1; 14; 1; 4; 1; 41028; 1; 0.57; 1
+C:/Share/Vectors/February_8_2016_Loves/Calgary-all/\BackPocket\Test5_35min-iP00006-BackLeftPocket-MS\irl_out.dat; 0; 0; 1; 0.47; 1; 0; 0
+C:/Share/Vectors/February_8_2016_Loves/Calgary-all/\BackPocket\Test5_35min-S00079-BackRightPocket-MS\irl_out.dat; 0; 0; 1; 0.25; 1; 0; 0
+C:/Share/Vectors/February_8_2016_Loves/Calgary-all/\BackPocket\Test5_35min-SS6010-BackRightPocket-EP\irl_out.dat; 0; 0; 1; 0.61; 1; 0; 0
+C:/Share/Vectors/February_8_2016_Loves/Calgary-all/\BackPocket\Test6_15min-iP00003-BackLeftPocket-EP\irl_out.dat; 1; 0; 1; 0.18; 1; 4; 1; 0.62; 1; 3.3; 1; 1.2; 1; 13; 1; 0; 1; 19093; 1; 0.62; 1
+C:/Share/Vectors/February_8_2016_Loves/Calgary-all/\BackPocket\Test6_15min-iP00006-BackLeftPocket-MS\irl_out.dat; 1; 0; 1; 0.31; 1; 3; 1; 0.77; 1; 4.5; 1; 2.9; 1; 25; 1; 13; 1; 18900; 1; 0.57; 1
+C:/Share/Vectors/February_8_2016_Loves/Calgary-all/\BackPocket\Test6_15min-iP0001-BackRightPocket-MS\irl_out.dat; 0; 0; 1; 0.42; 1; 0; 0
+C:/Share/Vectors/February_8_2016_Loves/Calgary-all/\BackPocket\Test6_15min-S00078-BackRightPocket-CB\irl_out.dat; 0; 0; 1; 0.42; 1; 0; 0
+C:/Share/Vectors/February_8_2016_Loves/Calgary-all/\BackPocket\Test6_15min-S00079-BackRightPocket-MS\irl_out.dat; 0; 0; 1; 0.31; 1; 0; 0
+C:/Share/Vectors/February_8_2016_Loves/Calgary-all/\BackPocket\Test6_15min-SS6010-BackRightPocket-EP\irl_out.dat; 0; 0; 1; 0.22; 1; 0; 0
+C:/Share/Vectors/February_8_2016_Loves/Calgary-all/\BackPocket\Test7_12min-iP0001-BackRightPocket-MS\irl_out.dat; 1; 0; 1; 0.18; 1; 3; 1; 0.63; 1; 23; 1; 2; 1; 28; 1; 24; 1; 15050; 1; 0.40; 1
+C:/Share/Vectors/February_8_2016_Loves/Calgary-all/\BackPocket\Test7_12min-iP0003-BackLeftPocket-CB\irl_out.dat; 1; 0; 1; 0.80; 1; 2; 1; 1.1; 1; 14; 1; 0.19; 1; 14; 1; 1; 1; 15019; 1; 0.43; 1
+C:/Share/Vectors/February_8_2016_Loves/Calgary-all/\BackPocket\Test7_12min-S00078-BackRightPocket-CB\irl_out.dat; 0; 0; 1; 0.56; 1; 0; 0
+C:/Share/Vectors/February_8_2016_Loves/Calgary-all/\BackPocket\Test7_25min-iP00003-BackRightPocket-CB\irl_out.dat; 0; 0; 1; 0.92; 1; 0; 0
+C:/Share/Vectors/February_8_2016_Loves/Calgary-all/\BackPocket\Test7_8min-iP00003-BackLeftPocket-EP\irl_out.dat; 1; 0; 1; 0.51; 1; 2; 1; 0.66; 1; 12; 1; 4.7; 1; 9.7; 1; 1; 1; 9316; 1; 0.41; 1
+C:/Share/Vectors/February_8_2016_Loves/Calgary-all/\BackPocket\Test7_8min-iP00006-BackLeftPocket-MS\irl_out.dat; 1; 0; 1; 0.34; 1; 2; 1; 1.7; 1; 5.5; 1; 3.7; 1; 18; 1; 4; 1; 9211; 1; 0.35; 1
+C:/Share/Vectors/February_8_2016_Loves/Calgary-all/\BackPocket\Test7_8min-S00079-BackRightPocket-MS\irl_out.dat; 0; 0; 1; 0.54; 1; 0; 0
+C:/Share/Vectors/February_8_2016_Loves/Calgary-all/\BackPocket\Test7_8min-SS6010-BackRightPocket-EP\irl_out.dat; 0; 0; 1; 0.07; 1; 0; 0
+C:/Share/Vectors/February_8_2016_Loves/Calgary-all/\BackPocket\Test8_10min-iP00003-BackLeftPocket-EP\irl_out.dat; 1; 0; 1; 0.11; 1; 3; 1; 0.52; 1; 5.7; 1; 0.54; 1; 20; 1; 9; 1; 14489; 1; 0.55; 1
+C:/Share/Vectors/February_8_2016_Loves/Calgary-all/\BackPocket\Test8_10min-iP00006-BackLeftPocket-MS\irl_out.dat; 0; 0; 1; 0.72; 1; 0; 0
+C:/Share/Vectors/February_8_2016_Loves/Calgary-all/\BackPocket\Test8_10min-S00079-BackRightPocket-MS\irl_out.dat; 0; 0; 1; 0.02; 1; 0; 0
+C:/Share/Vectors/February_8_2016_Loves/Calgary-all/\BackPocket\Test8_10min-SS6010-BackRightPocket-EP\irl_out.dat; 0; 0; 1; 0.71; 1; 0; 0
+C:/Share/Vectors/February_8_2016_Loves/Calgary-all/\BackPocket\Test8_15min-iP00003-BackRightPocket-CB\irl_out.dat; 1; 0; 1; 0.23; 1; 3; 1; 0.63; 1; 14; 1; 0.42; 1; 13; 1; 1; 1; 25012; 1; 0.58; 1
+C:/Share/Vectors/February_8_2016_Loves/Calgary-all/\BackPocket\Test8_15min-iP0001-BackRightPocket-MS\irl_out.dat; 0; 0; 1; 0.31; 1; 0; 0
+C:/Share/Vectors/February_8_2016_Loves/Calgary-all/\BackPocket\Test8_15min-iP0003-BackLeftPocket-CB\irl_out.dat; 1; 0; 1; 0.47; 1; 3; 1; 0.69; 1; 12; 1; 1.6; 1; 16; 1; 1; 1; 19424; 1; 0.45; 1
+C:/Share/Vectors/February_8_2016_Loves/Calgary-all/\BackPocket\Test8_15min-S00078-BackRightPocket-CB\irl_out.dat; 0; 0; 1; 0.51; 1; 0; 0
+C:/Share/Vectors/February_8_2016_Loves/Calgary-all/\BackPocket\Test9_12min-iP00003-BackLeftPocket-EP\irl_out.dat; 1; 0; 1; 0.62; 1; 5; 1; 0.75; 1; 9.8; 1; 3.9; 1; 16; 1; 0; 1; 14000; 1; 0.53; 1
+C:/Share/Vectors/February_8_2016_Loves/Calgary-all/\BackPocket\Test9_12min-iP00006-BackLeftPocket-MS\irl_out.dat; 1; 0; 1; 0.54; 1; 3; 1; 0.88; 1; 6.1; 1; 5.3; 1; 27; 1; 11; 1; 13867; 1; 0.49; 1
+C:/Share/Vectors/February_8_2016_Loves/Calgary-all/\BackPocket\Test9_12min-S00079-BackRightPocket-MS\irl_out.dat; 0; 0; 1; 0.70; 1; 0; 0
+C:/Share/Vectors/February_8_2016_Loves/Calgary-all/\BackPocket\Test9_12min-SS6010-BackRightPocket-EP\irl_out.dat; 0; 0; 1; 0.37; 1; 0; 0
+C:/Share/Vectors/February_8_2016_Loves/Calgary-all/\BackPocket\Test9_5min-iP00003-BackRightPocket-CB\irl_out.dat; 0; 0; 1; 0.52; 1; 2; 1; 0.91; 1; 77; 0
+C:/Share/Vectors/February_8_2016_Loves/Calgary-all/\BackPocket\Test9_5min-iP0001-BackRightPocket-MS\irl_out.dat; 0; 0; 1; 0.20; 1; 2; 1; 1.7; 1; 25; 1; 2.8; 1; 31; 0
+C:/Share/Vectors/February_8_2016_Loves/Calgary-all/\BackPocket\Test9_5min-iP0003-BackLeftPocket-CB\irl_out.dat; 1; 0; 1; 0.69; 1; 2; 1; 1.6; 1; 20; 1; 0.89; 1; 11; 1; 0; 1; 7753; 1; 0.55; 1
+C:/Share/Vectors/February_8_2016_Loves/Calgary-all/\BackPocket\Test9_5min-S00078-BackLeftPocket-CB\irl_out.dat; 0; 0; 1; 0.50; 1; 0; 0
+C:/Share/Vectors/February_8_2016_Loves/Calgary-all/\BackPocket\Test9_5min-S00078-BackRightPocket-CB\irl_out.dat; 0; 0; 1; 0.20; 1; 0; 0
+C:/Share/Vectors/February_8_2016_Loves/Calgary-all/\BackPocket\Test9_5min-SS6005-BackLeftPocket-MS\irl_out.dat; 0; 0; 1; 0.69; 1; 0; 0
+C:/Share/Vectors/February_8_2016_Loves/Calgary-all/\Front-Pocket-Pool\2017-01-04_Test10_10min_iP00004-FrontRightPocket-MS\irl_out.dat; 1; 0; 1; 0.82; 1; 4; 1; 0.85; 1; 6.5; 1; 2; 1; 13; 1; 0; 1; 12789; 1; 0.38; 1
+C:/Share/Vectors/February_8_2016_Loves/Calgary-all/\Front-Pocket-Pool\2017-01-04_Test10_10min_iP00006-FrontLeftPocket-CB\irl_out.dat; 0; 0; 1; 0.37; 1; 0; 0
+C:/Share/Vectors/February_8_2016_Loves/Calgary-all/\Front-Pocket-Pool\2017-01-04_Test10_10min_SS6005-FrontLeftPocket-MS\irl_out.dat; 0; 0; 1; 0.21; 1; 0; 0
+C:/Share/Vectors/February_8_2016_Loves/Calgary-all/\Front-Pocket-Pool\2017-01-04_Test10_10min_SS6012-FrontRightPocket-CB\irl_out.dat; 0; 0; 1; 0.37; 1; 0; 0
+C:/Share/Vectors/February_8_2016_Loves/Calgary-all/\Front-Pocket-Pool\2017-01-04_Test11_5min_iP00004-FrontRightPocket-MS\irl_out.dat; 1; 0; 1; 0.50; 1; 1; 1; 1.4; 1; 8.1; 1; 2.9; 1; 12; 1; 0; 1; 6679; 1; 0.36; 1
+C:/Share/Vectors/February_8_2016_Loves/Calgary-all/\Front-Pocket-Pool\2017-01-04_Test11_5min_iP00006-FrontLeftPocket-CB\irl_out.dat; 0; 0; 1; 0.49; 1; 1; 1; 2.4; 1; 55; 0
+C:/Share/Vectors/February_8_2016_Loves/Calgary-all/\Front-Pocket-Pool\2017-01-04_Test11_5min_SS6005-FrontLeftPocket-MS\irl_out.dat; 0; 0; 1; 0.33; 1; 0; 0
+C:/Share/Vectors/February_8_2016_Loves/Calgary-all/\Front-Pocket-Pool\2017-01-04_Test11_5min_SS6012-FrontRightPocket-CB\irl_out.dat; 0; 0; 1; 0.46; 1; 0; 0
+C:/Share/Vectors/February_8_2016_Loves/Calgary-all/\Front-Pocket-Pool\2017-01-04_Test12_5min_iP00004-FrontRightPocket-MS\irl_out.dat; 1; 0; 1; 0.29; 1; 2; 1; 0.65; 1; 27; 1; 3; 1; 14; 1; 0; 1; 7065; 1; 0.23; 1
+C:/Share/Vectors/February_8_2016_Loves/Calgary-all/\Front-Pocket-Pool\2017-01-04_Test12_5min_iP00006-FrontLeftPocket-CB\irl_out.dat; 0; 0; 1; 0.00; 1; 0; 0
+C:/Share/Vectors/February_8_2016_Loves/Calgary-all/\Front-Pocket-Pool\2017-01-04_Test12_5min_SS6005-FrontLeftPocket-MS\irl_out.dat; 0; 0; 1; 0.71; 1; 0; 0
+C:/Share/Vectors/February_8_2016_Loves/Calgary-all/\Front-Pocket-Pool\2017-01-04_Test12_5min_SS6012-FrontRightPocket-CB\irl_out.dat; 0; 0; 1; 0.37; 1; 0; 0
+C:/Share/Vectors/February_8_2016_Loves/Calgary-all/\Front-Pocket-Pool\2017-01-04_Test1_45min_iP00004-FrontRightPocket-MS\irl_out.dat; 1; 0; 1; 0.41; 1; 3; 1; 0.82; 1; 8.5; 1; 1.3; 1; 16; 1; 5; 1; 54478; 1; 0.51; 1
+C:/Share/Vectors/February_8_2016_Loves/Calgary-all/\Front-Pocket-Pool\2017-01-04_Test1_45min_iP00006-FrontLeftPocket-CB\irl_out.dat; 0; 0; 1; 0.63; 1; 0; 0
+C:/Share/Vectors/February_8_2016_Loves/Calgary-all/\Front-Pocket-Pool\2017-01-04_Test1_45min_SS6005-FrontLeftPocket-MS\irl_out.dat; 0; 0; 1; 0.40; 1; 0; 0
+C:/Share/Vectors/February_8_2016_Loves/Calgary-all/\Front-Pocket-Pool\2017-01-04_Test1_45min_SS6012-FrontRightPocket-CB\irl_out.dat; 0; 0; 1; 0.39; 1; 0; 0
+C:/Share/Vectors/February_8_2016_Loves/Calgary-all/\Front-Pocket-Pool\2017-01-04_Test2_30min_iP00004-FrontRightPocket-MS\irl_out.dat; 1; 0; 1; 0.31; 1; 3; 1; 0.34; 1; 4.4; 1; 1; 1; 19; 1; 4; 1; 37730; 1; 0.44; 1
+C:/Share/Vectors/February_8_2016_Loves/Calgary-all/\Front-Pocket-Pool\2017-01-04_Test2_30min_iP00006-FrontLeftPocket-CB\irl_out.dat; 0; 0; 1; 0.45; 1; 0; 0
+C:/Share/Vectors/February_8_2016_Loves/Calgary-all/\Front-Pocket-Pool\2017-01-04_Test2_30min_SS6005-FrontLeftPocket-MS\irl_out.dat; 0; 0; 1; 0.58; 1; 0; 0
+C:/Share/Vectors/February_8_2016_Loves/Calgary-all/\Front-Pocket-Pool\2017-01-04_Test2_30min_SS6012-FrontRightPocket-CB\irl_out.dat; 0; 0; 1; 0.31; 1; 0; 0
+C:/Share/Vectors/February_8_2016_Loves/Calgary-all/\Front-Pocket-Pool\2017-01-04_Test3_25min_iP00004-FrontRightPocket-MS\irl_out.dat; 1; 0; 1; 0.23; 1; 3; 1; 0.29; 1; 12; 1; 1.2; 1; 17; 1; 6; 1; 29863; 1; 0.42; 1
+C:/Share/Vectors/February_8_2016_Loves/Calgary-all/\Front-Pocket-Pool\2017-01-04_Test3_25min_iP00006-FrontLeftPocket-CB\irl_out.dat; 0; 0; 1; 0.65; 1; 0; 0
+C:/Share/Vectors/February_8_2016_Loves/Calgary-all/\Front-Pocket-Pool\2017-01-04_Test3_25min_SS6005-FrontLeftPocket-MS\irl_out.dat; 0; 0; 1; 0.59; 1; 0; 0
+C:/Share/Vectors/February_8_2016_Loves/Calgary-all/\Front-Pocket-Pool\2017-01-04_Test3_25min_SS6012-FrontRightPocket-CB\irl_out.dat; 0; 0; 1; 0.15; 1; 0; 0
+C:/Share/Vectors/February_8_2016_Loves/Calgary-all/\Front-Pocket-Pool\2017-01-04_Test4_20min_iP00004-FrontRightPocket-MS\irl_out.dat; 1; 0; 1; 0.28; 1; 4; 1; 0.63; 1; 6.9; 1; 0.66; 1; 18; 1; 2; 1; 24310; 1; 0.47; 1
+C:/Share/Vectors/February_8_2016_Loves/Calgary-all/\Front-Pocket-Pool\2017-01-04_Test4_20min_iP00006-FrontLeftPocket-CB\irl_out.dat; 0; 0; 1; 0.36; 1; 0; 0
+C:/Share/Vectors/February_8_2016_Loves/Calgary-all/\Front-Pocket-Pool\2017-01-04_Test4_20min_SS6005-FrontLeftPocket-MS\irl_out.dat; 0; 0; 1; 0.56; 1; 0; 0
+C:/Share/Vectors/February_8_2016_Loves/Calgary-all/\Front-Pocket-Pool\2017-01-04_Test4_20min_SS6012-FrontRightPocket-CB\irl_out.dat; 0; 0; 1; 0.82; 1; 0; 0
+C:/Share/Vectors/February_8_2016_Loves/Calgary-all/\Front-Pocket-Pool\2017-01-04_Test5_20min_iP00004-FrontRightPocket-MS\irl_out.dat; 1; 0; 1; 0.40; 1; 3; 1; 0.46; 1; 5.1; 1; 2; 1; 17; 1; 0; 1; 24817; 1; 0.38; 1
+C:/Share/Vectors/February_8_2016_Loves/Calgary-all/\Front-Pocket-Pool\2017-01-04_Test5_20min_SS6012-FrontRightPocket-CB\irl_out.dat; 0; 0; 1; 0.39; 1; 0; 0
+C:/Share/Vectors/February_8_2016_Loves/Calgary-all/\Front-Pocket-Pool\2017-01-04_Test6_15min_iP00004-FrontRightPocket-MS\irl_out.dat; 1; 0; 1; 0.56; 1; 5; 1; 0.36; 1; 13; 1; 3.2; 1; 24; 1; 18; 1; 18228; 1; 0.47; 1
+C:/Share/Vectors/February_8_2016_Loves/Calgary-all/\Front-Pocket-Pool\2017-01-04_Test6_15min_iP00006-FrontLeftPocket-CB\irl_out.dat; 0; 0; 1; 0.73; 1; 0; 0
+C:/Share/Vectors/February_8_2016_Loves/Calgary-all/\Front-Pocket-Pool\2017-01-04_Test6_15min_SS6005-FrontLeftPocket-MS\irl_out.dat; 0; 0; 1; 0.45; 1; 0; 0
+C:/Share/Vectors/February_8_2016_Loves/Calgary-all/\Front-Pocket-Pool\2017-01-04_Test6_15min_SS6012-FrontRightPocket-CB\irl_out.dat; 0; 0; 1; 0.41; 1; 0; 0
+C:/Share/Vectors/February_8_2016_Loves/Calgary-all/\Front-Pocket-Pool\2017-01-04_Test7_15min_iP00004-FrontRightPocket-MS\irl_out.dat; 1; 0; 1; 0.63; 1; 2; 1; 0.72; 1; 6.9; 1; 1.2; 1; 11; 1; 0; 1; 18528; 1; 0.41; 1
+C:/Share/Vectors/February_8_2016_Loves/Calgary-all/\Front-Pocket-Pool\2017-01-04_Test7_15min_iP00006-FrontLeftPocket-CB\irl_out.dat; 0; 0; 1; 0.73; 1; 3; 1; 0.89; 1; 27; 1; 8.2; 0
+C:/Share/Vectors/February_8_2016_Loves/Calgary-all/\Front-Pocket-Pool\2017-01-04_Test7_15min_SS6005-FrontLeftPocket-MS\irl_out.dat; 0; 0; 1; 0.81; 1; 0; 0
+C:/Share/Vectors/February_8_2016_Loves/Calgary-all/\Front-Pocket-Pool\2017-01-04_Test7_15min_SS6012-FrontRightPocket-CB\irl_out.dat; 0; 0; 1; 0.62; 1; 0; 0
+C:/Share/Vectors/February_8_2016_Loves/Calgary-all/\Front-Pocket-Pool\2017-01-04_Test8_10min_iP00004-FrontRightPocket-MS\irl_out.dat; 1; 0; 1; 0.62; 1; 3; 1; 0.51; 1; 6.3; 1; 0.69; 1; 16; 1; 0; 1; 12450; 1; 0.31; 1
+C:/Share/Vectors/February_8_2016_Loves/Calgary-all/\Front-Pocket-Pool\2017-01-04_Test8_10min_iP00006-FrontLeftPocket-CB\irl_out.dat; 0; 0; 1; 0.52; 1; 0; 0
+C:/Share/Vectors/February_8_2016_Loves/Calgary-all/\Front-Pocket-Pool\2017-01-04_Test8_10min_SS6005-FrontLeftPocket-MS\irl_out.dat; 0; 0; 1; 0.75; 1; 0; 0
+C:/Share/Vectors/February_8_2016_Loves/Calgary-all/\Front-Pocket-Pool\2017-01-04_Test8_10min_SS6012-FrontRightPocket-CB\irl_out.dat; 0; 0; 1; 0.37; 1; 0; 0
+C:/Share/Vectors/February_8_2016_Loves/Calgary-all/\Front-Pocket-Pool\2017-01-04_Test9_10min_iP00004-FrontRightPocket-MS\irl_out.dat; 1; 0; 1; 0.26; 1; 5; 1; 0.57; 1; 5.7; 1; 2.1; 1; 13; 1; 0; 1; 12901; 1; 0.33; 1
+C:/Share/Vectors/February_8_2016_Loves/Calgary-all/\Front-Pocket-Pool\2017-01-04_Test9_10min_iP00006-FrontLeftPocket-CB\irl_out.dat; 0; 0; 1; 0.19; 1; 1; 1; 2.2; 1; 16; 1; 5; 1; 38; 0
+C:/Share/Vectors/February_8_2016_Loves/Calgary-all/\Front-Pocket-Pool\2017-01-04_Test9_10min_SS6005-FrontLeftPocket-MS\irl_out.dat; 0; 0; 1; 0.08; 1; 0; 0
+C:/Share/Vectors/February_8_2016_Loves/Calgary-all/\Front-Pocket-Pool\2017-01-04_Test9_10min_SS6012-FrontRightPocket-CB\irl_out.dat; 0; 0; 1; 0.09; 1; 0; 0
+C:/Share/Vectors/February_8_2016_Loves/Calgary-all/\Front-Pocket-Pool\2017-01-05_Test10_10min_iP00001-FrontRightPocket-KC\irl_out.dat; 1; 0; 1; 0.03; 1; 1; 1; 2.1; 1; 15; 1; 1.2; 1; 20; 1; 5; 1; 12947; 1; 0.34; 1
+C:/Share/Vectors/February_8_2016_Loves/Calgary-all/\Front-Pocket-Pool\2017-01-05_Test10_10min_iP00005-FrontLeftPocket-CB\irl_out.dat; 0; 0; 1; 0.19; 1; 0; 0
+C:/Share/Vectors/February_8_2016_Loves/Calgary-all/\Front-Pocket-Pool\2017-01-05_Test10_10min_iP00006-FrontLeftPocket-MS\irl_out.dat; 0; 0; 1; 0.16; 1; 0; 0
+C:/Share/Vectors/February_8_2016_Loves/Calgary-all/\Front-Pocket-Pool\2017-01-05_Test10_10min_SS6011-FrontLeftPocket-MS\irl_out.dat; 0; 0; 1; 0.18; 1; 0; 0
+C:/Share/Vectors/February_8_2016_Loves/Calgary-all/\Front-Pocket-Pool\2017-01-05_Test10_10min_SS6012-FrontRightPocket-CB\irl_out.dat; 0; 0; 1; 0.41; 1; 0; 0
+C:/Share/Vectors/February_8_2016_Loves/Calgary-all/\Front-Pocket-Pool\2017-01-05_Test11_5min_iP00001-FrontRightPocket-KC\irl_out.dat; 1; 0; 1; 0.25; 1; 1; 1; 1.9; 1; 18; 1; 0.66; 1; 21; 1; 5; 1; 7963; 1; 0.39; 1
+C:/Share/Vectors/February_8_2016_Loves/Calgary-all/\Front-Pocket-Pool\2017-01-05_Test11_5min_iP00005-FrontLeftPocket-CB\irl_out.dat; 0; 0; 1; 0.03; 1; 1; 1; 1.1; 1; 78; 0
+C:/Share/Vectors/February_8_2016_Loves/Calgary-all/\Front-Pocket-Pool\2017-01-05_Test11_5min_iP00006-FrontLeftPocket-MS\irl_out.dat; 1; 0; 1; 0.00; 1; 1; 1; 2.1; 1; 8.3; 1; 2.2; 1; 22; 1; 5; 1; 7942; 1; 0.38; 1
+C:/Share/Vectors/February_8_2016_Loves/Calgary-all/\Front-Pocket-Pool\2017-01-05_Test11_5min_SS6008-FrontLeftPocket-KC\irl_out.dat; 0; 0; 1; 0.33; 1; 0; 0
+C:/Share/Vectors/February_8_2016_Loves/Calgary-all/\Front-Pocket-Pool\2017-01-05_Test11_5min_SS6011-FrontLeftPocket-MS\irl_out.dat; 0; 0; 1; 0.25; 1; 0; 0
+C:/Share/Vectors/February_8_2016_Loves/Calgary-all/\Front-Pocket-Pool\2017-01-05_Test11_5min_SS6012-FrontRightPocket-CB\irl_out.dat; 0; 0; 1; 0.08; 1; 0; 0
+C:/Share/Vectors/February_8_2016_Loves/Calgary-all/\Front-Pocket-Pool\2017-01-05_Test12_5min_iP00001-FrontRightPocket-KC\irl_out.dat; 1; 0; 1; 0.03; 1; 1; 1; 1.3; 1; 26; 1; 2; 1; 23; 1; 8; 1; 7029; 1; 0.31; 1
+C:/Share/Vectors/February_8_2016_Loves/Calgary-all/\Front-Pocket-Pool\2017-01-05_Test12_5min_iP00005-FrontLeftPocket-CB\irl_out.dat; 0; 0; 1; 0.02; 1; 0; 0
+C:/Share/Vectors/February_8_2016_Loves/Calgary-all/\Front-Pocket-Pool\2017-01-05_Test12_5min_iP00006-FrontLeftPocket-MS\irl_out.dat; 1; 0; 1; 0.06; 1; 1; 1; 3.1; 1; 34; 1; 2.1; 1; 20; 1; 1; 1; 6929; 1; 0.30; 1
+C:/Share/Vectors/February_8_2016_Loves/Calgary-all/\Front-Pocket-Pool\2017-01-05_Test12_5min_SS6008-FrontLeftPocket-KC\irl_out.dat; 0; 0; 1; 0.21; 1; 0; 0
+C:/Share/Vectors/February_8_2016_Loves/Calgary-all/\Front-Pocket-Pool\2017-01-05_Test12_5min_SS6011-FrontLeftPocket-MS\irl_out.dat; 0; 0; 1; 0.38; 1; 0; 0
+C:/Share/Vectors/February_8_2016_Loves/Calgary-all/\Front-Pocket-Pool\2017-01-05_Test12_5min_SS6012-FrontRightPocket-CB\irl_out.dat; 0; 0; 1; 0.00; 1; 0; 0
+C:/Share/Vectors/February_8_2016_Loves/Calgary-all/\Front-Pocket-Pool\2017-01-05_Test1_45min_SS6008-FrontLeftPocket-KC\irl_out.dat; 0; 0; 1; 0.83; 1; 0; 0
+C:/Share/Vectors/February_8_2016_Loves/Calgary-all/\Front-Pocket-Pool\2017-01-05_Test1_45min_SS6012-FrontRightPocket-CB\irl_out.dat; 0; 0; 1; 0.51; 1; 0; 0
+C:/Share/Vectors/February_8_2016_Loves/Calgary-all/\Front-Pocket-Pool\2017-01-05_Test2_30min_iP00005-FrontLeftPocket-CB\irl_out.dat; 0; 0; 1; 0.46; 1; 0; 0
+C:/Share/Vectors/February_8_2016_Loves/Calgary-all/\Front-Pocket-Pool\2017-01-05_Test2_30min_iP00006-FrontLeftPocket-MS\irl_out.dat; 0; 0; 1; 0.58; 1; 0; 0
+C:/Share/Vectors/February_8_2016_Loves/Calgary-all/\Front-Pocket-Pool\2017-01-05_Test2_30min_SS6008-FrontLeftPocket-KC\irl_out.dat; 0; 0; 1; 0.56; 1; 0; 0
+C:/Share/Vectors/February_8_2016_Loves/Calgary-all/\Front-Pocket-Pool\2017-01-05_Test2_30min_SS6012-FrontRightPocket-CB\irl_out.dat; 0; 0; 1; 0.19; 1; 0; 0
+C:/Share/Vectors/February_8_2016_Loves/Calgary-all/\Front-Pocket-Pool\2017-01-05_Test3_25min_SS6012-FrontRightPocket-CB\irl_out.dat; 0; 0; 1; 0.49; 1; 0; 0
+C:/Share/Vectors/February_8_2016_Loves/Calgary-all/\Front-Pocket-Pool\2017-01-05_Test4_20min_iP00001-FrontRightPocket-KC\irl_out.dat; 0; 0; 1; 0.35; 1; 0; 0
+C:/Share/Vectors/February_8_2016_Loves/Calgary-all/\Front-Pocket-Pool\2017-01-05_Test4_20min_iP00005-FrontLeftPocket-CB\irl_out.dat; 0; 0; 1; 0.86; 1; 0; 0
+C:/Share/Vectors/February_8_2016_Loves/Calgary-all/\Front-Pocket-Pool\2017-01-05_Test4_20min_SS6008-FrontLeftPocket-KC\irl_out.dat; 0; 0; 1; 0.24; 1; 0; 0
+C:/Share/Vectors/February_8_2016_Loves/Calgary-all/\Front-Pocket-Pool\2017-01-05_Test4_20min_SS6012-FrontRightPocket-CB\irl_out.dat; 0; 0; 1; 0.21; 1; 0; 0
+C:/Share/Vectors/February_8_2016_Loves/Calgary-all/\Front-Pocket-Pool\2017-01-05_Test5_20min_iP00001-FrontRightPocket-KC\irl_out.dat; 0; 0; 1; 0.83; 1; 0; 0
+C:/Share/Vectors/February_8_2016_Loves/Calgary-all/\Front-Pocket-Pool\2017-01-05_Test5_20min_iP00005-FrontLeftPocket-CB\irl_out.dat; 0; 0; 1; 0.69; 1; 0; 0
+C:/Share/Vectors/February_8_2016_Loves/Calgary-all/\Front-Pocket-Pool\2017-01-05_Test5_20min_iP00006-FrontLeftPocket-MS\irl_out.dat; 0; 0; 1; 0.68; 1; 0; 0
+C:/Share/Vectors/February_8_2016_Loves/Calgary-all/\Front-Pocket-Pool\2017-01-05_Test5_20min_SS6008-FrontLeftPocket-KC\irl_out.dat; 0; 0; 1; 0.23; 1; 0; 0
+C:/Share/Vectors/February_8_2016_Loves/Calgary-all/\Front-Pocket-Pool\2017-01-05_Test5_20min_SS6012-FrontRightPocket-CB\irl_out.dat; 0; 0; 1; 0.43; 1; 0; 0
+C:/Share/Vectors/February_8_2016_Loves/Calgary-all/\Front-Pocket-Pool\2017-01-05_Test6_15min_iP00001-FrontRightPocket-KC\irl_out.dat; 1; 0; 1; 0.42; 1; 3; 1; 0.71; 1; 9.4; 1; 0.73; 1; 20; 1; 8; 1; 18034; 1; 0.36; 1
+C:/Share/Vectors/February_8_2016_Loves/Calgary-all/\Front-Pocket-Pool\2017-01-05_Test6_15min_iP00005-FrontLeftPocket-CB\irl_out.dat; 0; 0; 1; 0.23; 1; 0; 0
+C:/Share/Vectors/February_8_2016_Loves/Calgary-all/\Front-Pocket-Pool\2017-01-05_Test6_15min_iP00006-FrontLeftPocket-MS\irl_out.dat; 1; 0; 1; 0.10; 1; 2; 1; 0.99; 1; 12; 1; 1.1; 1; 21; 1; 6; 1; 18047; 1; 0.36; 1
+C:/Share/Vectors/February_8_2016_Loves/Calgary-all/\Front-Pocket-Pool\2017-01-05_Test6_15min_SS6008-FrontLeftPocket-KC\irl_out.dat; 0; 0; 1; 0.10; 1; 0; 0
+C:/Share/Vectors/February_8_2016_Loves/Calgary-all/\Front-Pocket-Pool\2017-01-05_Test6_15min_SS6012-FrontRightPocket-CB\irl_out.dat; 0; 0; 1; 0.14; 1; 0; 0
+C:/Share/Vectors/February_8_2016_Loves/Calgary-all/\Front-Pocket-Pool\2017-01-05_Test7_15min_iP00001-FrontRightPocket-KC\irl_out.dat; 0; 0; 1; 0.18; 1; 0; 0
+C:/Share/Vectors/February_8_2016_Loves/Calgary-all/\Front-Pocket-Pool\2017-01-05_Test7_15min_iP00005-FrontLeftPocket-CB\irl_out.dat; 0; 0; 1; 0.66; 1; 0; 0
+C:/Share/Vectors/February_8_2016_Loves/Calgary-all/\Front-Pocket-Pool\2017-01-05_Test7_15min_iP00006-FrontLeftPocket-MS\irl_out.dat; 1; 0; 1; 0.39; 1; 1; 1; 1.9; 1; 11; 1; 2.3; 1; 21; 1; 1; 1; 18255; 1; 0.33; 1
+C:/Share/Vectors/February_8_2016_Loves/Calgary-all/\Front-Pocket-Pool\2017-01-05_Test7_15min_SS6012-FrontRightPocket-CB\irl_out.dat; 0; 0; 1; 0.47; 1; 0; 0
+C:/Share/Vectors/February_8_2016_Loves/Calgary-all/\Front-Pocket-Pool\2017-01-05_Test8_10min_iP00001-FrontRightPocket-KC\irl_out.dat; 0; 0; 1; 0.06; 1; 0; 0
+C:/Share/Vectors/February_8_2016_Loves/Calgary-all/\Front-Pocket-Pool\2017-01-05_Test8_10min_iP00005-FrontLeftPocket-CB\irl_out.dat; 0; 0; 1; 0.05; 1; 0; 0
+C:/Share/Vectors/February_8_2016_Loves/Calgary-all/\Front-Pocket-Pool\2017-01-05_Test8_10min_iP00006-FrontLeftPocket-MS\irl_out.dat; 1; 0; 1; 0.02; 1; 2; 1; 1.8; 1; 14; 1; 1.4; 1; 19; 1; 0; 1; 12268; 1; 0.39; 1
+C:/Share/Vectors/February_8_2016_Loves/Calgary-all/\Front-Pocket-Pool\2017-01-05_Test8_10min_SS6008-FrontLeftPocket-KC\irl_out.dat; 0; 0; 1; 0.00; 1; 0; 0
+C:/Share/Vectors/February_8_2016_Loves/Calgary-all/\Front-Pocket-Pool\2017-01-05_Test8_10min_SS6011-FrontLeftPocket-MS\irl_out.dat; 0; 0; 1; 0.01; 1; 0; 0
+C:/Share/Vectors/February_8_2016_Loves/Calgary-all/\Front-Pocket-Pool\2017-01-05_Test8_10min_SS6012-FrontRightPocket-CB\irl_out.dat; 0; 0; 1; 0.05; 1; 0; 0
+C:/Share/Vectors/February_8_2016_Loves/Calgary-all/\Front-Pocket-Pool\2017-01-05_Test9_10min_iP00001-FrontRightPocket-KC\irl_out.dat; 1; 0; 1; 0.21; 1; 2; 1; 1.2; 1; 15; 1; 1.4; 1; 28; 1; 19; 1; 12813; 1; 0.42; 1
+C:/Share/Vectors/February_8_2016_Loves/Calgary-all/\Front-Pocket-Pool\2017-01-05_Test9_10min_iP00005-FrontLeftPocket-CB\irl_out.dat; 0; 0; 1; 0.50; 1; 2; 1; 1.5; 1; 39; 1; 4.2; 1; 39; 0
+C:/Share/Vectors/February_8_2016_Loves/Calgary-all/\Front-Pocket-Pool\2017-01-05_Test9_10min_iP00006-FrontLeftPocket-MS\irl_out.dat; 0; 0; 1; 0.02; 1; 2; 1; 1.6; 1; 14; 1; 8.2; 0
+C:/Share/Vectors/February_8_2016_Loves/Calgary-all/\Front-Pocket-Pool\2017-01-05_Test9_10min_SS6008-FrontLeftPocket-KC\irl_out.dat; 0; 0; 1; 0.46; 1; 0; 0
+C:/Share/Vectors/February_8_2016_Loves/Calgary-all/\Front-Pocket-Pool\2017-01-05_Test9_10min_SS6011-FrontLeftPocket-MS\irl_out.dat; 0; 0; 1; 0.31; 1; 0; 0
+C:/Share/Vectors/February_8_2016_Loves/Calgary-all/\Front-Pocket-Pool\2017-01-05_Test9_10min_SS6012-FrontRightPocket-CB\irl_out.dat; 0; 0; 1; 0.31; 1; 0; 0
+C:/Share/Vectors/February_8_2016_Loves/Calgary-all/\Front-Pocket-Pool\2017-01-06_Test10_10min_iP00001-FrontLeftPocket-MS\irl_out.dat; 0; 0; 1; 0.23; 1; 0; 0
+C:/Share/Vectors/February_8_2016_Loves/Calgary-all/\Front-Pocket-Pool\2017-01-06_Test10_10min_iP00005-FrontLeftPocket-CB\irl_out.dat; 0; 0; 1; 0.39; 1; 0; 0
+C:/Share/Vectors/February_8_2016_Loves/Calgary-all/\Front-Pocket-Pool\2017-01-06_Test10_10min_SS6008-FrontRightPocket-MS\irl_out.dat; 0; 0; 1; 0.35; 1; 0; 0
+C:/Share/Vectors/February_8_2016_Loves/Calgary-all/\Front-Pocket-Pool\2017-01-06_Test10_10min_SS6012-FrontRightPocket-CB\irl_out.dat; 0; 0; 1; 0.37; 1; 0; 0
+C:/Share/Vectors/February_8_2016_Loves/Calgary-all/\Front-Pocket-Pool\2017-01-06_Test11_5min_iP00001-FrontLeftPocket-MS\irl_out.dat; 1; 0; 1; 0.58; 1; 1; 1; 1.8; 1; 29; 1; 0.8; 1; 15; 1; 0; 1; 5954; 1; 0.50; 1
+C:/Share/Vectors/February_8_2016_Loves/Calgary-all/\Front-Pocket-Pool\2017-01-06_Test11_5min_SS6008-FrontRightPocket-MS\irl_out.dat; 0; 0; 1; 0.00; 1; 0; 0
+C:/Share/Vectors/February_8_2016_Loves/Calgary-all/\Front-Pocket-Pool\2017-01-06_Test11_5min_SS6012-FrontRightPocket-CB\irl_out.dat; 0; 0; 1; 0.03; 1; 0; 0
+C:/Share/Vectors/February_8_2016_Loves/Calgary-all/\Front-Pocket-Pool\2017-01-06_Test12_5min_iP00001-FrontLeftPocket-MS\irl_out.dat; 0; 0; 1; 0.27; 1; 2; 1; 1.3; 1; 1.5e+002; 0
+C:/Share/Vectors/February_8_2016_Loves/Calgary-all/\Front-Pocket-Pool\2017-01-06_Test12_5min_iP00005-FrontLeftPocket-CB\irl_out.dat; 0; 0; 1; 0.04; 1; 2; 1; 2.7; 1; 5.3; 1; 0.23; 1; 35; 0
+C:/Share/Vectors/February_8_2016_Loves/Calgary-all/\Front-Pocket-Pool\2017-01-06_Test12_5min_SS6008-FrontRightPocket-MS\irl_out.dat; 0; 0; 1; 0.04; 1; 0; 0
+C:/Share/Vectors/February_8_2016_Loves/Calgary-all/\Front-Pocket-Pool\2017-01-06_Test12_5min_SS6012-FrontRightPocket-CB\irl_out.dat; 0; 0; 1; 0.06; 1; 0; 0
+C:/Share/Vectors/February_8_2016_Loves/Calgary-all/\Front-Pocket-Pool\2017-01-06_Test1_45min_iP00005-FrontLeftPocket-CB\irl_out.dat; 0; 0; 1; 0.42; 1; 0; 0
+C:/Share/Vectors/February_8_2016_Loves/Calgary-all/\Front-Pocket-Pool\2017-01-06_Test1_45min_SS6008-FrontRightPocket-MS\irl_out.dat; 0; 0; 1; 0.32; 1; 0; 0
+C:/Share/Vectors/February_8_2016_Loves/Calgary-all/\Front-Pocket-Pool\2017-01-06_Test1_45min_SS6012-FrontRightPocket-CB\irl_out.dat; 0; 0; 1; 0.39; 1; 0; 0
+C:/Share/Vectors/February_8_2016_Loves/Calgary-all/\Front-Pocket-Pool\2017-01-06_Test2_30min_iP00001-FrontLeftPocket-MS\irl_out.dat; 0; 0; 1; 0.74; 1; 0; 0
+C:/Share/Vectors/February_8_2016_Loves/Calgary-all/\Front-Pocket-Pool\2017-01-06_Test2_30min_iP00005-FrontLeftPocket-CB\irl_out.dat; 0; 0; 1; 0.67; 1; 3; 1; 0.61; 1; 14; 1; 2.9; 1; 33; 0
+C:/Share/Vectors/February_8_2016_Loves/Calgary-all/\Front-Pocket-Pool\2017-01-06_Test2_30min_SS6008-FrontRightPocket-MS\irl_out.dat; 0; 0; 1; 0.58; 1; 0; 0
+C:/Share/Vectors/February_8_2016_Loves/Calgary-all/\Front-Pocket-Pool\2017-01-06_Test2_30min_SS6012-FrontRightPocket-CB\irl_out.dat; 0; 0; 1; 0.71; 1; 0; 0
+C:/Share/Vectors/February_8_2016_Loves/Calgary-all/\Front-Pocket-Pool\2017-01-06_Test3_25min_iP00001-FrontLeftPocket-MS\irl_out.dat; 0; 0; 1; 0.74; 1; 0; 0
+C:/Share/Vectors/February_8_2016_Loves/Calgary-all/\Front-Pocket-Pool\2017-01-06_Test3_25min_iP00005-FrontLeftPocket-CB\irl_out.dat; 0; 0; 1; 0.14; 1; 3; 1; 0.72; 1; 14; 1; 0.018; 1; 32; 0
+C:/Share/Vectors/February_8_2016_Loves/Calgary-all/\Front-Pocket-Pool\2017-01-06_Test3_25min_SS6008-FrontRightPocket-MS\irl_out.dat; 0; 0; 1; 0.34; 1; 0; 0
+C:/Share/Vectors/February_8_2016_Loves/Calgary-all/\Front-Pocket-Pool\2017-01-06_Test3_25min_SS6012-FrontRightPocket-CB\irl_out.dat; 0; 0; 1; 0.26; 1; 0; 0
+C:/Share/Vectors/February_8_2016_Loves/Calgary-all/\Front-Pocket-Pool\2017-01-06_Test4_20min_iP00005-FrontLeftPocket-CB\irl_out.dat; 0; 0; 1; 0.24; 1; 3; 1; 0.44; 1; 9.6; 1; 1.8; 1; 32; 0
+C:/Share/Vectors/February_8_2016_Loves/Calgary-all/\Front-Pocket-Pool\2017-01-06_Test4_20min_SS6008-FrontRightPocket-MS\irl_out.dat; 0; 0; 1; 0.65; 1; 0; 0
+C:/Share/Vectors/February_8_2016_Loves/Calgary-all/\Front-Pocket-Pool\2017-01-06_Test4_20min_SS6012-FrontRightPocket-CB\irl_out.dat; 0; 0; 1; 0.63; 1; 0; 0
+C:/Share/Vectors/February_8_2016_Loves/Calgary-all/\Front-Pocket-Pool\2017-01-06_Test5_20min_iP00005-FrontLeftPocket-CB\irl_out.dat; 0; 0; 1; 0.09; 1; 0; 0
+C:/Share/Vectors/February_8_2016_Loves/Calgary-all/\Front-Pocket-Pool\2017-01-06_Test5_20min_SS6008-FrontRightPocket-MS\irl_out.dat; 0; 0; 1; 0.00; 1; 0; 0
+C:/Share/Vectors/February_8_2016_Loves/Calgary-all/\Front-Pocket-Pool\2017-01-06_Test5_20min_SS6012-FrontRightPocket-CB\irl_out.dat; 0; 0; 1; 0.00; 1; 0; 0
+C:/Share/Vectors/February_8_2016_Loves/Calgary-all/\Front-Pocket-Pool\2017-01-06_Test6_15min_iP00001-FrontLeftPocket-MS\irl_out.dat; 0; 0; 1; 0.55; 1; 3; 1; 0.86; 1; 83; 0
+C:/Share/Vectors/February_8_2016_Loves/Calgary-all/\Front-Pocket-Pool\2017-01-06_Test6_15min_iP00005-FrontLeftPocket-CB\irl_out.dat; 0; 0; 1; 0.01; 1; 0; 0
+C:/Share/Vectors/February_8_2016_Loves/Calgary-all/\Front-Pocket-Pool\2017-01-06_Test6_15min_SS6008-FrontRightPocket-MS\irl_out.dat; 0; 0; 1; 0.47; 1; 0; 0
+C:/Share/Vectors/February_8_2016_Loves/Calgary-all/\Front-Pocket-Pool\2017-01-06_Test6_15min_SS6012-FrontRightPocket-CB\irl_out.dat; 0; 0; 1; 0.56; 1; 0; 0
+C:/Share/Vectors/February_8_2016_Loves/Calgary-all/\Front-Pocket-Pool\2017-01-06_Test7_15min_iP00005-FrontLeftPocket-CB\irl_out.dat; 0; 0; 1; 0.16; 1; 0; 0
+C:/Share/Vectors/February_8_2016_Loves/Calgary-all/\Front-Pocket-Pool\2017-01-06_Test7_15min_SS6008-FrontRightPocket-MS\irl_out.dat; 0; 0; 1; 0.35; 1; 0; 0
+C:/Share/Vectors/February_8_2016_Loves/Calgary-all/\Front-Pocket-Pool\2017-01-06_Test7_15min_SS6012-FrontRightPocket-CB\irl_out.dat; 0; 0; 1; 0.15; 1; 0; 0
+C:/Share/Vectors/February_8_2016_Loves/Calgary-all/\Front-Pocket-Pool\2017-01-06_Test8_10min_iP00001-FrontLeftPocket-MS\irl_out.dat; 0; 0; 1; 0.36; 1; 1; 1; 1.6; 1; 1.1e+002; 0
+C:/Share/Vectors/February_8_2016_Loves/Calgary-all/\Front-Pocket-Pool\2017-01-06_Test8_10min_iP00005-FrontLeftPocket-CB\irl_out.dat; 0; 0; 1; 0.23; 1; 0; 0
+C:/Share/Vectors/February_8_2016_Loves/Calgary-all/\Front-Pocket-Pool\2017-01-06_Test8_10min_SS6008-FrontRightPocket-MS\irl_out.dat; 0; 0; 1; 0.18; 1; 0; 0
+C:/Share/Vectors/February_8_2016_Loves/Calgary-all/\Front-Pocket-Pool\2017-01-06_Test8_10min_SS6012-FrontRightPocket-CB\irl_out.dat; 0; 0; 1; 0.54; 1; 0; 0
+C:/Share/Vectors/February_8_2016_Loves/Calgary-all/\Front-Pocket-Pool\2017-01-06_Test9_10min_iP00001-FrontLeftPocket-MS\irl_out.dat; 0; 0; 1; 0.79; 1; 0; 0
+C:/Share/Vectors/February_8_2016_Loves/Calgary-all/\Front-Pocket-Pool\2017-01-06_Test9_10min_iP00005-FrontLeftPocket-CB\irl_out.dat; 0; 0; 1; 0.56; 1; 0; 0
+C:/Share/Vectors/February_8_2016_Loves/Calgary-all/\Front-Pocket-Pool\2017-01-06_Test9_10min_SS6008-FrontRightPocket-MS\irl_out.dat; 0; 0; 1; 0.39; 1; 0; 0
+C:/Share/Vectors/February_8_2016_Loves/Calgary-all/\Front-Pocket-Pool\2017-01-06_Test9_10min_SS6012-FrontRightPocket-CB\irl_out.dat; 0; 0; 1; 0.85; 1; 0; 0
+C:/Share/Vectors/February_8_2016_Loves/Calgary-all/\Front-Pocket-Pool\2017-01-09_Test10_10min_iP00004-FrontLeftPocket-Josh\irl_out.dat; 1; 0; 1; 0.04; 1; 2; 1; 1.6; 1; 47; 1; 1.7; 1; 13; 1; 0; 1; 13265; 1; 0.57; 1
+C:/Share/Vectors/February_8_2016_Loves/Calgary-all/\Front-Pocket-Pool\2017-01-09_Test10_10min_iP00005-FrontLeftPocket-CB\irl_out.dat; 0; 0; 1; 0.17; 1; 0; 0
+C:/Share/Vectors/February_8_2016_Loves/Calgary-all/\Front-Pocket-Pool\2017-01-09_Test10_10min_SS6012-FrontRightPocket-CB\irl_out.dat; 0; 0; 1; 0.14; 1; 0; 0
+C:/Share/Vectors/February_8_2016_Loves/Calgary-all/\Front-Pocket-Pool\2017-01-09_Test10_10min_SS6013-FrontLeftPocket-Josh\irl_out.dat; 0; 0; 1; 0.25; 1; 0; 0
+C:/Share/Vectors/February_8_2016_Loves/Calgary-all/\Front-Pocket-Pool\2017-01-09_Test11_5min_iP00004-FrontLeftPocket-Josh\irl_out.dat; 1; 0; 1; 0.22; 1; 3; 1; 0.55; 1; 27; 1; 1.3; 1; 9.9; 1; 0; 1; 7026; 1; 0.41; 1
+C:/Share/Vectors/February_8_2016_Loves/Calgary-all/\Front-Pocket-Pool\2017-01-09_Test11_5min_iP00005-FrontLeftPocket-CB\irl_out.dat; 1; 0; 1; 0.52; 1; 1; 1; 2.4; 1; 21; 1; 1.8; 1; 27; 1; 7; 1; 6583; 1; 0.38; 1
+C:/Share/Vectors/February_8_2016_Loves/Calgary-all/\Front-Pocket-Pool\2017-01-09_Test11_5min_SS6012-FrontRightPocket-CB\irl_out.dat; 0; 0; 1; 0.00; 1; 1; 1; 3.9; 1; 35; 1; 0.16; 1; 34; 0
+C:/Share/Vectors/February_8_2016_Loves/Calgary-all/\Front-Pocket-Pool\2017-01-09_Test11_5min_SS6013-FrontLeftPocket-Josh\irl_out.dat; 0; 0; 1; 0.08; 1; 0; 0
+C:/Share/Vectors/February_8_2016_Loves/Calgary-all/\Front-Pocket-Pool\2017-01-09_Test12_5min_iP00004-FrontLeftPocket-Josh\irl_out.dat; 1; 0; 1; 0.56; 1; 2; 1; 1.9; 1; 25; 1; 2.5; 1; 13; 1; 0; 1; 6912; 1; 0.67; 1
+C:/Share/Vectors/February_8_2016_Loves/Calgary-all/\Front-Pocket-Pool\2017-01-09_Test12_5min_iP00005-FrontLeftPocket-CB\irl_out.dat; 0; 0; 1; 0.43; 1; 0; 0
+C:/Share/Vectors/February_8_2016_Loves/Calgary-all/\Front-Pocket-Pool\2017-01-09_Test12_5min_SS6012-FrontRightPocket-CB\irl_out.dat; 0; 0; 1; 0.22; 1; 0; 0
+C:/Share/Vectors/February_8_2016_Loves/Calgary-all/\Front-Pocket-Pool\2017-01-09_Test12_5min_SS6013-FrontLeftPocket-Josh\irl_out.dat; 0; 0; 1; 0.63; 1; 0; 0
+C:/Share/Vectors/February_8_2016_Loves/Calgary-all/\Front-Pocket-Pool\2017-01-09_Test1_45min_iP00004-FrontLeftPocket-Josh\irl_out.dat; 1; 0; 1; 0.83; 1; 3; 1; 0.59; 1; 28; 1; 0.8; 1; 17; 1; 3; 1; 55815; 1; 0.49; 1
+C:/Share/Vectors/February_8_2016_Loves/Calgary-all/\Front-Pocket-Pool\2017-01-09_Test1_45min_iP00005-FrontLeftPocket-CB\irl_out.dat; 0; 0; 1; 0.82; 1; 0; 0
+C:/Share/Vectors/February_8_2016_Loves/Calgary-all/\Front-Pocket-Pool\2017-01-09_Test1_45min_SS6012-FrontRightPocket-CB\irl_out.dat; 0; 0; 1; 0.49; 1; 0; 0
+C:/Share/Vectors/February_8_2016_Loves/Calgary-all/\Front-Pocket-Pool\2017-01-09_Test1_45min_SS6013-FrontLeftPocket-Josh\irl_out.dat; 0; 0; 1; 0.90; 1; 0; 0
+C:/Share/Vectors/February_8_2016_Loves/Calgary-all/\Front-Pocket-Pool\2017-01-09_Test2_30min_iP00004-FrontLeftPocket-Josh\irl_out.dat; 0; 0; 1; 0.13; 1; 0; 0
+C:/Share/Vectors/February_8_2016_Loves/Calgary-all/\Front-Pocket-Pool\2017-01-09_Test2_30min_iP00005-FrontLeftPocket-CB\irl_out.dat; 0; 0; 1; 0.60; 1; 0; 0
+C:/Share/Vectors/February_8_2016_Loves/Calgary-all/\Front-Pocket-Pool\2017-01-09_Test2_30min_SS6012-FrontRightPocket-CB\irl_out.dat; 0; 0; 1; 0.22; 1; 0; 0
+C:/Share/Vectors/February_8_2016_Loves/Calgary-all/\Front-Pocket-Pool\2017-01-09_Test2_30min_SS6013-FrontLeftPocket-Josh\irl_out.dat; 0; 0; 1; 0.52; 1; 0; 0
+C:/Share/Vectors/February_8_2016_Loves/Calgary-all/\Front-Pocket-Pool\2017-01-09_Test3_25min_iP00004-FrontLeftPocket-Josh\irl_out.dat; 1; 0; 1; 0.24; 1; 4; 1; 0.68; 1; 46; 1; 0.34; 1; 20; 1; 10; 1; 30792; 1; 0.50; 1
+C:/Share/Vectors/February_8_2016_Loves/Calgary-all/\Front-Pocket-Pool\2017-01-09_Test3_25min_iP00005-FrontLeftPocket-CB\irl_out.dat; 0; 0; 1; 0.15; 1; 0; 0
+C:/Share/Vectors/February_8_2016_Loves/Calgary-all/\Front-Pocket-Pool\2017-01-09_Test3_25min_SS6012-FrontRightPocket-CB\irl_out.dat; 0; 0; 1; 0.09; 1; 0; 0
+C:/Share/Vectors/February_8_2016_Loves/Calgary-all/\Front-Pocket-Pool\2017-01-09_Test3_25min_SS6013-FrontLeftPocket-Josh\irl_out.dat; 0; 0; 1; 0.78; 1; 0; 0
+C:/Share/Vectors/February_8_2016_Loves/Calgary-all/\Front-Pocket-Pool\2017-01-09_Test4_20min_iP00004-FrontLeftPocket-Josh\irl_out.dat; 0; 0; 1; 0.39; 1; 3; 1; 0.79; 1; 51; 0
+C:/Share/Vectors/February_8_2016_Loves/Calgary-all/\Front-Pocket-Pool\2017-01-09_Test4_20min_iP00005-FrontLeftPocket-CB\irl_out.dat; 0; 0; 1; 0.49; 1; 0; 0
+C:/Share/Vectors/February_8_2016_Loves/Calgary-all/\Front-Pocket-Pool\2017-01-09_Test4_20min_SS6012-FrontRightPocket-CB\irl_out.dat; 0; 0; 1; 0.22; 1; 0; 0
+C:/Share/Vectors/February_8_2016_Loves/Calgary-all/\Front-Pocket-Pool\2017-01-09_Test4_20min_SS6013-FrontLeftPocket-Josh\irl_out.dat; 0; 0; 1; 0.34; 1; 0; 0
+C:/Share/Vectors/February_8_2016_Loves/Calgary-all/\Front-Pocket-Pool\2017-01-09_Test5_20min_iP00004-FrontLeftPocket-Josh\irl_out.dat; 0; 0; 1; 0.28; 1; 0; 0
+C:/Share/Vectors/February_8_2016_Loves/Calgary-all/\Front-Pocket-Pool\2017-01-09_Test5_20min_iP00005-FrontLeftPocket-CB\irl_out.dat; 0; 0; 1; 0.46; 1; 0; 0
+C:/Share/Vectors/February_8_2016_Loves/Calgary-all/\Front-Pocket-Pool\2017-01-09_Test5_20min_SS6012-FrontRightPocket-CB\irl_out.dat; 0; 0; 1; 0.26; 1; 0; 0
+C:/Share/Vectors/February_8_2016_Loves/Calgary-all/\Front-Pocket-Pool\2017-01-09_Test5_20min_SS6013-FrontLeftPocket-Josh\irl_out.dat; 0; 0; 1; 0.21; 1; 0; 0
+C:/Share/Vectors/February_8_2016_Loves/Calgary-all/\Front-Pocket-Pool\2017-01-09_Test6_15min_iP00004-FrontLeftPocket-Josh\irl_out.dat; 0; 0; 1; 0.00; 1; 0; 0
+C:/Share/Vectors/February_8_2016_Loves/Calgary-all/\Front-Pocket-Pool\2017-01-09_Test6_15min_iP00005-FrontLeftPocket-CB\irl_out.dat; 0; 0; 1; 0.19; 1; 0; 0
+C:/Share/Vectors/February_8_2016_Loves/Calgary-all/\Front-Pocket-Pool\2017-01-09_Test6_15min_SS6012-FrontRightPocket-CB\irl_out.dat; 0; 0; 1; 0.04; 1; 0; 0
+C:/Share/Vectors/February_8_2016_Loves/Calgary-all/\Front-Pocket-Pool\2017-01-09_Test6_15min_SS6013-FrontLeftPocket-Josh\irl_out.dat; 0; 0; 1; 0.00; 1; 0; 0
+C:/Share/Vectors/February_8_2016_Loves/Calgary-all/\Front-Pocket-Pool\2017-01-09_Test7_15min_iP00004-FrontLeftPocket-Josh\irl_out.dat; 0; 0; 1; 0.41; 1; 3; 1; 0.79; 1; 1.7e+002; 0
+C:/Share/Vectors/February_8_2016_Loves/Calgary-all/\Front-Pocket-Pool\2017-01-09_Test7_15min_iP00005-FrontLeftPocket-CB\irl_out.dat; 0; 0; 1; 0.59; 1; 0; 0
+C:/Share/Vectors/February_8_2016_Loves/Calgary-all/\Front-Pocket-Pool\2017-01-09_Test7_15min_SS6012-FrontRightPocket-CB\irl_out.dat; 0; 0; 1; 0.23; 1; 0; 0
+C:/Share/Vectors/February_8_2016_Loves/Calgary-all/\Front-Pocket-Pool\2017-01-09_Test7_15min_SS6013-FrontLeftPocket-Josh\irl_out.dat; 0; 0; 1; 0.12; 1; 0; 0
+C:/Share/Vectors/February_8_2016_Loves/Calgary-all/\Front-Pocket-Pool\2017-01-09_Test8_10min_iP00004-FrontLeftPocket-Josh\irl_out.dat; 0; 0; 1; 0.08; 1; 0; 0
+C:/Share/Vectors/February_8_2016_Loves/Calgary-all/\Front-Pocket-Pool\2017-01-09_Test8_10min_iP00005-FrontLeftPocket-CB\irl_out.dat; 0; 0; 1; 0.20; 1; 0; 0
+C:/Share/Vectors/February_8_2016_Loves/Calgary-all/\Front-Pocket-Pool\2017-01-09_Test8_10min_SS6012-FrontRightPocket-CB\irl_out.dat; 0; 0; 1; 0.01; 1; 0; 0
+C:/Share/Vectors/February_8_2016_Loves/Calgary-all/\Front-Pocket-Pool\2017-01-09_Test8_10min_SS6013-FrontLeftPocket-Josh\irl_out.dat; 0; 0; 1; 0.01; 1; 0; 0
+C:/Share/Vectors/February_8_2016_Loves/Calgary-all/\Front-Pocket-Pool\2017-01-09_Test9_10min_iP00004-FrontLeftPocket-Josh\irl_out.dat; 1; 0; 1; 0.15; 1; 5; 1; 0.77; 1; 19; 1; 0.8; 1; 13; 1; 0; 1; 12892; 1; 0.46; 1
+C:/Share/Vectors/February_8_2016_Loves/Calgary-all/\Front-Pocket-Pool\2017-01-09_Test9_10min_iP00005-FrontLeftPocket-CB\irl_out.dat; 0; 0; 1; 0.35; 1; 0; 0
+C:/Share/Vectors/February_8_2016_Loves/Calgary-all/\Front-Pocket-Pool\2017-01-09_Test9_10min_SS6012-FrontRightPocket-CB\irl_out.dat; 0; 0; 1; 0.05; 1; 0; 0
+C:/Share/Vectors/February_8_2016_Loves/Calgary-all/\Front-Pocket-Pool\2017-01-09_Test9_10min_SS6013-FrontLeftPocket-Josh\irl_out.dat; 0; 0; 1; 0.29; 1; 0; 0
+C:/Share/Vectors/February_8_2016_Loves/Calgary-all/\Front-Pocket-Pool\2017-01-10_Test1-30min_IP00007_FrontRightPocket\irl_out.dat; 0; 0; 1; 0.53; 1; 4; 1; 0; 1; 20; 1; 13; 0
+C:/Share/Vectors/February_8_2016_Loves/Calgary-all/\Front-Pocket-Pool\2017-01-10_Test1-30min_SS6008_Front_Left_Pocket\irl_out.dat; 0; 0; 1; 0.69; 1; 0; 0
+C:/Share/Vectors/February_8_2016_Loves/Calgary-all/\Front-Pocket-Pool\2017-01-10_Test2-20min_IP00007_FrontRightPocket\irl_out.dat; 0; 0; 1; 0.52; 1; 3; 1; 0.68; 1; 7.7; 1; 6.5; 0
+C:/Share/Vectors/February_8_2016_Loves/Calgary-all/\Front-Pocket-Pool\2017-01-10_Test2-20min_SS6008_Front_Left_Pocket\irl_out.dat; 0; 0; 1; 0.51; 1; 0; 0
+C:/Share/Vectors/February_8_2016_Loves/Calgary-all/\Front-Pocket-Pool\2017-01-10_Test3-15min_IP00007_FrontRightPocket\irl_out.dat; 1; 0; 1; 0.27; 1; 3; 1; 0.72; 1; 8.9; 1; 2.6; 1; 26; 1; 18; 1; 18600; 1; 0.53; 1
+C:/Share/Vectors/February_8_2016_Loves/Calgary-all/\Front-Pocket-Pool\2017-01-10_Test3-15min_SS6008_Front_Left_Pocket\irl_out.dat; 0; 0; 1; 0.72; 1; 0; 0
+C:/Share/Vectors/February_8_2016_Loves/Calgary-all/\Front-Pocket-Pool\2017-01-10_Test4-10min_IP00007_FrontRightPocket\irl_out.dat; 1; 0; 1; 0.40; 1; 3; 1; 0.57; 1; 4.7; 1; 1.7; 1; 25; 1; 12; 1; 12910; 1; 0.39; 1
+C:/Share/Vectors/February_8_2016_Loves/Calgary-all/\Front-Pocket-Pool\2017-01-10_Test4-10min_SS6008_Front_Left_Pocket\irl_out.dat; 0; 0; 1; 0.80; 1; 0; 0
+C:/Share/Vectors/February_8_2016_Loves/Calgary-all/\Front-Pocket-Pool\2017-01-10_Test5-5min_IP00007_FrontRightPocket\irl_out.dat; 1; 0; 1; 0.40; 1; 2; 1; 1; 1; 6.3; 1; 3.1; 1; 29; 1; 9; 1; 6816; 1; 0.24; 1
+C:/Share/Vectors/February_8_2016_Loves/Calgary-all/\Front-Pocket-Pool\2017-01-10_Test5-5min_SS6008_Front_Left_Pocket\irl_out.dat; 0; 0; 1; 0.47; 1; 0; 0
+C:/Share/Vectors/February_8_2016_Loves/Calgary-all/\FrontPocket\Test10_10min-iP00001-FrontRightPocket-CB\irl_out.dat; 0; 0; 1; 0.15; 1; 0; 0
+C:/Share/Vectors/February_8_2016_Loves/Calgary-all/\FrontPocket\Test10_10min-SS6005-FrontLeftPocket-CB\irl_out.dat; 0; 0; 1; 0.55; 1; 0; 0
+C:/Share/Vectors/February_8_2016_Loves/Calgary-all/\FrontPocket\Test10_5min-iP0004-FrontLeftPocket-CB\irl_out.dat; 0; 0; 1; 0.00; 1; 1; 1; 2.4; 1; 50; 0
+C:/Share/Vectors/February_8_2016_Loves/Calgary-all/\FrontPocket\Test10_5min-iP0006-FrontLeftPocket-MS\irl_out.dat; 0; 0; 1; 0.34; 1; 1; 1; 2.6; 1; 51; 0
+C:/Share/Vectors/February_8_2016_Loves/Calgary-all/\FrontPocket\Test10_5min-S00079-FrontRightPocket-CB\irl_out.dat; 0; 0; 1; 0.00; 1; 0; 0
+C:/Share/Vectors/February_8_2016_Loves/Calgary-all/\FrontPocket\Test10_5min-SS6010-FrontRightPocket-MS\irl_out.dat; 0; 0; 1; 0.00; 1; 0; 0
+C:/Share/Vectors/February_8_2016_Loves/Calgary-all/\FrontPocket\Test10_8min-iP00001-FrontLeftPocket-EP\irl_out.dat; 1; 0; 1; 0.22; 1; 2; 1; 1.7; 1; 2.4; 1; 1.9; 1; 21; 1; 2; 1; 8773; 1; 0.25; 1
+C:/Share/Vectors/February_8_2016_Loves/Calgary-all/\FrontPocket\Test10_8min-iP00005-FrontLeftPocket-MS\irl_out.dat; 0; 0; 1; 0.26; 1; 1; 1; 2.1; 1; 66; 0
+C:/Share/Vectors/February_8_2016_Loves/Calgary-all/\FrontPocket\Test10_8min-S00078-FrontRightPocket-MS\irl_out.dat; 0; 0; 1; 0.17; 1; 0; 0
+C:/Share/Vectors/February_8_2016_Loves/Calgary-all/\FrontPocket\Test10_8min-SS6005-FrontRightPocket-EP\irl_out.dat; 0; 0; 1; 0.00; 1; 0; 0
+C:/Share/Vectors/February_8_2016_Loves/Calgary-all/\FrontPocket\Test11_5min-iP00001-FrontRightPocket-CB\irl_out.dat; 0; 0; 1; 0.55; 1; 0; 0
+C:/Share/Vectors/February_8_2016_Loves/Calgary-all/\FrontPocket\Test11_5min-SS6005-FrontLeftPocket-CB\irl_out.dat; 0; 0; 1; 0.18; 1; 0; 0
+C:/Share/Vectors/February_8_2016_Loves/Calgary-all/\FrontPocket\Test12_15min-iP00001-FrontRightPocket-CB\irl_out.dat; 0; 0; 1; 0.59; 1; 0; 0
+C:/Share/Vectors/February_8_2016_Loves/Calgary-all/\FrontPocket\Test12_15min-SS6005-FrontLeftPocket-CB\irl_out.dat; 0; 0; 1; 0.80; 1; 0; 0
+C:/Share/Vectors/February_8_2016_Loves/Calgary-all/\FrontPocket\Test1_10min-iP00001-FrontLeftPocket-EP\irl_out.dat; 1; 0; 1; 0.34; 1; 4; 1; 0.82; 1; 5.7; 1; 0.31; 1; 18; 1; 3; 1; 13613; 1; 0.51; 1
+C:/Share/Vectors/February_8_2016_Loves/Calgary-all/\FrontPocket\Test1_10min-iP00005-FrontLeftPocket-MS\irl_out.dat; 0; 0; 1; 0.82; 1; 0; 0
+C:/Share/Vectors/February_8_2016_Loves/Calgary-all/\FrontPocket\Test1_10min-S00078-FrontRightPocket-MS\irl_out.dat; 0; 0; 1; 0.55; 1; 0; 0
+C:/Share/Vectors/February_8_2016_Loves/Calgary-all/\FrontPocket\Test1_10min-SS6005-FrontRightPocket-EP\irl_out.dat; 0; 0; 1; 0.25; 1; 0; 0
+C:/Share/Vectors/February_8_2016_Loves/Calgary-all/\FrontPocket\Test1_20min-iP00003-FrontLeftPocket-CB\irl_out.dat; 1; 0; 1; 0.29; 1; 3; 1; 0.8; 1; 9.3; 1; 0.72; 1; 18; 1; 2; 1; 24029; 1; 0.54; 1
+C:/Share/Vectors/February_8_2016_Loves/Calgary-all/\FrontPocket\Test1_20min-iP0004-FrontLeftPocket-CB\irl_out.dat; 0; 0; 1; 0.43; 1; 0; 0
+C:/Share/Vectors/February_8_2016_Loves/Calgary-all/\FrontPocket\Test1_20min-iP0006-FrontLeftPocket-MS\irl_out.dat; 0; 0; 1; 0.43; 1; 1; 1; 2.3; 1; 57; 0
+C:/Share/Vectors/February_8_2016_Loves/Calgary-all/\FrontPocket\Test1_20min-S00079-FrontRightPocket-CB\irl_out.dat; 0; 0; 1; 0.38; 1; 0; 0
+C:/Share/Vectors/February_8_2016_Loves/Calgary-all/\FrontPocket\Test1_20min-SS6005-FrontRightPocket-CB\irl_out.dat; 0; 0; 1; 0.32; 1; 0; 0
+C:/Share/Vectors/February_8_2016_Loves/Calgary-all/\FrontPocket\Test1_20min-SS6010-FrontRightPocket-MS\irl_out.dat; 0; 0; 1; 0.27; 1; 0; 0
+C:/Share/Vectors/February_8_2016_Loves/Calgary-all/\FrontPocket\Test2_25min-iP00001-FrontLeftPocket-EP\irl_out.dat; 1; 0; 1; 0.41; 1; 3; 1; 0.87; 1; 3.8; 1; 0.18; 1; 19; 1; 3; 1; 29700; 1; 0.49; 1
+C:/Share/Vectors/February_8_2016_Loves/Calgary-all/\FrontPocket\Test2_25min-S00078-FrontRightPocket-MS\irl_out.dat; 0; 0; 1; 0.38; 1; 0; 0
+C:/Share/Vectors/February_8_2016_Loves/Calgary-all/\FrontPocket\Test2_25min-SS6005-FrontRightPocket-EP\irl_out.dat; 0; 0; 1; 0.17; 1; 0; 0
+C:/Share/Vectors/February_8_2016_Loves/Calgary-all/\FrontPocket\Test2_30min-iP00003-FrontLeftPocket-CB\irl_out.dat; 1; 0; 1; 0.66; 1; 3; 1; 0.62; 1; 13; 1; 1.2; 1; 16; 1; 5; 1; 33702; 1; 0.58; 1
+C:/Share/Vectors/February_8_2016_Loves/Calgary-all/\FrontPocket\Test2_30min-iP0004-FrontLeftPocket-CB\irl_out.dat; 0; 0; 1; 0.90; 1; 0; 0
+C:/Share/Vectors/February_8_2016_Loves/Calgary-all/\FrontPocket\Test2_30min-S00079-FrontRightPocket-CB\irl_out.dat; 0; 0; 1; 0.53; 1; 0; 0
+C:/Share/Vectors/February_8_2016_Loves/Calgary-all/\FrontPocket\Test2_30min-SS6005-FrontRightPocket-CB\irl_out.dat; 0; 0; 1; 0.66; 1; 0; 0
+C:/Share/Vectors/February_8_2016_Loves/Calgary-all/\FrontPocket\Test2_30min-SS6010-FrontRightPocket-MS\irl_out.dat; 0; 0; 1; 0.54; 1; 0; 0
+C:/Share/Vectors/February_8_2016_Loves/Calgary-all/\FrontPocket\Test3_15min-iP00001-FrontLeftPocket-EP\irl_out.dat; 1; 0; 1; 0.17; 1; 5; 1; 0.69; 1; 4.2; 1; 3.5; 1; 20; 1; 2; 1; 19790; 1; 0.54; 1
+C:/Share/Vectors/February_8_2016_Loves/Calgary-all/\FrontPocket\Test3_15min-iP00005-FrontLeftPocket-MS\irl_out.dat; 0; 0; 1; 0.37; 1; 2; 1; 1.7; 1; 41; 1; 6.1; 0
+C:/Share/Vectors/February_8_2016_Loves/Calgary-all/\FrontPocket\Test3_15min-S00078-FrontRightPocket-MS\irl_out.dat; 0; 0; 1; 0.33; 1; 0; 0
+C:/Share/Vectors/February_8_2016_Loves/Calgary-all/\FrontPocket\Test3_15min-SS6005-FrontRightPocket-EP\irl_out.dat; 0; 0; 1; 0.10; 1; 0; 0
+C:/Share/Vectors/February_8_2016_Loves/Calgary-all/\FrontPocket\Test3_25min-iP00003-FrontLeftPocket-CB\irl_out.dat; 0; 0; 1; 0.17; 1; 0; 0
+C:/Share/Vectors/February_8_2016_Loves/Calgary-all/\FrontPocket\Test3_25min-SS6005-FrontRightPocket-CB\irl_out.dat; 0; 0; 1; 0.38; 1; 0; 0
+C:/Share/Vectors/February_8_2016_Loves/Calgary-all/\FrontPocket\Test3_45min-S00079-FrontRightPocket-CB\irl_out.dat; 0; 0; 1; 0.44; 1; 0; 0
+C:/Share/Vectors/February_8_2016_Loves/Calgary-all/\FrontPocket\Test3_45min-SS6010-FrontRightPocket-MS\irl_out.dat; 0; 0; 1; 0.20; 1; 0; 0
+C:/Share/Vectors/February_8_2016_Loves/Calgary-all/\FrontPocket\Test4_10min-iP0004-FrontLeftPocket-CB\irl_out.dat; 0; 0; 1; 0.26; 1; 2; 1; 1.6; 1; 75; 0
+C:/Share/Vectors/February_8_2016_Loves/Calgary-all/\FrontPocket\Test4_10min-iP0006-FrontLeftPocket-MS\irl_out.dat; 0; 0; 1; 0.33; 1; 3; 1; 0.69; 1; 1.2e+002; 0
+C:/Share/Vectors/February_8_2016_Loves/Calgary-all/\FrontPocket\Test4_10min-S00079-FrontRightPocket-CB\irl_out.dat; 0; 0; 1; 0.52; 1; 0; 0
+C:/Share/Vectors/February_8_2016_Loves/Calgary-all/\FrontPocket\Test4_10min-SS6010-FrontRightPocket-MS\irl_out.dat; 0; 0; 1; 0.01; 1; 0; 0
+C:/Share/Vectors/February_8_2016_Loves/Calgary-all/\FrontPocket\Test4_20min-iP00001-FrontLeftPocket-EP\irl_out.dat; 1; 0; 1; 0.62; 1; 5; 1; 0.46; 1; 5.2; 1; 3.1; 1; 19; 1; 4; 1; 24317; 1; 0.52; 1
+C:/Share/Vectors/February_8_2016_Loves/Calgary-all/\FrontPocket\Test4_20min-iP00005-FrontLeftPocket-MS\irl_out.dat; 0; 0; 1; 0.51; 1; 3; 1; 0.72; 1; 71; 0
+C:/Share/Vectors/February_8_2016_Loves/Calgary-all/\FrontPocket\Test4_20min-S00078-FrontRightPocket-MS\irl_out.dat; 0; 0; 1; 0.50; 1; 0; 0
+C:/Share/Vectors/February_8_2016_Loves/Calgary-all/\FrontPocket\Test4_20min-SS6005-FrontRightPocket-EP\irl_out.dat; 0; 0; 1; 0.05; 1; 0; 0
+C:/Share/Vectors/February_8_2016_Loves/Calgary-all/\FrontPocket\Test4_45min-iP00003-FrontLeftPocket-CB\irl_out.dat; 0; 0; 1; 0.45; 1; 0; 0
+C:/Share/Vectors/February_8_2016_Loves/Calgary-all/\FrontPocket\Test4_45min-SS6005-FrontRightPocket-CB\irl_out.dat; 0; 0; 1; 0.28; 1; 0; 0
+C:/Share/Vectors/February_8_2016_Loves/Calgary-all/\FrontPocket\Test5_10min-iP00003-FrontLeftPocket-CB\irl_out.dat; 1; 0; 1; 0.47; 1; 2; 1; 1.3; 1; 12; 1; 1.5; 1; 17; 1; 2; 1; 13781; 1; 0.48; 1
+C:/Share/Vectors/February_8_2016_Loves/Calgary-all/\FrontPocket\Test5_10min-SS6005-FrontRightPocket-CB\irl_out.dat; 0; 0; 1; 0.81; 1; 0; 0
+C:/Share/Vectors/February_8_2016_Loves/Calgary-all/\FrontPocket\Test5_20min-iP0004-FrontLeftPocket-CB\irl_out.dat; 1; 0; 1; 0.39; 1; 4; 1; 0.8; 1; 27; 1; 0.21; 1; 21; 1; 11; 1; 24775; 1; 0.51; 1
+C:/Share/Vectors/February_8_2016_Loves/Calgary-all/\FrontPocket\Test5_20min-iP0006-FrontLeftPocket-MS\irl_out.dat; 0; 0; 1; 0.62; 1; 0; 0
+C:/Share/Vectors/February_8_2016_Loves/Calgary-all/\FrontPocket\Test5_20min-S00079-FrontRightPocket-CB\irl_out.dat; 0; 0; 1; 0.00; 1; 0; 0
+C:/Share/Vectors/February_8_2016_Loves/Calgary-all/\FrontPocket\Test5_20min-SS6010-FrontRightPocket-MS\irl_out.dat; 0; 0; 1; 0.00; 1; 0; 0
+C:/Share/Vectors/February_8_2016_Loves/Calgary-all/\FrontPocket\Test5_35min-iP00001-FrontLeftPocket-EP\irl_out.dat; 0; 0; 1; 0.48; 1; 0; 0
+C:/Share/Vectors/February_8_2016_Loves/Calgary-all/\FrontPocket\Test5_35min-S00078-FrontRightPocket-MS\irl_out.dat; 0; 0; 1; 0.24; 1; 0; 0
+C:/Share/Vectors/February_8_2016_Loves/Calgary-all/\FrontPocket\Test5_35min-SS6005-FrontRightPocket-EP\irl_out.dat; 0; 0; 1; 0.35; 1; 0; 0
+C:/Share/Vectors/February_8_2016_Loves/Calgary-all/\FrontPocket\Test6_15min-iP00001-FrontLeftPocket-EP\irl_out.dat; 1; 0; 1; 0.41; 1; 3; 1; 0.78; 1; 3.2; 1; 0.24; 1; 21; 1; 1; 1; 18817; 1; 0.55; 1
+C:/Share/Vectors/February_8_2016_Loves/Calgary-all/\FrontPocket\Test6_15min-iP00005-FrontLeftPocket-MS\irl_out.dat; 0; 0; 1; 0.46; 1; 3; 1; 0.63; 1; 53; 0
+C:/Share/Vectors/February_8_2016_Loves/Calgary-all/\FrontPocket\Test6_15min-iP0004-FrontLeftPocket-CB\irl_out.dat; 0; 0; 1; 0.45; 1; 0; 0
+C:/Share/Vectors/February_8_2016_Loves/Calgary-all/\FrontPocket\Test6_15min-iP0006-FrontLeftPocket-MS\irl_out.dat; 0; 0; 1; 0.80; 1; 1; 1; 2.1; 1; 68; 0
+C:/Share/Vectors/February_8_2016_Loves/Calgary-all/\FrontPocket\Test6_15min-S00078-FrontRightPocket-MS\irl_out.dat; 0; 0; 1; 0.17; 1; 0; 0
+C:/Share/Vectors/February_8_2016_Loves/Calgary-all/\FrontPocket\Test6_15min-S00079-FrontRightPocket-CB\irl_out.dat; 0; 0; 1; 0.20; 1; 0; 0
+C:/Share/Vectors/February_8_2016_Loves/Calgary-all/\FrontPocket\Test6_15min-SS6005-FrontRightPocket-EP\irl_out.dat; 0; 0; 1; 0.00; 1; 0; 0
+C:/Share/Vectors/February_8_2016_Loves/Calgary-all/\FrontPocket\Test6_15min-SS6010-FrontRightPocket-MS\irl_out.dat; 0; 0; 1; 0.16; 1; 0; 0
+C:/Share/Vectors/February_8_2016_Loves/Calgary-all/\FrontPocket\Test6_20min-SS6005-FrontRightPocket-CB\irl_out.dat; 0; 0; 1; 0.00; 1; 0; 0
+C:/Share/Vectors/February_8_2016_Loves/Calgary-all/\FrontPocket\Test7_12min-iP0004-FrontLeftPocket-CB\irl_out.dat; 1; 0; 1; 0.38; 1; 2; 1; 1.4; 1; 35; 1; 0.81; 1; 21; 1; 6; 1; 15295; 1; 0.38; 1
+C:/Share/Vectors/February_8_2016_Loves/Calgary-all/\FrontPocket\Test7_12min-iP0006-FrontLeftPocket-MS\irl_out.dat; 0; 0; 1; 0.50; 1; 2; 1; 0.91; 1; 52; 0
+C:/Share/Vectors/February_8_2016_Loves/Calgary-all/\FrontPocket\Test7_12min-S00079-FrontRightPocket-CB\irl_out.dat; 0; 0; 1; 0.29; 1; 0; 0
+C:/Share/Vectors/February_8_2016_Loves/Calgary-all/\FrontPocket\Test7_12min-SS6010-FrontRightPocket-MS\irl_out.dat; 0; 0; 1; 0.06; 1; 0; 0
+C:/Share/Vectors/February_8_2016_Loves/Calgary-all/\FrontPocket\Test7_25min-iP00001-FrontRightPocket-CB\irl_out.dat; 0; 0; 1; 0.49; 1; 0; 0
+C:/Share/Vectors/February_8_2016_Loves/Calgary-all/\FrontPocket\Test7_25min-SS6005-FrontLeftPocket-CB\irl_out.dat; 0; 0; 1; 0.32; 1; 0; 0
+C:/Share/Vectors/February_8_2016_Loves/Calgary-all/\FrontPocket\Test7_8min-iP00001-FrontLeftPocket-EP\irl_out.dat; 1; 0; 1; 0.40; 1; 1; 1; 2.3; 1; 36; 1; 5.7; 1; 16; 1; 1; 1; 9168; 1; 0.33; 1
+C:/Share/Vectors/February_8_2016_Loves/Calgary-all/\FrontPocket\Test7_8min-iP00005-FrontLeftPocket-MS\irl_out.dat; 1; 0; 1; 0.47; 1; 2; 1; 1.1; 1; 43; 1; 1.7; 1; 24; 1; 4; 1; 9008; 1; 0.31; 1
+C:/Share/Vectors/February_8_2016_Loves/Calgary-all/\FrontPocket\Test7_8min-S00078-FrontRightPocket-MS\irl_out.dat; 0; 0; 1; 0.39; 1; 0; 0
+C:/Share/Vectors/February_8_2016_Loves/Calgary-all/\FrontPocket\Test7_8min-SS6005-FrontRightPocket-EP\irl_out.dat; 0; 0; 1; 0.48; 1; 0; 0
+C:/Share/Vectors/February_8_2016_Loves/Calgary-all/\FrontPocket\Test8_10min-iP00001-FrontLeftPocket-EP\irl_out.dat; 1; 0; 1; 0.19; 1; 3; 1; 0.76; 1; 6.4; 1; 1.5; 1; 20; 1; 5; 1; 14156; 1; 0.49; 1
+C:/Share/Vectors/February_8_2016_Loves/Calgary-all/\FrontPocket\Test8_10min-iP00005-FrontLeftPocket-MS\irl_out.dat; 0; 0; 1; 0.31; 1; 0; 0
+C:/Share/Vectors/February_8_2016_Loves/Calgary-all/\FrontPocket\Test8_10min-S00078-FrontRightPocket-MS\irl_out.dat; 0; 0; 1; 0.15; 1; 0; 0
+C:/Share/Vectors/February_8_2016_Loves/Calgary-all/\FrontPocket\Test8_10min-SS6005-FrontRightPocket-EP\irl_out.dat; 0; 0; 1; 0.19; 1; 0; 0
+C:/Share/Vectors/February_8_2016_Loves/Calgary-all/\FrontPocket\Test8_15min-iP00001-FrontRightPocket-CB\irl_out.dat; 0; 0; 1; 0.45; 1; 0; 0
+C:/Share/Vectors/February_8_2016_Loves/Calgary-all/\FrontPocket\Test8_15min-iP0004-FrontLeftPocket-CB\irl_out.dat; 1; 0; 1; 0.55; 1; 2; 1; 1.7; 1; 49; 1; 2.3; 1; 22; 1; 9; 1; 19740; 1; 0.42; 1
+C:/Share/Vectors/February_8_2016_Loves/Calgary-all/\FrontPocket\Test8_15min-iP0006-FrontLeftPocket-MS\irl_out.dat; 0; 0; 1; 0.52; 1; 0; 0
+C:/Share/Vectors/February_8_2016_Loves/Calgary-all/\FrontPocket\Test8_15min-S00079-FrontRightPocket-CB\irl_out.dat; 0; 0; 1; 0.42; 1; 0; 0
+C:/Share/Vectors/February_8_2016_Loves/Calgary-all/\FrontPocket\Test8_15min-SS6005-FrontLeftPocket-CB\irl_out.dat; 0; 0; 1; 0.40; 1; 0; 0
+C:/Share/Vectors/February_8_2016_Loves/Calgary-all/\FrontPocket\Test8_15min-SS6010-FrontRightPocket-MS\irl_out.dat; 0; 0; 1; 0.17; 1; 0; 0
+C:/Share/Vectors/February_8_2016_Loves/Calgary-all/\FrontPocket\Test9_12min-iP00001-FrontLeftPocket-EP\irl_out.dat; 1; 0; 1; 0.50; 1; 1; 1; 1.5; 1; 12; 1; 3.3; 1; 17; 1; 2; 1; 13790; 1; 0.46; 1
+C:/Share/Vectors/February_8_2016_Loves/Calgary-all/\FrontPocket\Test9_12min-iP00005-FrontLeftPocket-MS\irl_out.dat; 0; 0; 1; 0.56; 1; 1; 1; 2.1; 1; 93; 0
+C:/Share/Vectors/February_8_2016_Loves/Calgary-all/\FrontPocket\Test9_12min-S00078-FrontRightPocket-MS\irl_out.dat; 0; 0; 1; 0.55; 1; 0; 0
+C:/Share/Vectors/February_8_2016_Loves/Calgary-all/\FrontPocket\Test9_12min-SS6005-FrontRightPocket-EP\irl_out.dat; 0; 0; 1; 0.47; 1; 0; 0
+C:/Share/Vectors/February_8_2016_Loves/Calgary-all/\FrontPocket\Test9_5min-iP00001-FrontRightPocket-CB\irl_out.dat; 0; 0; 1; 0.69; 1; 2; 1; 1.8; 1; 2.8e+002; 0
+C:/Share/Vectors/February_8_2016_Loves/Calgary-all/\FrontPocket\Test9_5min-iP0004-FrontLeftPocket-CB\irl_out.dat; 1; 0; 1; 0.00; 1; 1; 1; 2.4; 1; 35; 1; 0.51; 1; 21; 1; 7; 1; 8149; 1; 0.53; 1
+C:/Share/Vectors/February_8_2016_Loves/Calgary-all/\FrontPocket\Test9_5min-iP0006-FrontLeftPocket-MS\irl_out.dat; 0; 0; 1; 0.36; 1; 0; 0
+C:/Share/Vectors/February_8_2016_Loves/Calgary-all/\FrontPocket\Test9_5min-S00079-FrontRightPocket-CB\irl_out.dat; 0; 0; 1; 0.01; 1; 0; 0
+C:/Share/Vectors/February_8_2016_Loves/Calgary-all/\FrontPocket\Test9_5min-SS6005-FrontLeftPocket-CB\irl_out.dat; 0; 0; 1; 0.34; 1; 0; 0
+C:/Share/Vectors/February_8_2016_Loves/Calgary-all/\FrontPocket\Test9_5min-SS6010-FrontRightPocket-MS\irl_out.dat; 0; 0; 1; 0.04; 1; 0; 0
+C:/Share/Vectors/February_8_2016_Loves/Calgary-all/\General-Pool\2017-01-04_Test10_10min_iP00005-RightHand-HandviewtoDangle-MS\irl_out.dat; 1; 0; 1; 0.54; 1; 1; 1; 2.6; 1; 18; 1; 3.9; 1; 18; 1; 5; 1; 12731; 1; 0.39; 1
+C:/Share/Vectors/February_8_2016_Loves/Calgary-all/\General-Pool\2017-01-04_Test10_10min_S00078-LeftHand-HandviewtoDangle-MS\irl_out.dat; 0; 0; 1; 0.30; 1; 0; 0
+C:/Share/Vectors/February_8_2016_Loves/Calgary-all/\General-Pool\2017-01-04_Test11_5min_iP00005-RightHand-Handviewing-MS\irl_out.dat; 0; 0; 1; 0.46; 1; 0; 0
+C:/Share/Vectors/February_8_2016_Loves/Calgary-all/\General-Pool\2017-01-04_Test11_5min_S00078-LeftHand-Dangling-MS\irl_out.dat; 0; 0; 1; 0.54; 1; 0; 0
+C:/Share/Vectors/February_8_2016_Loves/Calgary-all/\General-Pool\2017-01-04_Test12_5min_iP00005-RightHand-Dangling-MS\irl_out.dat; 1; 0; 1; 0.65; 1; 2; 1; 2.1; 1; 12; 1; 1.3; 1; 24; 1; 4; 1; 6747; 1; 0.33; 1
+C:/Share/Vectors/February_8_2016_Loves/Calgary-all/\General-Pool\2017-01-04_Test12_5min_S00078-LeftHand-Handviewing-MS\irl_out.dat; 0; 0; 1; 0.11; 1; 0; 0
+C:/Share/Vectors/February_8_2016_Loves/Calgary-all/\General-Pool\2017-01-04_Test6_15min_S00078-LeftHand-HandviewtoDangle-MS\irl_out.dat; 0; 0; 1; 0.86; 1; 0; 0
+C:/Share/Vectors/February_8_2016_Loves/Calgary-all/\General-Pool\2017-01-04_Test7_15min_iP00005-RightHand-DangletoHandview-MS\irl_out.dat; 0; 0; 1; 0.84; 1; 0; 0
+C:/Share/Vectors/February_8_2016_Loves/Calgary-all/\General-Pool\2017-01-04_Test8_10min_iP00005-RightHand-EartoHandview-MS\irl_out.dat; 0; 0; 1; 0.63; 1; 0; 0
+C:/Share/Vectors/February_8_2016_Loves/Calgary-all/\General-Pool\2017-01-04_Test8_10min_S00078-LeftHand-EartoHandview-MS\irl_out.dat; 0; 0; 1; 0.49; 1; 0; 0
+C:/Share/Vectors/February_8_2016_Loves/Calgary-all/\General-Pool\2017-01-04_Test9_10min_iP00005-RightHand-EartoDangle-MS\irl_out.dat; 0; 0; 1; 0.23; 1; 0; 0
+C:/Share/Vectors/February_8_2016_Loves/Calgary-all/\General-Pool\2017-01-04_Test9_10min_S00078-LeftHand-EartoDangle-MS\irl_out.dat; 0; 0; 1; 0.47; 1; 0; 0
+C:/Share/Vectors/February_8_2016_Loves/Calgary-all/\General-Pool\2017-01-05_Test10_10min_iP00004-LeftHand-EartoHandview\irl_out.dat; 1; 0; 1; 0.06; 1; 2; 1; 1.1; 1; 19; 1; 1.1; 1; 13; 1; 1; 1; 12613; 1; 0.38; 1
+C:/Share/Vectors/February_8_2016_Loves/Calgary-all/\General-Pool\2017-01-05_Test10_10min_SS6005-LeftHand-EartoHandview\irl_out.dat; 0; 0; 1; 0.48; 1; 0; 0
+C:/Share/Vectors/February_8_2016_Loves/Calgary-all/\General-Pool\2017-01-05_Test10_10min_SS6013-RightHand-EartoHandview\irl_out.dat; 0; 0; 1; 0.14; 1; 0; 0
+C:/Share/Vectors/February_8_2016_Loves/Calgary-all/\General-Pool\2017-01-05_Test11_5min_iP00004-LeftHand-Handview\irl_out.dat; 1; 0; 1; 0.59; 1; 2; 1; 0.59; 1; 7.6; 1; 3.1; 1; 11; 1; 0; 1; 7631; 1; 0.43; 1
+C:/Share/Vectors/February_8_2016_Loves/Calgary-all/\General-Pool\2017-01-05_Test11_5min_iP00008-RightHand-Dangle\irl_out.dat; 0; 0; 1; 0.03; 1; 2; 1; 2.2; 1; 1.1e+002; 0
+C:/Share/Vectors/February_8_2016_Loves/Calgary-all/\General-Pool\2017-01-05_Test11_5min_SS6005-LeftHand-Dangle\irl_out.dat; 0; 0; 1; 0.40; 1; 0; 0
+C:/Share/Vectors/February_8_2016_Loves/Calgary-all/\General-Pool\2017-01-05_Test11_5min_SS6013-RightHand-Handview\irl_out.dat; 0; 0; 1; 0.22; 1; 0; 0
+C:/Share/Vectors/February_8_2016_Loves/Calgary-all/\General-Pool\2017-01-05_Test12_5min_iP00004-LeftHand-Dangle\irl_out.dat; 1; 0; 1; 0.02; 1; 3; 1; 0.52; 1; 36; 1; 2.7; 1; 16; 1; 0; 1; 6650; 1; 0.32; 1
+C:/Share/Vectors/February_8_2016_Loves/Calgary-all/\General-Pool\2017-01-05_Test12_5min_iP00008-RightHand-Handview\irl_out.dat; 1; 0; 1; 0.03; 1; 5; 1; 0.47; 1; 3.3; 1; 0.64; 1; 14; 1; 0; 1; 6472; 1; 0.29; 1
+C:/Share/Vectors/February_8_2016_Loves/Calgary-all/\General-Pool\2017-01-05_Test12_5min_SS6005-LeftHand-Handview\irl_out.dat; 0; 0; 1; 0.06; 1; 0; 0
+C:/Share/Vectors/February_8_2016_Loves/Calgary-all/\General-Pool\2017-01-05_Test12_5min_SS6013-RightHand-Dangle\irl_out.dat; 0; 0; 1; 0.57; 1; 0; 0
+C:/Share/Vectors/February_8_2016_Loves/Calgary-all/\General-Pool\2017-01-05_Test1_45min_iP00004-LeftHand-Dangle\irl_out.dat; 1; 0; 1; 0.82; 1; 3; 1; 0.29; 1; 7.7; 1; 0.18; 1; 20; 1; 9; 1; 51943; 1; 0.50; 1
+C:/Share/Vectors/February_8_2016_Loves/Calgary-all/\General-Pool\2017-01-05_Test3_25min_iP00008-RightHand-Handview\irl_out.dat; 1; 0; 1; 0.41; 1; 4; 1; 0.55; 1; 16; 1; 0.46; 1; 13; 1; 1; 1; 29698; 1; 0.44; 1
+C:/Share/Vectors/February_8_2016_Loves/Calgary-all/\General-Pool\2017-01-05_Test4_20min_iP00008-RightHand-Handview\irl_out.dat; 1; 0; 1; 0.41; 1; 3; 1; 0.7; 1; 4.9; 1; 2.1; 1; 18; 1; 2; 1; 23859; 1; 0.52; 1
+C:/Share/Vectors/February_8_2016_Loves/Calgary-all/\General-Pool\2017-01-05_Test5_20min_iP00008-RightHand-Dangle\irl_out.dat; 0; 0; 1; 0.40; 1; 3; 1; 0.56; 1; 53; 0
+C:/Share/Vectors/February_8_2016_Loves/Calgary-all/\General-Pool\2017-01-05_Test6_15min_iP00004-LeftHand-Dangle\irl_out.dat; 0; 0; 1; 0.34; 1; 3; 1; 0.82; 1; 8; 1; 6.9; 0
+C:/Share/Vectors/February_8_2016_Loves/Calgary-all/\General-Pool\2017-01-05_Test6_15min_iP00008-RightHand-Handview\irl_out.dat; 1; 0; 1; 0.27; 1; 5; 1; 0.41; 1; 11; 1; 1.9; 1; 15; 1; 1; 1; 17846; 1; 0.40; 1
+C:/Share/Vectors/February_8_2016_Loves/Calgary-all/\General-Pool\2017-01-05_Test6_15min_SS6005-LeftHand-Handview\irl_out.dat; 0; 0; 1; 0.25; 1; 0; 0
+C:/Share/Vectors/February_8_2016_Loves/Calgary-all/\General-Pool\2017-01-05_Test6_15min_SS6013-RightHand-Dangle\irl_out.dat; 0; 0; 1; 0.10; 1; 0; 0
+C:/Share/Vectors/February_8_2016_Loves/Calgary-all/\General-Pool\2017-01-05_Test7_15min_iP00008-RightHand-HandviewtoDangle\irl_out.dat; 1; 0; 1; 0.58; 1; 3; 1; 0.77; 1; 7.3; 1; 0.44; 1; 16; 1; 0; 1; 18051; 1; 0.35; 1
+C:/Share/Vectors/February_8_2016_Loves/Calgary-all/\General-Pool\2017-01-05_Test7_15min_SS6005-LeftHand-HandviewtoDangle\irl_out.dat; 0; 0; 1; 0.78; 1; 0; 0
+C:/Share/Vectors/February_8_2016_Loves/Calgary-all/\General-Pool\2017-01-05_Test8_10min_iP00004-LeftHand-DangletoHandview\irl_out.dat; 0; 0; 1; 0.61; 1; 0; 0
+C:/Share/Vectors/February_8_2016_Loves/Calgary-all/\General-Pool\2017-01-05_Test8_10min_iP00008-RightHand-HandviewtoDangle\irl_out.dat; 0; 0; 1; 0.12; 1; 3; 1; 0.49; 1; 61; 0
+C:/Share/Vectors/February_8_2016_Loves/Calgary-all/\General-Pool\2017-01-05_Test8_10min_SS6005-LeftHand-HandviewtoDangle\irl_out.dat; 0; 0; 1; 0.69; 1; 0; 0
+C:/Share/Vectors/February_8_2016_Loves/Calgary-all/\General-Pool\2017-01-05_Test8_10min_SS6013-RightHand-DangletoHandview\irl_out.dat; 0; 0; 1; 0.55; 1; 0; 0
+C:/Share/Vectors/February_8_2016_Loves/Calgary-all/\General-Pool\2017-01-05_Test9_10min_iP00004-LeftHand-EartoDangle\irl_out.dat; 0; 0; 1; 0.49; 1; 0; 0
+C:/Share/Vectors/February_8_2016_Loves/Calgary-all/\General-Pool\2017-01-05_Test9_10min_iP00008-RightHand-EartoDangle\irl_out.dat; 0; 0; 1; 0.81; 1; 3; 1; 0.55; 1; 77; 0
+C:/Share/Vectors/February_8_2016_Loves/Calgary-all/\General-Pool\2017-01-05_Test9_10min_SS6005-LeftHand-EartoDangle\irl_out.dat; 0; 0; 1; 0.51; 1; 0; 0
+C:/Share/Vectors/February_8_2016_Loves/Calgary-all/\General-Pool\2017-01-05_Test9_10min_SS6013-RightHand-EartoDangle\irl_out.dat; 0; 0; 1; 0.53; 1; 0; 0
+C:/Share/Vectors/February_8_2016_Loves/Calgary-all/\General-Pool\2017-01-06_Test10_10min_iP00008-LeftHand-Dangle\irl_out.dat; 0; 0; 1; 0.72; 1; 1; 1; 3.1; 1; 67; 0
+C:/Share/Vectors/February_8_2016_Loves/Calgary-all/\General-Pool\2017-01-06_Test10_10min_SS6013-RightHand-Dangle\irl_out.dat; 0; 0; 1; 0.38; 1; 0; 0
+C:/Share/Vectors/February_8_2016_Loves/Calgary-all/\General-Pool\2017-01-06_Test11_5min_iP00008-LeftHand-Dangle\irl_out.dat; 1; 0; 1; 0.38; 1; 2; 1; 0.63; 1; 9.5; 1; 1; 1; 14; 1; 0; 1; 5776; 1; 0.45; 1
+C:/Share/Vectors/February_8_2016_Loves/Calgary-all/\General-Pool\2017-01-06_Test11_5min_SS6013-RightHand-Dangle\irl_out.dat; 0; 0; 1; 0.75; 1; 0; 0
+C:/Share/Vectors/February_8_2016_Loves/Calgary-all/\General-Pool\2017-01-06_Test12_5min_iP00008-LeftHand-Dangle\irl_out.dat; 1; 0; 1; 0.25; 1; 3; 1; 0.57; 1; 18; 1; 0.16; 1; 17; 1; 3; 1; 7484; 1; 0.32; 1
+C:/Share/Vectors/February_8_2016_Loves/Calgary-all/\General-Pool\2017-01-06_Test12_5min_SS6013-RightHand-Dangle\irl_out.dat; 0; 0; 1; 0.50; 1; 0; 0
+C:/Share/Vectors/February_8_2016_Loves/Calgary-all/\General-Pool\2017-01-06_Test2_30min_SS6013-RightHand-Dangle\irl_out.dat; 0; 0; 1; 0.49; 1; 0; 0
+C:/Share/Vectors/February_8_2016_Loves/Calgary-all/\General-Pool\2017-01-06_Test4_20min_SS6013-RightHand-Dangle\irl_out.dat; 0; 0; 1; 0.53; 1; 0; 0
+C:/Share/Vectors/February_8_2016_Loves/Calgary-all/\General-Pool\2017-01-06_Test8_10min_iP00008-LeftHand-Dangle\irl_out.dat; 0; 0; 1; 0.33; 1; 3; 1; 0.72; 1; 4.2e+002; 0
+C:/Share/Vectors/February_8_2016_Loves/Calgary-all/\General-Pool\2017-01-06_Test8_10min_SS6013-RightHand-Dangle\irl_out.dat; 0; 0; 1; 0.71; 1; 0; 0
+C:/Share/Vectors/February_8_2016_Loves/Calgary-all/\General-Pool\2017-01-06_Test9_10min_iP00008-LeftHand-Dangle\irl_out.dat; 1; 0; 1; 0.36; 1; 2; 1; 1.3; 1; 13; 1; 5; 1; 13; 1; 4; 1; 12452; 1; 0.57; 1
+C:/Share/Vectors/February_8_2016_Loves/Calgary-all/\General-Pool\2017-01-06_Test9_10min_SS6013-RightHand-Dangle\irl_out.dat; 0; 0; 1; 0.56; 1; 0; 0
+C:/Share/Vectors/February_8_2016_Loves/Calgary-all/\General-Pool\2017-01-09_Test10_10min_iP00008-LeftHand-Dangle\irl_out.dat; 1; 0; 1; 0.01; 1; 2; 1; 1.6; 1; 5.6; 1; 1.4; 1; 14; 1; 1; 1; 12455; 1; 0.58; 1
+C:/Share/Vectors/February_8_2016_Loves/Calgary-all/\General-Pool\2017-01-09_Test10_10min_SS6011-RightHand-Dangle\irl_out.dat; 0; 0; 1; 0.25; 1; 0; 0
+C:/Share/Vectors/February_8_2016_Loves/Calgary-all/\General-Pool\2017-01-09_Test11_5min_iP00008-LeftHand-Dangle\irl_out.dat; 1; 0; 1; 0.79; 1; 3; 1; 0.67; 1; 19; 1; 0.44; 1; 7.8; 1; 0; 1; 6408; 1; 0.41; 1
+C:/Share/Vectors/February_8_2016_Loves/Calgary-all/\General-Pool\2017-01-09_Test11_5min_SS6011-RightHand-Dangle\irl_out.dat; 0; 0; 1; 0.24; 1; 0; 0
+C:/Share/Vectors/February_8_2016_Loves/Calgary-all/\General-Pool\2017-01-09_Test12_5min_iP00008-LeftHand-Dangle\irl_out.dat; 1; 0; 1; 0.24; 1; 1; 1; 0.46; 1; 9; 1; 1.5; 1; 13; 1; 0; 1; 6260; 1; 0.64; 1
+C:/Share/Vectors/February_8_2016_Loves/Calgary-all/\General-Pool\2017-01-09_Test12_5min_SS6011-RightHand-Dangle\irl_out.dat; 1; 0; 1; 0.05; 1; 2; 1; 2.5; 1; 32; 1; 1.7; 1; 21; 1; 3; 1; 6233; 1; 0.64; 1
+C:/Share/Vectors/February_8_2016_Loves/Calgary-all/\General-Pool\2017-01-09_Test1_45min_iP00008-LeftHand-Dangle\irl_out.dat; 1; 0; 1; 0.83; 1; 3; 1; 0.8; 1; 3.1; 1; 2.5; 1; 14; 1; 0; 1; 54890; 1; 0.52; 1
+C:/Share/Vectors/February_8_2016_Loves/Calgary-all/\General-Pool\2017-01-09_Test1_45min_SS6011-RightHand-Dangle\irl_out.dat; 0; 0; 1; 0.97; 1; 0; 0
+C:/Share/Vectors/February_8_2016_Loves/Calgary-all/\General-Pool\2017-01-09_Test2_30min_iP00008-LeftHand-DangletoHandview\irl_out.dat; 0; 0; 1; 0.74; 1; 0; 0
+C:/Share/Vectors/February_8_2016_Loves/Calgary-all/\General-Pool\2017-01-09_Test2_30min_SS6011-RightHand-HandviewtoDangle\irl_out.dat; 0; 0; 1; 0.61; 1; 0; 0
+C:/Share/Vectors/February_8_2016_Loves/Calgary-all/\General-Pool\2017-01-09_Test3_25min_iP00008-LeftHand-Dangle\irl_out.dat; 1; 0; 1; 0.18; 1; 3; 1; 0.56; 1; 4.7; 1; 1.5; 1; 19; 1; 7; 1; 29844; 1; 0.56; 1
+C:/Share/Vectors/February_8_2016_Loves/Calgary-all/\General-Pool\2017-01-09_Test3_25min_SS6011-RightHand-Dangle\irl_out.dat; 0; 0; 1; 0.82; 1; 0; 0
+C:/Share/Vectors/February_8_2016_Loves/Calgary-all/\General-Pool\2017-01-09_Test4_20min_iP00008-LeftHand-Dangle\irl_out.dat; 1; 0; 1; 0.72; 1; 3; 1; 0.43; 1; 14; 1; 1.1; 1; 16; 1; 0; 1; 23685; 1; 0.60; 1
+C:/Share/Vectors/February_8_2016_Loves/Calgary-all/\General-Pool\2017-01-09_Test4_20min_SS6011-RightHand-Dangle\irl_out.dat; 0; 0; 1; 0.70; 1; 0; 0
+C:/Share/Vectors/February_8_2016_Loves/Calgary-all/\General-Pool\2017-01-09_Test5_20min_iP00008-LeftHand-HandviewtoDangle\irl_out.dat; 0; 0; 1; 0.34; 1; 0; 0
+C:/Share/Vectors/February_8_2016_Loves/Calgary-all/\General-Pool\2017-01-09_Test5_20min_SS6011-RightHand-DangletoHandview\irl_out.dat; 0; 0; 1; 0.33; 1; 0; 0
+C:/Share/Vectors/February_8_2016_Loves/Calgary-all/\General-Pool\2017-01-09_Test6_15min_iP00008-LeftHand-Dangle\irl_out.dat; 1; 0; 1; 0.42; 1; 3; 1; 0.55; 1; 6.7; 1; 1.6; 1; 12; 1; 1; 1; 16668; 1; 0.56; 1
+C:/Share/Vectors/February_8_2016_Loves/Calgary-all/\General-Pool\2017-01-09_Test6_15min_SS6011-RightHand-Dangle\irl_out.dat; 0; 0; 1; 0.47; 1; 0; 0
+C:/Share/Vectors/February_8_2016_Loves/Calgary-all/\General-Pool\2017-01-09_Test7_15min_iP00008-LeftHand-EartoDangle\irl_out.dat; 1; 0; 1; 0.49; 1; 2; 1; 1.2; 1; 8.6; 1; 0.25; 1; 10; 1; 0; 1; 17250; 1; 0.62; 1
+C:/Share/Vectors/February_8_2016_Loves/Calgary-all/\General-Pool\2017-01-09_Test7_15min_SS6011-RightHand-DangletoEar\irl_out.dat; 0; 0; 1; 0.12; 1; 0; 0
+C:/Share/Vectors/February_8_2016_Loves/Calgary-all/\General-Pool\2017-01-09_Test8_10min_iP00008-LeftHand-Dangle\irl_out.dat; 1; 0; 1; 0.25; 1; 1; 1; 2.2; 1; 4.9; 1; 2; 1; 16; 1; 0; 1; 12220; 1; 0.49; 1
+C:/Share/Vectors/February_8_2016_Loves/Calgary-all/\General-Pool\2017-01-09_Test8_10min_SS6011-RightHand-Dangle\irl_out.dat; 0; 0; 1; 0.57; 1; 0; 0
+C:/Share/Vectors/February_8_2016_Loves/Calgary-all/\General-Pool\2017-01-09_Test9_10min_iP00008-LeftHand-HandviewtoEar\irl_out.dat; 1; 0; 1; 0.37; 1; 3; 1; 0.6; 1; 1.1; 1; 1.3; 1; 13; 1; 1; 1; 12249; 1; 0.46; 1
+C:/Share/Vectors/February_8_2016_Loves/Calgary-all/\General-Pool\2017-01-09_Test9_10min_SS6011-RightHand-EartoHandview\irl_out.dat; 0; 0; 1; 0.56; 1; 0; 0
+C:/Share/Vectors/February_8_2016_Loves/Calgary-all/\GeneralDangling\Test10_5min-iP0008-Ear_to_RightHand-CB\irl_out.dat; 0; 0; 1; 0.22; 1; 0; 0
+C:/Share/Vectors/February_8_2016_Loves/Calgary-all/\GeneralDangling\Test10_8min-iP00004-RightHand-EP\irl_out.dat; 1; 0; 1; 0.19; 1; 2; 1; 1.6; 1; 7.1; 1; 0.82; 1; 13; 1; 0; 1; 8676; 1; 0.19; 1
+C:/Share/Vectors/February_8_2016_Loves/Calgary-all/\GeneralDangling\Test1_10min-iP00004-RightHand-EP\irl_out.dat; 0; 0; 1; 0.60; 1; 0; 0
+C:/Share/Vectors/February_8_2016_Loves/Calgary-all/\GeneralDangling\Test1_20min-iP0008-LeftHand-CB\irl_out.dat; 0; 0; 1; 0.96; 1; 0; 0
+C:/Share/Vectors/February_8_2016_Loves/Calgary-all/\GeneralDangling\Test2_25min-iP00004-RightHand-EP\irl_out.dat; 0; 0; 1; 0.48; 1; 3; 1; 0.8; 1; 78; 0
+C:/Share/Vectors/February_8_2016_Loves/Calgary-all/\GeneralDangling\Test2_30min-iP0008-LeftHand-CB\irl_out.dat; 0; 0; 1; 0.91; 1; 0; 0
+C:/Share/Vectors/February_8_2016_Loves/Calgary-all/\GeneralDangling\Test3_15min-iP00004-RightHand-EP\irl_out.dat; 1; 0; 1; 0.22; 1; 4; 1; 0.84; 1; 17; 1; 2.3; 1; 16; 1; 0; 1; 18816; 1; 0.52; 1
+C:/Share/Vectors/February_8_2016_Loves/Calgary-all/\GeneralDangling\Test3_45min-iP0008-RightHand-CB\irl_out.dat; 0; 0; 1; 0.13; 1; 0; 0
+C:/Share/Vectors/February_8_2016_Loves/Calgary-all/\GeneralDangling\Test4_10min-iP0008-Handviewing-CB\irl_out.dat; 0; 0; 1; 0.38; 1; 0; 0
+C:/Share/Vectors/February_8_2016_Loves/Calgary-all/\GeneralDangling\Test4_20min-iP00004-RightHand-EP\irl_out.dat; 0; 0; 1; 0.61; 1; 3; 1; 0.4; 1; 62; 0
+C:/Share/Vectors/February_8_2016_Loves/Calgary-all/\GeneralDangling\Test5_20min-iP0008-Handviewing-CB\irl_out.dat; 1; 0; 1; 0.62; 1; 1; 1; 3; 1; 4.3; 1; 0.95; 1; 19; 1; 5; 1; 24003; 1; 0.54; 1
+C:/Share/Vectors/February_8_2016_Loves/Calgary-all/\GeneralDangling\Test6_15min-iP00004-Handviewing-EP\irl_out.dat; 1; 0; 1; 0.23; 1; 1; 1; 1.6; 1; 12; 1; 1.2; 1; 14; 1; 0; 1; 18410; 1; 0.54; 1
+C:/Share/Vectors/February_8_2016_Loves/Calgary-all/\GeneralDangling\Test6_15min-iP0008-Ear-CB\irl_out.dat; 1; 0; 1; 0.50; 1; 1; 1; 1.8; 1; 31; 1; 0.5; 1; 18; 1; 8; 1; 18645; 1; 0.62; 1
+C:/Share/Vectors/February_8_2016_Loves/Calgary-all/\GeneralDangling\Test7_12min-iP0008-Handviewing-CB\irl_out.dat; 1; 0; 1; 0.00; 1; 1; 1; 3.5; 1; 26; 1; 0.82; 1; 28; 1; 36; 1; 14684; 1; 0.46; 1
+C:/Share/Vectors/February_8_2016_Loves/Calgary-all/\GeneralDangling\Test7_8min-iP00004-Handviewing-EP\irl_out.dat; 1; 0; 1; 0.08; 1; 1; 1; 2; 1; 7; 1; 1.4; 1; 8.4; 1; 0; 1; 8849; 1; 0.30; 1
+C:/Share/Vectors/February_8_2016_Loves/Calgary-all/\GeneralDangling\Test8_10min-iP00004-Handviewing-EP\irl_out.dat; 0; 0; 1; 0.23; 1; 0; 0
+C:/Share/Vectors/February_8_2016_Loves/Calgary-all/\GeneralDangling\Test8_15min-iP0008-RightHand-CB\irl_out.dat; 0; 0; 1; 0.73; 1; 0; 0
+C:/Share/Vectors/February_8_2016_Loves/Calgary-all/\GeneralDangling\Test9_12min-iP00004-RightHand-EP\irl_out.dat; 0; 0; 1; 0.34; 1; 0; 0
+C:/Share/Vectors/February_8_2016_Loves/Calgary-all/\GeneralDangling\Test9_5min-iP0008-Handviewing_to_RightHand-CB\irl_out.dat; 1; 0; 1; 0.01; 1; 1; 1; 2.1; 1; 24; 1; 2.1; 1; 18; 1; 1; 1; 7604; 1; 0.52; 1
+C:/Share/Vectors/February_8_2016_Loves/Calgary-all/\Purse\Oct.6-Test10_10min-iP00004-Purse-SO-SF-Mona\irl_out.dat; 0; 0; 1; 0.67; 1; 0; 0
+C:/Share/Vectors/February_8_2016_Loves/Calgary-all/\Purse\Oct.6-Test10_10min-SS6010-Purse-SI-SU-Mona\irl_out.dat; 0; 0; 1; 0.86; 1; 0; 0
+C:/Share/Vectors/February_8_2016_Loves/Calgary-all/\Purse\Oct.6-Test11_5min-iP00004-Purse-SO-SF-Mona\irl_out.dat; 0; 0; 1; 0.48; 1; 0; 0
+C:/Share/Vectors/February_8_2016_Loves/Calgary-all/\Purse\Oct.6-Test11_5min-iP00005-Purse-SO-SU-Heels-Jasman\irl_out.dat; 0; 0; 1; 0.39; 1; 0; 0
+C:/Share/Vectors/February_8_2016_Loves/Calgary-all/\Purse\Oct.6-Test11_5min-iP00008-Purse-SO-SF-Heels-Debrina\irl_out.dat; 0; 0; 1; 0.00; 1; 0; 0
+C:/Share/Vectors/February_8_2016_Loves/Calgary-all/\Purse\Oct.6-Test11_5min-S00079-Purse-SI-SF-Heels-Jasman\irl_out.dat; 0; 0; 1; 0.65; 1; 0; 0
+C:/Share/Vectors/February_8_2016_Loves/Calgary-all/\Purse\Oct.6-Test11_5min-SS6010-Purse-SI-SU-Mona\irl_out.dat; 0; 0; 1; 0.32; 1; 0; 0
+C:/Share/Vectors/February_8_2016_Loves/Calgary-all/\Purse\Oct.6-Test12_15min-iP00004-Purse-SO-SF-Mona\irl_out.dat; 0; 0; 1; 0.92; 1; 0; 0
+C:/Share/Vectors/February_8_2016_Loves/Calgary-all/\Purse\Oct.6-Test12_15min-iP00005-Purse-SO-SU-Jasman\irl_out.dat; 0; 0; 1; 0.93; 1; 0; 0
+C:/Share/Vectors/February_8_2016_Loves/Calgary-all/\Purse\Oct.6-Test12_15min-iP00008-Purse-SO-SF-Debrina\irl_out.dat; 0; 0; 1; 0.75; 1; 0; 0
+C:/Share/Vectors/February_8_2016_Loves/Calgary-all/\Purse\Oct.6-Test12_15min-SS6010-Purse-SI-SU-Mona\irl_out.dat; 0; 0; 1; 0.85; 1; 0; 0
+C:/Share/Vectors/February_8_2016_Loves/Calgary-all/\Purse\Oct.6-Test1_20min-iP00004-Purse-SI-SU-Debrina\irl_out.dat; 0; 0; 1; 0.44; 1; 0; 0
+C:/Share/Vectors/February_8_2016_Loves/Calgary-all/\Purse\Oct.6-Test1_20min-iP00008-Purse-SI-SU-Jasman\irl_out.dat; 0; 0; 1; 0.92; 1; 0; 0
+C:/Share/Vectors/February_8_2016_Loves/Calgary-all/\Purse\Oct.6-Test1_20min-S00079-Purse-SI-SU-Gloria\irl_out.dat; 0; 0; 1; 0.37; 1; 0; 0
+C:/Share/Vectors/February_8_2016_Loves/Calgary-all/\Purse\Oct.6-Test1_20min-SS6010-Purse-SO-SF-Debrina\irl_out.dat; 0; 0; 1; 0.46; 1; 0; 0
+C:/Share/Vectors/February_8_2016_Loves/Calgary-all/\Purse\Oct.6-Test2_30min-iP00004-Purse-SI-SU-Debrina\irl_out.dat; 0; 0; 1; 0.53; 1; 0; 0
+C:/Share/Vectors/February_8_2016_Loves/Calgary-all/\Purse\Oct.6-Test2_30min-S00079-Purse-SI-SU-Gloria\irl_out.dat; 0; 0; 1; 0.35; 1; 0; 0
+C:/Share/Vectors/February_8_2016_Loves/Calgary-all/\Purse\Oct.6-Test2_30min-SS6010-Purse-SO-SF-Debrina\irl_out.dat; 0; 0; 1; 0.46; 1; 0; 0
+C:/Share/Vectors/February_8_2016_Loves/Calgary-all/\Purse\Oct.6-Test3_25min-iP00004-Purse-SI-SU-Debrina\irl_out.dat; 0; 0; 1; 0.21; 1; 0; 0
+C:/Share/Vectors/February_8_2016_Loves/Calgary-all/\Purse\Oct.6-Test3_25min-S00079-Purse-SI-SU-Gloria\irl_out.dat; 0; 0; 1; 0.40; 1; 0; 0
+C:/Share/Vectors/February_8_2016_Loves/Calgary-all/\Purse\Oct.6-Test3_25min-SS6010-Purse-SO-SF-Debrina\irl_out.dat; 0; 0; 1; 0.05; 1; 0; 0
+C:/Share/Vectors/February_8_2016_Loves/Calgary-all/\Purse\Oct.6-Test4_45min-S00079-Purse-SI-SU-Gloria\irl_out.dat; 0; 0; 1; 0.75; 1; 0; 0
+C:/Share/Vectors/February_8_2016_Loves/Calgary-all/\Purse\Oct.6-Test5_10min-iP00004-Purse-SI-SU-Debrina\irl_out.dat; 0; 0; 1; 0.67; 1; 0; 0
+C:/Share/Vectors/February_8_2016_Loves/Calgary-all/\Purse\Oct.6-Test5_10min-iP00005-Purse-SO-SF-Gloria\irl_out.dat; 0; 0; 1; 0.76; 1; 0; 0
+C:/Share/Vectors/February_8_2016_Loves/Calgary-all/\Purse\Oct.6-Test5_10min-iP00008-Purse-SI-SU-Jasman\irl_out.dat; 1; 0; 1; 0.84; 1; 3; 1; 0.98; 1; 20; 1; 2.9; 1; 6.7; 1; 0; 1; 14271; 1; 0.49; 1
+C:/Share/Vectors/February_8_2016_Loves/Calgary-all/\Purse\Oct.6-Test5_10min-S00079-Purse-SI-SU-Gloria\irl_out.dat; 0; 0; 1; 0.35; 1; 0; 0
+C:/Share/Vectors/February_8_2016_Loves/Calgary-all/\Purse\Oct.6-Test5_10min-SS6010-Purse-SO-SF-Debrina\irl_out.dat; 0; 0; 1; 0.23; 1; 0; 0
+C:/Share/Vectors/February_8_2016_Loves/Calgary-all/\Purse\Oct.6-Test6_20min-iP00004-Purse-SI-SU-Debrina\irl_out.dat; 0; 0; 1; 0.48; 1; 0; 0
+C:/Share/Vectors/February_8_2016_Loves/Calgary-all/\Purse\Oct.6-Test6_20min-iP00005-Purse-SO-SF-Gloria\irl_out.dat; 0; 0; 1; 0.58; 1; 0; 0
+C:/Share/Vectors/February_8_2016_Loves/Calgary-all/\Purse\Oct.6-Test6_20min-iP00008-Purse-SI-SU-Jasman\irl_out.dat; 0; 0; 1; 0.36; 1; 0; 0
+C:/Share/Vectors/February_8_2016_Loves/Calgary-all/\Purse\Oct.6-Test6_20min-S00079-Purse-SI-SU-Gloria\irl_out.dat; 0; 0; 1; 0.18; 1; 0; 0
+C:/Share/Vectors/February_8_2016_Loves/Calgary-all/\Purse\Oct.6-Test6_20min-SS6010-Purse-SO-SF-Debrina\irl_out.dat; 0; 0; 1; 0.18; 1; 0; 0
+C:/Share/Vectors/February_8_2016_Loves/Calgary-all/\Purse\Oct.6-Test7_25min-SS6010-Purse-SI-SU-Mona\irl_out.dat; 0; 0; 1; 0.26; 1; 0; 0
+C:/Share/Vectors/February_8_2016_Loves/Calgary-all/\Purse\Oct.6-Test8_15min-iP00004-Purse-SO-SF-Mona\irl_out.dat; 0; 0; 1; 0.83; 1; 0; 0
+C:/Share/Vectors/February_8_2016_Loves/Calgary-all/\Purse\Oct.6-Test9_5min-iP00004-Purse-SO-SF-Mona\irl_out.dat; 0; 0; 1; 0.25; 1; 0; 0
+C:/Share/Vectors/February_8_2016_Loves/Calgary-all/\Purse\Oct.6-Test9_5min-iP00005-Purse-SO-SU-Heels-Jasman\irl_out.dat; 0; 0; 1; 0.47; 1; 0; 0
+C:/Share/Vectors/February_8_2016_Loves/Calgary-all/\Purse\Oct.6-Test9_5min-iP00008-Purse-SO-SF-Heels-Debrina\irl_out.dat; 0; 0; 1; 0.51; 1; 0; 0
+C:/Share/Vectors/February_8_2016_Loves/Calgary-all/\Purse\Oct.6-Test9_5min-S00079-Purse-SI-SF-Heels-Jasman\irl_out.dat; 0; 0; 1; 0.53; 1; 0; 0
+C:/Share/Vectors/February_8_2016_Loves/Calgary-all/\Purse\Oct.6-Test9_5min-SS6010-Purse-SI-SU-Mona\irl_out.dat; 0; 0; 1; 0.28; 1; 0; 0
+C:/Share/Vectors/February_8_2016_Loves/Calgary-all/\Purse\Oct.7-Test10_25min-iP00003-Purse-SO-SU-Debrina\irl_out.dat; 0; 0; 1; 0.33; 1; 0; 0
+C:/Share/Vectors/February_8_2016_Loves/Calgary-all/\Purse\Oct.7-Test10_25min-iP00006-Purse-SO-SF-Jasman\irl_out.dat; 0; 0; 1; 0.13; 1; 0; 0
+C:/Share/Vectors/February_8_2016_Loves/Calgary-all/\Purse\Oct.7-Test10_25min-S00079-Purse-SO-SF-Debrina\irl_out.dat; 0; 0; 1; 0.37; 1; 0; 0
+C:/Share/Vectors/February_8_2016_Loves/Calgary-all/\Purse\Oct.7-Test11_10min-iP00003-Purse-SO-SU-Debrina\irl_out.dat; 0; 0; 1; 0.92; 1; 0; 0
+C:/Share/Vectors/February_8_2016_Loves/Calgary-all/\Purse\Oct.7-Test11_10min-iP00006-Purse-SO-SF-Jasman\irl_out.dat; 0; 0; 1; 0.35; 1; 0; 0
+C:/Share/Vectors/February_8_2016_Loves/Calgary-all/\Purse\Oct.7-Test11_10min-S00079-Purse-SO-SF-Debrina\irl_out.dat; 0; 0; 1; 0.23; 1; 0; 0
+C:/Share/Vectors/February_8_2016_Loves/Calgary-all/\Purse\Oct.7-Test11_10min-SS6005-Purse-SO-SU-Jasman\irl_out.dat; 0; 0; 1; 0.79; 1; 0; 0
+C:/Share/Vectors/February_8_2016_Loves/Calgary-all/\Purse\Oct.7-Test12_5min-iP00003-Purse-SO-SU-Debrina\irl_out.dat; 0; 0; 1; 0.21; 1; 0; 0
+C:/Share/Vectors/February_8_2016_Loves/Calgary-all/\Purse\Oct.7-Test12_5min-iP00006-Purse-SO-SF-Jasman\irl_out.dat; 0; 0; 1; 0.23; 1; 0; 0
+C:/Share/Vectors/February_8_2016_Loves/Calgary-all/\Purse\Oct.7-Test12_5min-S00079-Purse-SO-SF-Debrina\irl_out.dat; 0; 0; 1; 0.59; 1; 0; 0
+C:/Share/Vectors/February_8_2016_Loves/Calgary-all/\Purse\Oct.7-Test12_5min-SS6005-Purse-SO-SU-Jasman\irl_out.dat; 0; 0; 1; 0.06; 1; 0; 0
+C:/Share/Vectors/February_8_2016_Loves/Calgary-all/\Purse\Oct.7-Test1_30min-iP00001-Purse-SO-SD-Jasman\irl_out.dat; 0; 0; 1; 0.90; 1; 0; 0
+C:/Share/Vectors/February_8_2016_Loves/Calgary-all/\Purse\Oct.7-Test1_30min-iP00003-Purse-SI-SU-Debrina\irl_out.dat; 0; 0; 1; 0.58; 1; 0; 0
+C:/Share/Vectors/February_8_2016_Loves/Calgary-all/\Purse\Oct.7-Test1_30min-S00078-Purse-SO-SU-Jasman\irl_out.dat; 0; 0; 1; 0.54; 1; 0; 0
+C:/Share/Vectors/February_8_2016_Loves/Calgary-all/\Purse\Oct.7-Test1_30min-S00079-Purse-SO-SF-Debrina\irl_out.dat; 0; 0; 1; 0.42; 1; 0; 0
+C:/Share/Vectors/February_8_2016_Loves/Calgary-all/\Purse\Oct.7-Test1_30min-SS6005-Purse-SD-SB-Gloria\irl_out.dat; 0; 0; 1; 0.19; 1; 0; 0
+C:/Share/Vectors/February_8_2016_Loves/Calgary-all/\Purse\Oct.7-Test2_20min-iP00001-Purse-SO-SD-Jasman\irl_out.dat; 0; 0; 1; 0.06; 1; 0; 0
+C:/Share/Vectors/February_8_2016_Loves/Calgary-all/\Purse\Oct.7-Test2_20min-iP00003-Purse-SI-SU-Debrina\irl_out.dat; 0; 0; 1; 0.19; 1; 0; 0
+C:/Share/Vectors/February_8_2016_Loves/Calgary-all/\Purse\Oct.7-Test2_20min-S00078-Purse-SO-SU-Jasman\irl_out.dat; 0; 0; 1; 0.70; 1; 0; 0
+C:/Share/Vectors/February_8_2016_Loves/Calgary-all/\Purse\Oct.7-Test2_20min-S00079-Purse-SO-SF-Debrina\irl_out.dat; 0; 0; 1; 0.50; 1; 0; 0
+C:/Share/Vectors/February_8_2016_Loves/Calgary-all/\Purse\Oct.7-Test2_20min-SS6005-Purse-SD-SB-Gloria\irl_out.dat; 0; 0; 1; 0.45; 1; 0; 0
+C:/Share/Vectors/February_8_2016_Loves/Calgary-all/\Purse\Oct.7-Test3_15min-iP00001-Purse-SO-SD-Jasman\irl_out.dat; 0; 0; 1; 0.10; 1; 0; 0
+C:/Share/Vectors/February_8_2016_Loves/Calgary-all/\Purse\Oct.7-Test3_15min-iP00003-Purse-SI-SU-Debrina\irl_out.dat; 0; 0; 1; 0.41; 1; 0; 0
+C:/Share/Vectors/February_8_2016_Loves/Calgary-all/\Purse\Oct.7-Test3_15min-S00078-Purse-SO-SU-Jasman\irl_out.dat; 0; 0; 1; 0.32; 1; 0; 0
+C:/Share/Vectors/February_8_2016_Loves/Calgary-all/\Purse\Oct.7-Test3_15min-S00079-Purse-SO-SF-Debrina\irl_out.dat; 0; 0; 1; 0.91; 1; 0; 0
+C:/Share/Vectors/February_8_2016_Loves/Calgary-all/\Purse\Oct.7-Test3_15min-SS6005-Purse-SD-SB-Gloria\irl_out.dat; 0; 0; 1; 0.85; 1; 0; 0
+C:/Share/Vectors/February_8_2016_Loves/Calgary-all/\Purse\Oct.7-Test4_15min-iP00001-Purse-SO-SD-Jasman\irl_out.dat; 0; 0; 1; 0.88; 1; 0; 0
+C:/Share/Vectors/February_8_2016_Loves/Calgary-all/\Purse\Oct.7-Test4_15min-iP00003-Purse-SI-SU-Debrina\irl_out.dat; 0; 0; 1; 0.69; 1; 0; 0
+C:/Share/Vectors/February_8_2016_Loves/Calgary-all/\Purse\Oct.7-Test4_15min-S00079-Purse-SO-SF-Debrina\irl_out.dat; 0; 0; 1; 0.48; 1; 0; 0
+C:/Share/Vectors/February_8_2016_Loves/Calgary-all/\Purse\Oct.7-Test4_15min-SS6005-Purse-SD-SB-Gloria\irl_out.dat; 0; 0; 1; 0.58; 1; 0; 0
+C:/Share/Vectors/February_8_2016_Loves/Calgary-all/\Purse\Oct.7-Test5_10min-iP00001-Purse-SO-SD-Jasman\irl_out.dat; 0; 0; 1; 0.41; 1; 0; 0
+C:/Share/Vectors/February_8_2016_Loves/Calgary-all/\Purse\Oct.7-Test5_10min-iP00003-Purse-SI-SU-Debrina\irl_out.dat; 0; 0; 1; 0.39; 1; 0; 0
+C:/Share/Vectors/February_8_2016_Loves/Calgary-all/\Purse\Oct.7-Test5_10min-S00078-Purse-SO-SU-Jasman\irl_out.dat; 0; 0; 1; 0.12; 1; 0; 0
+C:/Share/Vectors/February_8_2016_Loves/Calgary-all/\Purse\Oct.7-Test5_10min-S00079-Purse-SO-SF-Debrina\irl_out.dat; 0; 0; 1; 0.86; 1; 0; 0
+C:/Share/Vectors/February_8_2016_Loves/Calgary-all/\Purse\Oct.7-Test5_10min-SS6005-Purse-SD-SB-Gloria\irl_out.dat; 0; 0; 1; 0.41; 1; 0; 0
+C:/Share/Vectors/February_8_2016_Loves/Calgary-all/\Purse\Oct.7-Test6_10min-iP00001-Purse-SO-SD-Jasman\irl_out.dat; 0; 0; 1; 0.43; 1; 0; 0
+C:/Share/Vectors/February_8_2016_Loves/Calgary-all/\Purse\Oct.7-Test6_10min-iP00003-Purse-SI-SU-Debrina\irl_out.dat; 0; 0; 1; 0.28; 1; 0; 0
+C:/Share/Vectors/February_8_2016_Loves/Calgary-all/\Purse\Oct.7-Test6_10min-S00078-Purse-SO-SU-Jasman\irl_out.dat; 0; 0; 1; 0.60; 1; 0; 0
+C:/Share/Vectors/February_8_2016_Loves/Calgary-all/\Purse\Oct.7-Test6_10min-S00079-Purse-SO-SF-Debrina\irl_out.dat; 0; 0; 1; 0.27; 1; 0; 0
+C:/Share/Vectors/February_8_2016_Loves/Calgary-all/\Purse\Oct.7-Test6_10min-SS6005-Purse-SD-SB-Gloria\irl_out.dat; 0; 0; 1; 0.29; 1; 0; 0
+C:/Share/Vectors/February_8_2016_Loves/Calgary-all/\Purse\Oct.7-Test7_20min-iP00001-Purse-SO-SD-Jasman\irl_out.dat; 0; 0; 1; 0.52; 1; 0; 0
+C:/Share/Vectors/February_8_2016_Loves/Calgary-all/\Purse\Oct.7-Test7_20min-iP00003-Purse-SI-SU-Debrina\irl_out.dat; 0; 0; 1; 0.78; 1; 0; 0
+C:/Share/Vectors/February_8_2016_Loves/Calgary-all/\Purse\Oct.7-Test7_20min-S00079-Purse-SO-SF-Debrina\irl_out.dat; 0; 0; 1; 0.62; 1; 0; 0
+C:/Share/Vectors/February_8_2016_Loves/Calgary-all/\Purse\Oct.7-Test7_20min-SS6005-Purse-SD-SB-Gloria\irl_out.dat; 0; 0; 1; 0.16; 1; 0; 0
+C:/Share/Vectors/February_8_2016_Loves/Calgary-all/\Purse\Oct.7-Test8_5min-iP00003-Purse-SO-SU-Debrina\irl_out.dat; 0; 0; 1; 0.00; 1; 0; 0
+C:/Share/Vectors/February_8_2016_Loves/Calgary-all/\Purse\Oct.7-Test8_5min-iP00006-Purse-SO-SF-Jasman\irl_out.dat; 0; 0; 1; 0.31; 1; 0; 0
+C:/Share/Vectors/February_8_2016_Loves/Calgary-all/\Purse\Oct.7-Test8_5min-S00079-Purse-SO-SF-Debrina\irl_out.dat; 0; 0; 1; 0.15; 1; 0; 0
+C:/Share/Vectors/February_8_2016_Loves/Calgary-all/\Purse\Oct.7-Test8_5min-SS6005-Purse-SO-SU-Jasman\irl_out.dat; 0; 0; 1; 0.26; 1; 0; 0
+C:/Share/Vectors/February_8_2016_Loves/Calgary-all/\Purse\Oct.7-Test9_45min-iP00006-Purse-SO-SF-Jasman\irl_out.dat; 0; 0; 1; 0.64; 1; 0; 0
+C:/Share/Vectors/February_8_2016_Loves/Calgary-all/\Purse\Oct.7-Test9_45min-SS6005-Purse-SO-SU-Jasman\irl_out.dat; 0; 0; 1; 0.43; 1; 0; 0
+C:/Share/Vectors/February_8_2016_Loves/Calgary-all/\RS-BackPocket\2016-10-25_LowesCollection_RealShopper-Test1-25min-iP00003-BackLeftPocket-MS\irl_out.dat; 0; 0; 1; 0.34; 1; 1; 1; 1.6; 1; 6.5e+014; 0
+C:/Share/Vectors/February_8_2016_Loves/Calgary-all/\RS-BackPocket\2016-10-25_LowesCollection_RealShopper-Test1-25min-iP00006-BackLeftPocket-CB\irl_out.dat; 0; 0; 1; 0.67; 1; 3; 1; 0.6; 1; 1e+002; 0
+C:/Share/Vectors/February_8_2016_Loves/Calgary-all/\RS-BackPocket\2016-10-25_LowesCollection_RealShopper-Test10-10min-iP00003-BackLeftPocket-KC\irl_out.dat; 1; 0; 1; 0.61; 1; 2; 1; 2.2; 1; 40; 1; 3; 1; 17; 1; 4; 1; 12584; 1; 0.54; 1
+C:/Share/Vectors/February_8_2016_Loves/Calgary-all/\RS-BackPocket\2016-10-25_LowesCollection_RealShopper-Test10-10min-iP00004-BackRightPocket-CB\irl_out.dat; 1; 0; 1; 0.31; 1; 1; 1; 2.1; 1; 43; 1; 3; 1; 22; 1; 11; 1; 12070; 1; 0.54; 1
+C:/Share/Vectors/February_8_2016_Loves/Calgary-all/\RS-BackPocket\2016-10-25_LowesCollection_RealShopper-Test10-10min-iP00006-BackLeftPocket-CB\irl_out.dat; 0; 0; 1; 0.36; 1; 0; 0
+C:/Share/Vectors/February_8_2016_Loves/Calgary-all/\RS-BackPocket\2016-10-25_LowesCollection_RealShopper-Test11-5min-iP00003-BackLeftPocket-KC\irl_out.dat; 0; 0; 1; 0.63; 1; 2; 1; 1.3; 1; 80; 0
+C:/Share/Vectors/February_8_2016_Loves/Calgary-all/\RS-BackPocket\2016-10-25_LowesCollection_RealShopper-Test11-5min-iP00004-BackRightPocket-CB\irl_out.dat; 0; 0; 1; 0.72; 1; 0; 0
+C:/Share/Vectors/February_8_2016_Loves/Calgary-all/\RS-BackPocket\2016-10-25_LowesCollection_RealShopper-Test11-5min-iP00006-BackLeftPocket-CB\irl_out.dat; 0; 0; 1; 0.41; 1; 2; 1; 1.6; 1; 79; 0
+C:/Share/Vectors/February_8_2016_Loves/Calgary-all/\RS-BackPocket\2016-10-25_LowesCollection_RealShopper-Test11-5min-SS6005-BackRightPocket-KC\irl_out.dat; 0; 0; 1; 0.73; 1; 0; 0
+C:/Share/Vectors/February_8_2016_Loves/Calgary-all/\RS-BackPocket\2016-10-25_LowesCollection_RealShopper-Test12-5min-iP00003-BackLeftPocket-KC\irl_out.dat; 0; 0; 1; 0.89; 1; 2; 1; 1.5; 1; 94; 0
+C:/Share/Vectors/February_8_2016_Loves/Calgary-all/\RS-BackPocket\2016-10-25_LowesCollection_RealShopper-Test12-5min-iP00004-BackRightPocket-CB\irl_out.dat; 0; 0; 1; 0.67; 1; 2; 1; 1.5; 1; 81; 0
+C:/Share/Vectors/February_8_2016_Loves/Calgary-all/\RS-BackPocket\2016-10-25_LowesCollection_RealShopper-Test12-5min-iP00006-BackLeftPocket-CB\irl_out.dat; 0; 0; 1; 0.83; 1; 0; 0
+C:/Share/Vectors/February_8_2016_Loves/Calgary-all/\RS-BackPocket\2016-10-25_LowesCollection_RealShopper-Test12-5min-SS6005-BackRightPocket-KC\irl_out.dat; 0; 0; 1; 0.68; 1; 0; 0
+C:/Share/Vectors/February_8_2016_Loves/Calgary-all/\RS-BackPocket\2016-10-25_LowesCollection_RealShopper-Test3-20min-iP00003-BackLeftPocket-KC\irl_out.dat; 0; 0; 1; 0.36; 1; 0; 0
+C:/Share/Vectors/February_8_2016_Loves/Calgary-all/\RS-BackPocket\2016-10-25_LowesCollection_RealShopper-Test3-20min-iP00004-BackRightPocket-CB\irl_out.dat; 0; 0; 1; 0.51; 1; 0; 0
+C:/Share/Vectors/February_8_2016_Loves/Calgary-all/\RS-BackPocket\2016-10-25_LowesCollection_RealShopper-Test3-20min-iP00006-BackLeftPocket-CB\irl_out.dat; 0; 0; 1; 0.50; 1; 0; 0
+C:/Share/Vectors/February_8_2016_Loves/Calgary-all/\RS-BackPocket\2016-10-25_LowesCollection_RealShopper-Test4-15min-iP00003-BackLeftPocket-KC\irl_out.dat; 1; 0; 1; 0.23; 1; 3; 1; 0.87; 1; 22; 1; 0.91; 1; 16; 1; 1; 1; 17038; 1; 0.64; 1
+C:/Share/Vectors/February_8_2016_Loves/Calgary-all/\RS-BackPocket\2016-10-25_LowesCollection_RealShopper-Test4-15min-iP00004-BackRightPocket-CB\irl_out.dat; 1; 0; 1; 0.80; 1; 3; 1; 0.73; 1; 3.8; 1; 5.5; 1; 14; 1; 1; 1; 17039; 1; 0.62; 1
+C:/Share/Vectors/February_8_2016_Loves/Calgary-all/\RS-BackPocket\2016-10-25_LowesCollection_RealShopper-Test4-15min-iP00006-BackLeftPocket-CB\irl_out.dat; 1; 0; 1; 0.12; 1; 3; 1; 0.63; 1; 4.7; 1; 0.16; 1; 22; 1; 12; 1; 17027; 1; 0.66; 1
+C:/Share/Vectors/February_8_2016_Loves/Calgary-all/\RS-BackPocket\2016-10-25_LowesCollection_RealShopper-Test4-15min-SS6005-BackRightPocket-KC\irl_out.dat; 0; 0; 1; 0.74; 1; 0; 0
+C:/Share/Vectors/February_8_2016_Loves/Calgary-all/\RS-BackPocket\2016-10-25_LowesCollection_RealShopper-Test5-30min-iP00004-BackRightPocket-CB\irl_out.dat; 0; 0; 1; 0.48; 1; 1; 1; 1.4; 1; 1.3e+014; 0
+C:/Share/Vectors/February_8_2016_Loves/Calgary-all/\RS-BackPocket\2016-10-25_LowesCollection_RealShopper-Test6-15min-iP00003-BackLeftPocket-KC\irl_out.dat; 1; 0; 1; 0.67; 1; 4; 1; 0.63; 1; 20; 1; 1.3; 1; 17; 1; 1; 1; 17550; 1; 0.55; 1
+C:/Share/Vectors/February_8_2016_Loves/Calgary-all/\RS-BackPocket\2016-10-25_LowesCollection_RealShopper-Test6-15min-iP00004-BackRightPocket-CB\irl_out.dat; 1; 0; 1; 0.36; 1; 3; 1; 0.57; 1; 31; 1; 1.2; 1; 21; 1; 12; 1; 17223; 1; 0.60; 1
+C:/Share/Vectors/February_8_2016_Loves/Calgary-all/\RS-BackPocket\2016-10-25_LowesCollection_RealShopper-Test6-15min-iP00006-BackLeftPocket-CB\irl_out.dat; 0; 0; 1; 0.60; 1; 0; 0
+C:/Share/Vectors/February_8_2016_Loves/Calgary-all/\RS-BackPocket\2016-10-25_LowesCollection_RealShopper-Test7-25min-SS6005-BackRightPocket-KC\irl_out.dat; 0; 0; 1; 0.36; 1; 0; 0
+C:/Share/Vectors/February_8_2016_Loves/Calgary-all/\RS-BackPocket\2016-10-25_LowesCollection_RealShopper-Test8-10min-iP00003-BackLeftPocket-KC\irl_out.dat; 1; 0; 1; 0.75; 1; 1; 1; 2.5; 1; 19; 1; 2.7; 1; 17; 1; 0; 1; 13632; 1; 0.47; 1
+C:/Share/Vectors/February_8_2016_Loves/Calgary-all/\RS-BackPocket\2016-10-25_LowesCollection_RealShopper-Test8-10min-iP00004-BackRightPocket-CB\irl_out.dat; 1; 0; 1; 0.21; 1; 3; 1; 0.86; 1; 9.7; 1; 2; 1; 21; 1; 7; 1; 13360; 1; 0.51; 1
+C:/Share/Vectors/February_8_2016_Loves/Calgary-all/\RS-BackPocket\2016-10-25_LowesCollection_RealShopper-Test8-10min-iP00006-BackLeftPocket-CB\irl_out.dat; 0; 0; 1; 0.30; 1; 0; 0
+C:/Share/Vectors/February_8_2016_Loves/Calgary-all/\RS-BackPocket\2016-10-25_LowesCollection_RealShopper-Test8-10min-SS6005-BackRightPocket-KC\irl_out.dat; 0; 0; 1; 0.12; 1; 0; 0
+C:/Share/Vectors/February_8_2016_Loves/Calgary-all/\RS-BackPocket\2016-10-25_LowesCollection_RealShopper-Test9-20min-iP00004-BackRightPocket-CB\irl_out.dat; 1; 0; 1; 0.31; 1; 3; 1; 1; 1; 25; 1; 1.6; 1; 19; 1; 14; 1; 25466; 1; 0.57; 1
+C:/Share/Vectors/February_8_2016_Loves/Calgary-all/\RS-BackPocket\2016-10-25_LowesCollection_RealShopper-Test9-20min-iP00006-BackLeftPocket-CB\irl_out.dat; 0; 0; 1; 0.41; 1; 0; 0
+C:/Share/Vectors/February_8_2016_Loves/Calgary-all/\RS-BackPocket\2016-10-26_LowesCollection_RealShopper-Test1-25min-iP00003-BackRightPocket-KC\irl_out.dat; 1; 0; 1; 0.19; 1; 3; 1; 0.54; 1; 24; 1; 1.4; 1; 19; 1; 4; 1; 30751; 1; 0.59; 1
+C:/Share/Vectors/February_8_2016_Loves/Calgary-all/\RS-BackPocket\2016-10-26_LowesCollection_RealShopper-Test1-25min-iP00004-BackLeftPocket-CB\irl_out.dat; 1; 0; 1; 0.29; 1; 4; 1; 0.61; 1; 18; 1; 4; 1; 22; 1; 10; 1; 29948; 1; 0.59; 1
+C:/Share/Vectors/February_8_2016_Loves/Calgary-all/\RS-BackPocket\2016-10-26_LowesCollection_RealShopper-Test1-25min-iP00005-BackRightPocket-CB\irl_out.dat; 0; 0; 1; 0.56; 1; 0; 0
+C:/Share/Vectors/February_8_2016_Loves/Calgary-all/\RS-BackPocket\2016-10-26_LowesCollection_RealShopper-Test10-10min-iP00003-BackRightPocket-KC\irl_out.dat; 0; 0; 1; 0.79; 1; 1; 1; 2.4; 1; 59; 0
+C:/Share/Vectors/February_8_2016_Loves/Calgary-all/\RS-BackPocket\2016-10-26_LowesCollection_RealShopper-Test10-10min-iP00004-BackLeftPocket-CB\irl_out.dat; 0; 0; 1; 0.79; 1; 2; 1; 1.3; 1; 1.8e+002; 0
+C:/Share/Vectors/February_8_2016_Loves/Calgary-all/\RS-BackPocket\2016-10-26_LowesCollection_RealShopper-Test10-10min-iP00005-BackRightPocket-CB\irl_out.dat; 0; 0; 1; 0.52; 1; 0; 0
+C:/Share/Vectors/February_8_2016_Loves/Calgary-all/\RS-BackPocket\2016-10-26_LowesCollection_RealShopper-Test10-10min-SS6005-BackLeftPocket-KC\irl_out.dat; 0; 0; 1; 0.94; 1; 0; 0
+C:/Share/Vectors/February_8_2016_Loves/Calgary-all/\RS-BackPocket\2016-10-26_LowesCollection_RealShopper-Test11-5min-iP00003-BackRightPocket-KC\irl_out.dat; 0; 0; 1; 0.32; 1; 3; 1; 0.57; 1; 54; 0
+C:/Share/Vectors/February_8_2016_Loves/Calgary-all/\RS-BackPocket\2016-10-26_LowesCollection_RealShopper-Test11-5min-iP00004-BackLeftPocket-CB\irl_out.dat; 1; 0; 1; 0.10; 1; 3; 1; 0.68; 1; 28; 1; 0.54; 1; 22; 1; 8; 1; 8218; 1; 0.37; 1
+C:/Share/Vectors/February_8_2016_Loves/Calgary-all/\RS-BackPocket\2016-10-26_LowesCollection_RealShopper-Test11-5min-iP00005-BackRightPocket-CB\irl_out.dat; 1; 0; 1; 0.00; 1; 2; 1; 1.2; 1; 41; 1; 0.66; 1; 24; 1; 10; 1; 7728; 1; 0.34; 1
+C:/Share/Vectors/February_8_2016_Loves/Calgary-all/\RS-BackPocket\2016-10-26_LowesCollection_RealShopper-Test11-5min-SS6005-BackLeftPocket-KC\irl_out.dat; 0; 0; 1; 0.90; 1; 0; 0
+C:/Share/Vectors/February_8_2016_Loves/Calgary-all/\RS-BackPocket\2016-10-26_LowesCollection_RealShopper-Test12-5min-iP00003-BackRightPocket-KC\irl_out.dat; 1; 0; 1; 0.55; 1; 3; 1; 0.57; 1; 43; 1; 0.76; 1; 9.9; 1; 0; 1; 9435; 1; 0.53; 1
+C:/Share/Vectors/February_8_2016_Loves/Calgary-all/\RS-BackPocket\2016-10-26_LowesCollection_RealShopper-Test12-5min-iP00004-BackLeftPocket-CB\irl_out.dat; 0; 0; 1; 0.03; 1; 1; 1; 2.4; 1; 93; 0
+C:/Share/Vectors/February_8_2016_Loves/Calgary-all/\RS-BackPocket\2016-10-26_LowesCollection_RealShopper-Test12-5min-iP00005-BackRightPocket-CB\irl_out.dat; 0; 0; 1; 0.74; 1; 0; 0
+C:/Share/Vectors/February_8_2016_Loves/Calgary-all/\RS-BackPocket\2016-10-26_LowesCollection_RealShopper-Test12-5min-SS6005-BackLeftPocket-KC\irl_out.dat; 0; 0; 1; 0.76; 1; 0; 0
+C:/Share/Vectors/February_8_2016_Loves/Calgary-all/\RS-BackPocket\2016-10-26_LowesCollection_RealShopper-Test2-20min-iP00005-BackRightPocket-CB\irl_out.dat; 1; 0; 1; 0.72; 1; 3; 1; 0.85; 1; 16; 1; 4; 1; 21; 1; 0; 1; 24294; 1; 0.60; 1
+C:/Share/Vectors/February_8_2016_Loves/Calgary-all/\RS-BackPocket\2016-10-26_LowesCollection_RealShopper-Test3-15min-iP00004-BackLeftPocket-CB\irl_out.dat; 1; 0; 1; 0.37; 1; 4; 1; 0.68; 1; 14; 1; 1.5; 1; 20; 1; 10; 1; 19600; 1; 0.48; 1
+C:/Share/Vectors/February_8_2016_Loves/Calgary-all/\RS-BackPocket\2016-10-26_LowesCollection_RealShopper-Test4-15min-iP00004-BackLeftPocket-CB\irl_out.dat; 1; 0; 1; 0.91; 1; 4; 1; 0.61; 1; 14; 1; 1.8; 1; 15; 1; 1; 1; 20237; 1; 0.54; 1
+C:/Share/Vectors/February_8_2016_Loves/Calgary-all/\RS-BackPocket\2016-10-26_LowesCollection_RealShopper-Test4-15min-iP00005-BackRightPocket-CB\irl_out.dat; 0; 0; 1; 0.69; 1; 0; 0
+C:/Share/Vectors/February_8_2016_Loves/Calgary-all/\RS-BackPocket\2016-10-26_LowesCollection_RealShopper-Test7-25min-iP00004-BackLeftPocket-CB\irl_out.dat; 1; 0; 1; 0.30; 1; 3; 1; 0.68; 1; 14; 1; 0.97; 1; 19; 1; 14; 1; 30740; 1; 0.50; 1
+C:/Share/Vectors/February_8_2016_Loves/Calgary-all/\RS-BackPocket\2016-10-26_LowesCollection_RealShopper-Test8-20min-iP00004-BackLeftPocket-CB\irl_out.dat; 1; 0; 1; 0.88; 1; 3; 1; 0.45; 1; 18; 1; 2.3; 1; 17; 1; 3; 1; 25539; 1; 0.52; 1
+C:/Share/Vectors/February_8_2016_Loves/Calgary-all/\RS-BackPocket\2016-10-26_LowesCollection_RealShopper-Test9-10min-iP00003-BackRightPocket-KC\irl_out.dat; 1; 0; 1; 0.01; 1; 2; 1; 1.4; 1; 32; 1; 0.72; 1; 17; 1; 7; 1; 13271; 1; 0.58; 1
+C:/Share/Vectors/February_8_2016_Loves/Calgary-all/\RS-BackPocket\2016-10-26_LowesCollection_RealShopper-Test9-10min-iP00004-BackLeftPocket-CB\irl_out.dat; 1; 0; 1; 0.55; 1; 3; 1; 0.93; 1; 9.3; 1; 1.5; 1; 25; 1; 11; 1; 12648; 1; 0.57; 1
+C:/Share/Vectors/February_8_2016_Loves/Calgary-all/\RS-BackPocket\2016-10-26_LowesCollection_RealShopper-Test9-10min-iP00005-BackRightPocket-CB\irl_out.dat; 1; 0; 1; 0.59; 1; 1; 1; 2.4; 1; 14; 1; 0.28; 1; 20; 1; 0; 1; 12718; 1; 0.57; 1
+C:/Share/Vectors/February_8_2016_Loves/Calgary-all/\RS-BackPocket\2016-10-26_LowesCollection_RealShopper-Test9-10min-SS6005-BackLeftPocket-KC\irl_out.dat; 0; 0; 1; 0.83; 1; 0; 0
+C:/Share/Vectors/February_8_2016_Loves/Calgary-all/\RS-FrontPocket\2016-10-25_LowesCollection_RealShopper-Test1-25min-iP00001-FrontLeftPocket-MS\irl_out.dat; 0; 0; 1; 0.51; 1; 0; 0
+C:/Share/Vectors/February_8_2016_Loves/Calgary-all/\RS-FrontPocket\2016-10-25_LowesCollection_RealShopper-Test1-25min-S00078-FrontRightPocket-MS\irl_out.dat; 0; 0; 1; 0.48; 1; 0; 0
+C:/Share/Vectors/February_8_2016_Loves/Calgary-all/\RS-FrontPocket\2016-10-25_LowesCollection_RealShopper-Test1-25min-S00079-FrontRighPocket-CB\irl_out.dat; 0; 0; 1; 0.48; 1; 0; 0
+C:/Share/Vectors/February_8_2016_Loves/Calgary-all/\RS-FrontPocket\2016-10-25_LowesCollection_RealShopper-Test10-10min-iP00001-FrontLeftPocket-KC\irl_out.dat; 0; 0; 1; 0.56; 1; 0; 0
+C:/Share/Vectors/February_8_2016_Loves/Calgary-all/\RS-FrontPocket\2016-10-25_LowesCollection_RealShopper-Test10-10min-S00078-FrontRightPocket-KC\irl_out.dat; 0; 0; 1; 0.44; 1; 0; 0
+C:/Share/Vectors/February_8_2016_Loves/Calgary-all/\RS-FrontPocket\2016-10-25_LowesCollection_RealShopper-Test10-10min-S00079-FrontRighPocket-CB\irl_out.dat; 0; 0; 1; 0.40; 1; 0; 0
+C:/Share/Vectors/February_8_2016_Loves/Calgary-all/\RS-FrontPocket\2016-10-25_LowesCollection_RealShopper-Test11-5min-iP00001-FrontLeftPocket-KC\irl_out.dat; 0; 0; 1; 0.68; 1; 0; 0
+C:/Share/Vectors/February_8_2016_Loves/Calgary-all/\RS-FrontPocket\2016-10-25_LowesCollection_RealShopper-Test11-5min-S00078-FrontRightPocket-KC\irl_out.dat; 0; 0; 1; 0.61; 1; 0; 0
+C:/Share/Vectors/February_8_2016_Loves/Calgary-all/\RS-FrontPocket\2016-10-25_LowesCollection_RealShopper-Test11-5min-S00079-FrontRighPocket-CB\irl_out.dat; 0; 0; 1; 0.31; 1; 0; 0
+C:/Share/Vectors/February_8_2016_Loves/Calgary-all/\RS-FrontPocket\2016-10-25_LowesCollection_RealShopper-Test12-5min-iP00001-FrontLeftPocket-KC\irl_out.dat; 0; 0; 1; 0.65; 1; 0; 0
+C:/Share/Vectors/February_8_2016_Loves/Calgary-all/\RS-FrontPocket\2016-10-25_LowesCollection_RealShopper-Test12-5min-S00078-FrontRightPocket-KC\irl_out.dat; 0; 0; 1; 0.65; 1; 0; 0
+C:/Share/Vectors/February_8_2016_Loves/Calgary-all/\RS-FrontPocket\2016-10-25_LowesCollection_RealShopper-Test12-5min-S00079-FrontRighPocket-CB\irl_out.dat; 0; 0; 1; 0.66; 1; 0; 0
+C:/Share/Vectors/February_8_2016_Loves/Calgary-all/\RS-FrontPocket\2016-10-25_LowesCollection_RealShopper-Test3-20min-S00078-FrontRightPocket-KC\irl_out.dat; 0; 0; 1; 0.13; 1; 0; 0
+C:/Share/Vectors/February_8_2016_Loves/Calgary-all/\RS-FrontPocket\2016-10-25_LowesCollection_RealShopper-Test3-20min-S00079-FrontRighPocket-CB\irl_out.dat; 0; 0; 1; 0.37; 1; 0; 0
+C:/Share/Vectors/February_8_2016_Loves/Calgary-all/\RS-FrontPocket\2016-10-25_LowesCollection_RealShopper-Test4-15min-iP00001-FrontLeftPocket-KC\irl_out.dat; 1; 0; 1; 0.51; 1; 1; 1; 1.6; 1; 9.1; 1; 3.7; 1; 25; 1; 5; 1; 16733; 1; 0.54; 1
+C:/Share/Vectors/February_8_2016_Loves/Calgary-all/\RS-FrontPocket\2016-10-25_LowesCollection_RealShopper-Test4-15min-S00078-FrontRightPocket-KC\irl_out.dat; 0; 0; 1; 0.30; 1; 0; 0
+C:/Share/Vectors/February_8_2016_Loves/Calgary-all/\RS-FrontPocket\2016-10-25_LowesCollection_RealShopper-Test4-15min-S00079-FrontRighPocket-CB\irl_out.dat; 0; 0; 1; 0.18; 1; 0; 0
+C:/Share/Vectors/February_8_2016_Loves/Calgary-all/\RS-FrontPocket\2016-10-25_LowesCollection_RealShopper-Test5-30min-S00079-FrontRighPocket-CB\irl_out.dat; 0; 0; 1; 0.71; 1; 0; 0
+C:/Share/Vectors/February_8_2016_Loves/Calgary-all/\RS-FrontPocket\2016-10-25_LowesCollection_RealShopper-Test6-15min-iP00001-FrontLeftPocket-KC\irl_out.dat; 1; 0; 1; 0.65; 1; 2; 1; 0.96; 1; 7.7; 1; 1.6; 1; 23; 1; 2; 1; 17257; 1; 0.47; 1
+C:/Share/Vectors/February_8_2016_Loves/Calgary-all/\RS-FrontPocket\2016-10-25_LowesCollection_RealShopper-Test6-15min-S00078-FrontRightPocket-KC\irl_out.dat; 0; 0; 1; 0.70; 1; 0; 0
+C:/Share/Vectors/February_8_2016_Loves/Calgary-all/\RS-FrontPocket\2016-10-25_LowesCollection_RealShopper-Test8-10min-iP00001-FrontLeftPocket-KC\irl_out.dat; 0; 0; 1; 0.31; 1; 1; 1; 2.3; 1; 60; 0
+C:/Share/Vectors/February_8_2016_Loves/Calgary-all/\RS-FrontPocket\2016-10-25_LowesCollection_RealShopper-Test8-10min-S00078-FrontRightPocket-KC\irl_out.dat; 0; 0; 1; 0.06; 1; 0; 0
+C:/Share/Vectors/February_8_2016_Loves/Calgary-all/\RS-FrontPocket\2016-10-25_LowesCollection_RealShopper-Test8-10min-S00079-FrontRighPocket-CB\irl_out.dat; 0; 0; 1; 0.54; 1; 0; 0
+C:/Share/Vectors/February_8_2016_Loves/Calgary-all/\RS-FrontPocket\2016-10-25_LowesCollection_RealShopper-Test9-20min-S00078-FrontRightPocket-KC\irl_out.dat; 0; 0; 1; 0.18; 1; 0; 0
+C:/Share/Vectors/February_8_2016_Loves/Calgary-all/\RS-FrontPocket\2016-10-25_LowesCollection_RealShopper-Test9-20min-S00079-FrontRighPocket-CB\irl_out.dat; 0; 0; 1; 0.22; 1; 0; 0
+C:/Share/Vectors/February_8_2016_Loves/Calgary-all/\RS-FrontPocket\2016-10-26_LowesCollection_RealShopper-Test1-25min-iP00001-FrontRightPocket-CB\irl_out.dat; 0; 0; 1; 0.35; 1; 0; 0
+C:/Share/Vectors/February_8_2016_Loves/Calgary-all/\RS-FrontPocket\2016-10-26_LowesCollection_RealShopper-Test1-25min-iP00006-RightFrontPocket-KC\irl_out.dat; 0; 0; 1; 0.69; 1; 0; 0
+C:/Share/Vectors/February_8_2016_Loves/Calgary-all/\RS-FrontPocket\2016-10-26_LowesCollection_RealShopper-Test1-25min-S00078-FrontLeftPocket-CB\irl_out.dat; 0; 0; 1; 0.55; 1; 0; 0
+C:/Share/Vectors/February_8_2016_Loves/Calgary-all/\RS-FrontPocket\2016-10-26_LowesCollection_RealShopper-Test1-25min-S00079-FrontLeftPocket-KC\irl_out.dat; 0; 0; 1; 0.09; 1; 0; 0
+C:/Share/Vectors/February_8_2016_Loves/Calgary-all/\RS-FrontPocket\2016-10-26_LowesCollection_RealShopper-Test10-10min-iP00001-FrontRightPocket-CB\irl_out.dat; 0; 0; 1; 0.74; 1; 0; 0
+C:/Share/Vectors/February_8_2016_Loves/Calgary-all/\RS-FrontPocket\2016-10-26_LowesCollection_RealShopper-Test10-10min-iP00006-RightFrontPocket-KC\irl_out.dat; 1; 0; 1; 0.89; 1; 1; 1; 2.5; 1; 18; 1; 0.21; 1; 21; 1; 0; 1; 12749; 1; 0.45; 1
+C:/Share/Vectors/February_8_2016_Loves/Calgary-all/\RS-FrontPocket\2016-10-26_LowesCollection_RealShopper-Test10-10min-S00078-FrontLeftPocket-CB\irl_out.dat; 0; 0; 1; 0.77; 1; 0; 0
+C:/Share/Vectors/February_8_2016_Loves/Calgary-all/\RS-FrontPocket\2016-10-26_LowesCollection_RealShopper-Test10-10min-S00079-FrontLeftPocket-KC\irl_out.dat; 0; 0; 1; 0.78; 1; 0; 0
+C:/Share/Vectors/February_8_2016_Loves/Calgary-all/\RS-FrontPocket\2016-10-26_LowesCollection_RealShopper-Test11-5min-iP00001-FrontRightPocket-CB\irl_out.dat; 0; 0; 1; 0.36; 1; 2; 1; 1.6; 1; 78; 0
+C:/Share/Vectors/February_8_2016_Loves/Calgary-all/\RS-FrontPocket\2016-10-26_LowesCollection_RealShopper-Test11-5min-iP00006-RightFrontPocket-KC\irl_out.dat; 0; 0; 1; 0.61; 1; 0; 0
+C:/Share/Vectors/February_8_2016_Loves/Calgary-all/\RS-FrontPocket\2016-10-26_LowesCollection_RealShopper-Test11-5min-S00078-FrontLeftPocket-CB\irl_out.dat; 0; 0; 1; 0.56; 1; 0; 0
+C:/Share/Vectors/February_8_2016_Loves/Calgary-all/\RS-FrontPocket\2016-10-26_LowesCollection_RealShopper-Test11-5min-S00079-FrontLeftPocket-KC\irl_out.dat; 0; 0; 1; 0.55; 1; 0; 0
+C:/Share/Vectors/February_8_2016_Loves/Calgary-all/\RS-FrontPocket\2016-10-26_LowesCollection_RealShopper-Test12-5min-iP00001-FrontRightPocket-CB\irl_out.dat; 1; 0; 1; 0.27; 1; 1; 1; 2.9; 1; 37; 1; 1.1; 1; 29; 1; 10; 1; 9509; 1; 0.46; 1
+C:/Share/Vectors/February_8_2016_Loves/Calgary-all/\RS-FrontPocket\2016-10-26_LowesCollection_RealShopper-Test12-5min-iP00006-RightFrontPocket-KC\irl_out.dat; 1; 0; 1; 0.43; 1; 1; 1; 2.8; 1; 16; 1; 1.7; 1; 23; 1; 7; 1; 9644; 1; 0.47; 1
+C:/Share/Vectors/February_8_2016_Loves/Calgary-all/\RS-FrontPocket\2016-10-26_LowesCollection_RealShopper-Test12-5min-S00078-FrontLeftPocket-CB\irl_out.dat; 0; 0; 1; 0.09; 1; 0; 0
+C:/Share/Vectors/February_8_2016_Loves/Calgary-all/\RS-FrontPocket\2016-10-26_LowesCollection_RealShopper-Test12-5min-S00079-FrontLeftPocket-KC\irl_out.dat; 0; 0; 1; 0.37; 1; 0; 0
+C:/Share/Vectors/February_8_2016_Loves/Calgary-all/\RS-FrontPocket\2016-10-26_LowesCollection_RealShopper-Test2-20min-iP00001-FrontRightPocket-CB\irl_out.dat; 0; 0; 1; 0.55; 1; 0; 0
+C:/Share/Vectors/February_8_2016_Loves/Calgary-all/\RS-FrontPocket\2016-10-26_LowesCollection_RealShopper-Test2-20min-S00079-FrontLeftPocket-KC\irl_out.dat; 0; 0; 1; 0.83; 1; 0; 0
+C:/Share/Vectors/February_8_2016_Loves/Calgary-all/\RS-FrontPocket\2016-10-26_LowesCollection_RealShopper-Test3-15min-iP00001-FrontRightPocket-CB\irl_out.dat; 0; 0; 1; 0.33; 1; 2; 1; 1.5; 1; 23; 1; 2.3; 1; 31; 0
+C:/Share/Vectors/February_8_2016_Loves/Calgary-all/\RS-FrontPocket\2016-10-26_LowesCollection_RealShopper-Test3-15min-S00078-FrontLeftPocket-CB\irl_out.dat; 0; 0; 1; 0.22; 1; 0; 0
+C:/Share/Vectors/February_8_2016_Loves/Calgary-all/\RS-FrontPocket\2016-10-26_LowesCollection_RealShopper-Test3-15min-S00079-FrontLeftPocket-KC\irl_out.dat; 0; 0; 1; 0.37; 1; 0; 0
+C:/Share/Vectors/February_8_2016_Loves/Calgary-all/\RS-FrontPocket\2016-10-26_LowesCollection_RealShopper-Test4-15min-iP00001-FrontRightPocket-CB\irl_out.dat; 0; 0; 1; 0.20; 1; 3; 1; 0.71; 1; 42; 1; 0.14; 1; 32; 0
+C:/Share/Vectors/February_8_2016_Loves/Calgary-all/\RS-FrontPocket\2016-10-26_LowesCollection_RealShopper-Test4-15min-iP00006-RightFrontPocket-KC\irl_out.dat; 1; 0; 1; 0.80; 1; 3; 1; 0.93; 1; 14; 1; 2.2; 1; 22; 1; 3; 1; 20599; 1; 0.44; 1
+C:/Share/Vectors/February_8_2016_Loves/Calgary-all/\RS-FrontPocket\2016-10-26_LowesCollection_RealShopper-Test4-15min-S00078-FrontLeftPocket-CB\irl_out.dat; 0; 0; 1; 0.78; 1; 0; 0
+C:/Share/Vectors/February_8_2016_Loves/Calgary-all/\RS-FrontPocket\2016-10-26_LowesCollection_RealShopper-Test4-15min-S00079-FrontLeftPocket-KC\irl_out.dat; 0; 0; 1; 0.39; 1; 0; 0
+C:/Share/Vectors/February_8_2016_Loves/Calgary-all/\RS-FrontPocket\2016-10-26_LowesCollection_RealShopper-Test5-45min-S00078-FrontLeftPocket-CB\irl_out.dat; 0; 0; 1; 0.43; 1; 0; 0
+C:/Share/Vectors/February_8_2016_Loves/Calgary-all/\RS-FrontPocket\2016-10-26_LowesCollection_RealShopper-Test6-30min-iP00001-FrontRightPocket-CB\irl_out.dat; 0; 0; 1; 0.25; 1; 0; 0
+C:/Share/Vectors/February_8_2016_Loves/Calgary-all/\RS-FrontPocket\2016-10-26_LowesCollection_RealShopper-Test6-30min-S00078-FrontLeftPocket-CB\irl_out.dat; 0; 0; 1; 0.70; 1; 0; 0
+C:/Share/Vectors/February_8_2016_Loves/Calgary-all/\RS-FrontPocket\2016-10-26_LowesCollection_RealShopper-Test8-20min-iP00001-FrontRightPocket-CB\irl_out.dat; 0; 0; 1; 0.86; 1; 0; 0
+C:/Share/Vectors/February_8_2016_Loves/Calgary-all/\RS-FrontPocket\2016-10-26_LowesCollection_RealShopper-Test9-10min-iP00001-FrontRightPocket-CB\irl_out.dat; 1; 0; 1; 0.75; 1; 3; 1; 0.8; 1; 38; 1; 0.42; 1; 28; 1; 10; 1; 13109; 1; 0.55; 1
+C:/Share/Vectors/February_8_2016_Loves/Calgary-all/\RS-FrontPocket\2016-10-26_LowesCollection_RealShopper-Test9-10min-iP00006-RightFrontPocket-KC\irl_out.dat; 1; 0; 1; 0.44; 1; 1; 1; 2.3; 1; 8.9; 1; 2.7; 1; 22; 1; 0; 1; 12905; 1; 0.54; 1
+C:/Share/Vectors/February_8_2016_Loves/Calgary-all/\RS-FrontPocket\2016-10-26_LowesCollection_RealShopper-Test9-10min-S00078-FrontLeftPocket-CB\irl_out.dat; 0; 0; 1; 0.54; 1; 0; 0
+C:/Share/Vectors/February_8_2016_Loves/Calgary-all/\RS-FrontPocket\2016-10-26_LowesCollection_RealShopper-Test9-10min-S00079-FrontLeftPocket-KC\irl_out.dat; 0; 0; 1; 0.80; 1; 0; 0
+C:/Share/Vectors/February_8_2016_Loves/Calgary-all/\RS-GeneralDangling\2016-10-25_LowesCollection_RealShopper-Test1-25min-iP00008-LeftHand-HandviewingtoDangle-CB\irl_out.dat; 0; 0; 1; 0.32; 1; 0; 0
+C:/Share/Vectors/February_8_2016_Loves/Calgary-all/\RS-GeneralDangling\2016-10-25_LowesCollection_RealShopper-Test1-25min-SS6010-RightHand-HandviewingtoDangle-CB\irl_out.dat; 0; 0; 1; 0.86; 1; 0; 0
+C:/Share/Vectors/February_8_2016_Loves/Calgary-all/\RS-GeneralDangling\2016-10-25_LowesCollection_RealShopper-Test10-10min-iP00008-LeftHand-KC\irl_out.dat; 0; 0; 1; 0.52; 1; 4; 1; 0.57; 1; 63; 0
+C:/Share/Vectors/February_8_2016_Loves/Calgary-all/\RS-GeneralDangling\2016-10-25_LowesCollection_RealShopper-Test10-10min-SS6010-RightHand-CB\irl_out.dat; 0; 0; 1; 0.83; 1; 0; 0
+C:/Share/Vectors/February_8_2016_Loves/Calgary-all/\RS-GeneralDangling\2016-10-25_LowesCollection_RealShopper-Test11-5min-iP00008-LeftHand-KC\irl_out.dat; 0; 0; 1; 0.12; 1; 1; 1; 2.1; 1; 1.1e+002; 0
+C:/Share/Vectors/February_8_2016_Loves/Calgary-all/\RS-GeneralDangling\2016-10-25_LowesCollection_RealShopper-Test11-5min-SS6010-RightHand-CB\irl_out.dat; 0; 0; 1; 0.48; 1; 0; 0
+C:/Share/Vectors/February_8_2016_Loves/Calgary-all/\RS-GeneralDangling\2016-10-25_LowesCollection_RealShopper-Test12-5min-iP00008-LeftHand-KC\irl_out.dat; 1; 0; 1; 0.71; 1; 2; 1; 1.2; 1; 43; 1; 1.5; 1; 22; 1; 2; 1; 7168; 1; 0.64; 1
+C:/Share/Vectors/February_8_2016_Loves/Calgary-all/\RS-GeneralDangling\2016-10-25_LowesCollection_RealShopper-Test12-5min-SS6010-RightHand-CB\irl_out.dat; 0; 0; 1; 0.52; 1; 0; 0
+C:/Share/Vectors/February_8_2016_Loves/Calgary-all/\RS-GeneralDangling\2016-10-25_LowesCollection_RealShopper-Test4-15min-SS6010-RightHand-CB\irl_out.dat; 0; 0; 1; 0.64; 1; 0; 0
+C:/Share/Vectors/February_8_2016_Loves/Calgary-all/\RS-GeneralDangling\2016-10-25_LowesCollection_RealShopper-Test5-30min-iP00008-LeftHand-KC-NotCollectedProperly\irl_out.dat; 1; 0; 1; 0.84; 1; 4; 1; 0.43; 1; 10; 1; 0.82; 1; 15; 1; 0; 1; 23313; 1; 0.59; 1
+C:/Share/Vectors/February_8_2016_Loves/Calgary-all/\RS-GeneralDangling\2016-10-25_LowesCollection_RealShopper-Test6-15min-SS6010-RightHand-CB\irl_out.dat; 0; 0; 1; 0.73; 1; 0; 0
+C:/Share/Vectors/February_8_2016_Loves/Calgary-all/\RS-GeneralDangling\2016-10-26_LowesCollection_RealShopper-Test1-25min-iP00008-RightHand-KC\irl_out.dat; 0; 0; 1; 0.78; 1; 0; 0
+C:/Share/Vectors/February_8_2016_Loves/Calgary-all/\RS-GeneralDangling\2016-10-26_LowesCollection_RealShopper-Test4-15min-iP00008-RightHand-KC\irl_out.dat; 0; 0; 1; 0.85; 1; 3; 1; 1.1; 1; 1e+002; 0
+C:/Share/Vectors/February_8_2016_Loves/Calgary-all/\RS-GeneralDangling\2016-10-26_LowesCollection_RealShopper-Test7-25min-iP00008-RightHand-KC\irl_out.dat; 0; 0; 1; 0.50; 1; 0; 0
+C:/Share/Vectors/February_8_2016_Loves/Calgary-all/\RS-GeneralDangling\2016-10-26_LowesCollection_RealShopper-Test8-20min-iP00008-RightHand-KC\irl_out.dat; 0; 0; 1; 0.37; 1; 0; 0
+C:/Share/Vectors/February_8_2016_Loves/Calgary-all/\RS-Purse\2016-10-27_LowesPurseRealShopper-Test1-iPhone6-iP00003-2016_10_27-Purse-SISF-JN\irl_out.dat; 0; 0; 1; 0.75; 1; 0; 0
+C:/Share/Vectors/February_8_2016_Loves/Calgary-all/\RS-Purse\2016-10-27_LowesPurseRealShopper-Test1-iPhone6-iP00005-2016_10_27-Purse-SOSD-JN\irl_out.dat; 0; 0; 1; 0.78; 1; 0; 0
+C:/Share/Vectors/February_8_2016_Loves/Calgary-all/\RS-Purse\2016-10-27_LowesPurseRealShopper-Test1-iPhone6P-iP00007-2016_10_27-Purse-SOSF-MS\irl_out.dat; 1; 0; 1; 0.74; 1; 5; 1; 0.47; 1; 9; 1; 2.4; 1; 10; 1; 2; 1; 37408; 1; 0.67; 1
+C:/Share/Vectors/February_8_2016_Loves/Calgary-all/\RS-Purse\2016-10-27_LowesPurseRealShopper-Test1-Samsung6-S00079-2016_10_27-Purse-SOSU-MS\irl_out.dat; 0; 0; 1; 0.85; 1; 0; 0
+C:/Share/Vectors/February_8_2016_Loves/Calgary-all/\RS-Purse\2016-10-27_LowesPurseRealShopper-Test1-Samsung6-SS6005-2016_10_27-Purse-SOSF-DD\irl_out.dat; 0; 0; 1; 0.68; 1; 0; 0
+C:/Share/Vectors/February_8_2016_Loves/Calgary-all/\RS-Purse\2016-10-27_LowesPurseRealShopper-Test10-iPhone6-iP00001-2016_10_27-Purse-SOSF-MS\irl_out.dat; 0; 0; 1; 0.24; 1; 2; 1; 1.1; 1; 10; 1; 8; 0
+C:/Share/Vectors/February_8_2016_Loves/Calgary-all/\RS-Purse\2016-10-27_LowesPurseRealShopper-Test10-iPhone6-iP00003-2016_10_27-SDSF-JN\irl_out.dat; 0; 0; 1; 0.15; 1; 0; 0
+C:/Share/Vectors/February_8_2016_Loves/Calgary-all/\RS-Purse\2016-10-27_LowesPurseRealShopper-Test10-iPhone6-iP00005-2016_10_27-Purse-SDSF-DD\irl_out.dat; 0; 0; 1; 0.52; 1; 0; 0
+C:/Share/Vectors/February_8_2016_Loves/Calgary-all/\RS-Purse\2016-10-27_LowesPurseRealShopper-Test10-Samsung6-S00078-2016_10_27-Purse-SOSU-DD\irl_out.dat; 0; 0; 1; 0.34; 1; 0; 0
+C:/Share/Vectors/February_8_2016_Loves/Calgary-all/\RS-Purse\2016-10-27_LowesPurseRealShopper-Test10-Samsung6-S00079-2016_10_27-Purse-SISU-JN\irl_out.dat; 0; 0; 1; 0.63; 1; 0; 0
+C:/Share/Vectors/February_8_2016_Loves/Calgary-all/\RS-Purse\2016-10-27_LowesPurseRealShopper-Test10-Samsung6-SS6005-2016_10_27-Purse-SOSU-MS\irl_out.dat; 0; 0; 1; 0.66; 1; 0; 0
+C:/Share/Vectors/February_8_2016_Loves/Calgary-all/\RS-Purse\2016-10-27_LowesPurseRealShopper-Test11-iPhone6-iP00001-2016_10_27-Purse-SOSF-MS\irl_out.dat; 1; 0; 1; 0.60; 1; 4; 1; 0.77; 1; 9.5; 1; 0.94; 1; 8.1; 1; 0; 1; 15703; 1; 0.52; 1
+C:/Share/Vectors/February_8_2016_Loves/Calgary-all/\RS-Purse\2016-10-27_LowesPurseRealShopper-Test11-iPhone6-iP00003-2016_10_27-SDSF-JN\irl_out.dat; 0; 0; 1; 0.18; 1; 0; 0
+C:/Share/Vectors/February_8_2016_Loves/Calgary-all/\RS-Purse\2016-10-27_LowesPurseRealShopper-Test11-iPhone6-iP00005-2016_10_27-Purse-SDSF-DD\irl_out.dat; 0; 0; 1; 0.72; 1; 0; 0
+C:/Share/Vectors/February_8_2016_Loves/Calgary-all/\RS-Purse\2016-10-27_LowesPurseRealShopper-Test11-Samsung6-S00078-2016_10_27-Purse-SOSU-DD\irl_out.dat; 0; 0; 1; 0.62; 1; 0; 0
+C:/Share/Vectors/February_8_2016_Loves/Calgary-all/\RS-Purse\2016-10-27_LowesPurseRealShopper-Test11-Samsung6-S00079-2016_10_27-Purse-SISU-JN\irl_out.dat; 0; 0; 1; 0.78; 1; 0; 0
+C:/Share/Vectors/February_8_2016_Loves/Calgary-all/\RS-Purse\2016-10-27_LowesPurseRealShopper-Test11-Samsung6-SS6005-2016_10_27-Purse-SOSU-MS\irl_out.dat; 0; 0; 1; 0.18; 1; 0; 0
+C:/Share/Vectors/February_8_2016_Loves/Calgary-all/\RS-Purse\2016-10-27_LowesPurseRealShopper-Test12-iPhone6-iP00001-2016_10_27-Purse-SOSF-MS\irl_out.dat; 1; 0; 1; 0.32; 1; 3; 1; 0.63; 1; 19; 1; 2.5; 1; 12; 1; 4; 1; 8801; 1; 0.61; 1
+C:/Share/Vectors/February_8_2016_Loves/Calgary-all/\RS-Purse\2016-10-27_LowesPurseRealShopper-Test12-iPhone6-iP00003-2016_10_27-SDSF-JN\irl_out.dat; 0; 0; 1; 0.94; 1; 0; 0
+C:/Share/Vectors/February_8_2016_Loves/Calgary-all/\RS-Purse\2016-10-27_LowesPurseRealShopper-Test12-iPhone6-iP00005-2016_10_27-Purse-SDSF-DD\irl_out.dat; 0; 0; 1; 0.77; 1; 0; 0
+C:/Share/Vectors/February_8_2016_Loves/Calgary-all/\RS-Purse\2016-10-27_LowesPurseRealShopper-Test12-Samsung6-S00078-2016_10_27-Purse-SOSU-DD\irl_out.dat; 0; 0; 1; 0.58; 1; 0; 0
+C:/Share/Vectors/February_8_2016_Loves/Calgary-all/\RS-Purse\2016-10-27_LowesPurseRealShopper-Test12-Samsung6-S00079-2016_10_27-Purse-SISU-JN\irl_out.dat; 0; 0; 1; 0.61; 1; 0; 0
+C:/Share/Vectors/February_8_2016_Loves/Calgary-all/\RS-Purse\2016-10-27_LowesPurseRealShopper-Test12-Samsung6-SS6005-2016_10_27-Purse-SOSU-MS\irl_out.dat; 0; 0; 1; 0.16; 1; 0; 0
+C:/Share/Vectors/February_8_2016_Loves/Calgary-all/\RS-Purse\2016-10-27_LowesPurseRealShopper-Test2-iPhone6-iP00003-2016_10_27-Purse-SISF-JN\irl_out.dat; 0; 0; 1; 0.87; 1; 0; 0
+C:/Share/Vectors/February_8_2016_Loves/Calgary-all/\RS-Purse\2016-10-27_LowesPurseRealShopper-Test2-iPhone6-iP00005-2016_10_27-Purse-SOSD-JN\irl_out.dat; 0; 0; 1; 0.93; 1; 0; 0
+C:/Share/Vectors/February_8_2016_Loves/Calgary-all/\RS-Purse\2016-10-27_LowesPurseRealShopper-Test2-iPhone6-iP00006-2016_10_27-Purse-SISU-GF\irl_out.dat; 0; 0; 1; 0.91; 1; 0; 0
+C:/Share/Vectors/February_8_2016_Loves/Calgary-all/\RS-Purse\2016-10-27_LowesPurseRealShopper-Test2-iPhone6P-iP00007-2016_10_27-Purse-SOSF-MS\irl_out.dat; 1; 0; 1; 0.82; 1; 3; 1; 0.48; 1; 40; 1; 5.1; 1; 15; 1; 2; 1; 33300; 1; 0.73; 1
+C:/Share/Vectors/February_8_2016_Loves/Calgary-all/\RS-Purse\2016-10-27_LowesPurseRealShopper-Test2-Samsung6-S00078-2016_10_27-Purse-SUSF-GF\irl_out.dat; 0; 0; 1; 0.76; 1; 0; 0
+C:/Share/Vectors/February_8_2016_Loves/Calgary-all/\RS-Purse\2016-10-27_LowesPurseRealShopper-Test2-Samsung6-S00079-2016_10_27-Purse-SOSU-MS\irl_out.dat; 0; 0; 1; 0.61; 1; 0; 0
+C:/Share/Vectors/February_8_2016_Loves/Calgary-all/\RS-Purse\2016-10-27_LowesPurseRealShopper-Test2-Samsung6-SS6005-2016_10_27-Purse-SOSF-DD\irl_out.dat; 0; 0; 1; 0.62; 1; 0; 0
+C:/Share/Vectors/February_8_2016_Loves/Calgary-all/\RS-Purse\2016-10-27_LowesPurseRealShopper-Test3-Samsung6-SS6005-2016_10_27-Purse-SOSF-DD\irl_out.dat; 0; 0; 1; 0.81; 1; 0; 0
+C:/Share/Vectors/February_8_2016_Loves/Calgary-all/\RS-Purse\2016-10-27_LowesPurseRealShopper-Test4-iPhone6-iP00001-2016_10_27-Purse-SISF-DD\irl_out.dat; 1; 0; 1; 0.43; 1; 2; 1; 1.2; 1; 13; 1; 0.56; 1; 15; 1; 1; 1; 13220; 1; 0.70; 1
+C:/Share/Vectors/February_8_2016_Loves/Calgary-all/\RS-Purse\2016-10-27_LowesPurseRealShopper-Test4-iPhone6-iP00003-2016_10_27-Purse-SISF-JN\irl_out.dat; 0; 0; 1; 0.70; 1; 1; 1; 2.4; 1; 51; 0
+C:/Share/Vectors/February_8_2016_Loves/Calgary-all/\RS-Purse\2016-10-27_LowesPurseRealShopper-Test4-iPhone6-iP00005-2016_10_27-Purse-SOSD-JN\irl_out.dat; 1; 0; 1; 0.84; 1; 1; 1; 2.7; 1; 7.8; 1; 1.2; 1; 14; 1; 0; 1; 13623; 1; 0.63; 1
+C:/Share/Vectors/February_8_2016_Loves/Calgary-all/\RS-Purse\2016-10-27_LowesPurseRealShopper-Test4-iPhone6-iP00006-2016_10_27-Purse-SISU-GF\irl_out.dat; 0; 0; 1; 0.65; 1; 0; 0
+C:/Share/Vectors/February_8_2016_Loves/Calgary-all/\RS-Purse\2016-10-27_LowesPurseRealShopper-Test4-iPhone6P-iP00007-2016_10_27-Purse-SOSF-MS\irl_out.dat; 1; 0; 1; 0.79; 1; 4; 1; 0.44; 1; 6.6; 1; 0.096; 1; 7.7; 1; 0; 1; 14238; 1; 0.64; 1
+C:/Share/Vectors/February_8_2016_Loves/Calgary-all/\RS-Purse\2016-10-27_LowesPurseRealShopper-Test4-Samsung6-S00078-2016_10_27-Purse-SUSF-GF\irl_out.dat; 0; 0; 1; 0.91; 1; 0; 0
+C:/Share/Vectors/February_8_2016_Loves/Calgary-all/\RS-Purse\2016-10-27_LowesPurseRealShopper-Test4-Samsung6-S00079-2016_10_27-Purse-SOSU-MS\irl_out.dat; 0; 0; 1; 0.50; 1; 0; 0
+C:/Share/Vectors/February_8_2016_Loves/Calgary-all/\RS-Purse\2016-10-27_LowesPurseRealShopper-Test4-Samsung6-SS6005-2016_10_27-Purse-SOSF-DD\irl_out.dat; 0; 0; 1; 0.86; 1; 0; 0
+C:/Share/Vectors/February_8_2016_Loves/Calgary-all/\RS-Purse\2016-10-27_LowesPurseRealShopper-Test5-iPhone6-iP00001-2016_10_27-Purse-SOSF-MS\irl_out.dat; 1; 0; 1; 0.61; 1; 3; 1; 0.57; 1; 12; 1; 1.7; 1; 8.3; 1; 0; 1; 31176; 1; 0.62; 1
+C:/Share/Vectors/February_8_2016_Loves/Calgary-all/\RS-Purse\2016-10-27_LowesPurseRealShopper-Test5-iPhone6-iP00003-2016_10_27-SDSF-JN\irl_out.dat; 0; 0; 1; 0.41; 1; 0; 0
+C:/Share/Vectors/February_8_2016_Loves/Calgary-all/\RS-Purse\2016-10-27_LowesPurseRealShopper-Test5-iPhone6-iP00005-2016_10_27-Purse-SDSF-DD\irl_out.dat; 0; 0; 1; 0.74; 1; 0; 0
+C:/Share/Vectors/February_8_2016_Loves/Calgary-all/\RS-Purse\2016-10-27_LowesPurseRealShopper-Test5-Samsung6-S00078-2016_10_27-Purse-SOSU-DD\irl_out.dat; 0; 0; 1; 0.75; 1; 0; 0
+C:/Share/Vectors/February_8_2016_Loves/Calgary-all/\RS-Purse\2016-10-27_LowesPurseRealShopper-Test5-Samsung6-S00079-2016_10_27-Purse-SISU-JN\irl_out.dat; 0; 0; 1; 0.50; 1; 0; 0
+C:/Share/Vectors/February_8_2016_Loves/Calgary-all/\RS-Purse\2016-10-27_LowesPurseRealShopper-Test6-iPhone6-iP00003-2016_10_27-SDSF-JN\irl_out.dat; 0; 0; 1; 0.36; 1; 0; 0
+C:/Share/Vectors/February_8_2016_Loves/Calgary-all/\RS-Purse\2016-10-27_LowesPurseRealShopper-Test6-Samsung6-S00079-2016_10_27-Purse-SISU-JN\irl_out.dat; 0; 0; 1; 0.43; 1; 0; 0
+C:/Share/Vectors/February_8_2016_Loves/Calgary-all/\RS-Purse\2016-10-27_LowesPurseRealShopper-Test6-Samsung6-SS6005-2016_10_27-Purse-SOSU-MS\irl_out.dat; 0; 0; 1; 0.70; 1; 0; 0
+C:/Share/Vectors/February_8_2016_Loves/Calgary-all/\RS-Purse\2016-10-27_LowesPurseRealShopper-Test7-iPhone6-iP00005-2016_10_27-Purse-SDSF-DD\irl_out.dat; 0; 0; 1; 0.82; 1; 0; 0
+C:/Share/Vectors/February_8_2016_Loves/Calgary-all/\RS-Purse\2016-10-27_LowesPurseRealShopper-Test8-iPhone6-iP00001-2016_10_27-Purse-SOSF-MS\irl_out.dat; 1; 0; 1; 0.33; 1; 2; 1; 0.89; 1; 3.7; 1; 0.46; 1; 9.7; 1; 0; 1; 10652; 1; 0.49; 1
+C:/Share/Vectors/February_8_2016_Loves/Calgary-all/\RS-Purse\2016-10-27_LowesPurseRealShopper-Test8-iPhone6-iP00003-2016_10_27-SDSF-JN\irl_out.dat; 0; 0; 1; 0.29; 1; 0; 0
+C:/Share/Vectors/February_8_2016_Loves/Calgary-all/\RS-Purse\2016-10-27_LowesPurseRealShopper-Test8-iPhone6-iP00005-2016_10_27-Purse-SDSF-DD\irl_out.dat; 0; 0; 1; 0.32; 1; 0; 0
+C:/Share/Vectors/February_8_2016_Loves/Calgary-all/\RS-Purse\2016-10-27_LowesPurseRealShopper-Test8-Samsung6-S00078-2016_10_27-Purse-SOSU-DD\irl_out.dat; 0; 0; 1; 0.50; 1; 0; 0
+C:/Share/Vectors/February_8_2016_Loves/Calgary-all/\RS-Purse\2016-10-27_LowesPurseRealShopper-Test8-Samsung6-S00079-2016_10_27-Purse-SISU-JN\irl_out.dat; 0; 0; 1; 0.85; 1; 0; 0
+C:/Share/Vectors/February_8_2016_Loves/Calgary-all/\RS-Purse\2016-10-27_LowesPurseRealShopper-Test8-Samsung6-SS6005-2016_10_27-Purse-SOSU-MS\irl_out.dat; 0; 0; 1; 0.82; 1; 0; 0
+C:/Share/Vectors/February_8_2016_Loves/Calgary-all/\RS-Purse\2016-10-27_LowesPurseRealShopper-Test9-iPhone6-iP00001-2016_10_27-Purse-SOSF-MS\irl_out.dat; 1; 0; 1; 0.74; 1; 3; 1; 0.51; 1; 12; 1; 1.6; 1; 12; 1; 0; 1; 18349; 1; 0.54; 1
+C:/Share/Vectors/February_8_2016_Loves/Calgary-all/\RS-Purse\2016-10-27_LowesPurseRealShopper-Test9-iPhone6-iP00003-2016_10_27-SDSF-JN\irl_out.dat; 0; 0; 1; 0.68; 1; 0; 0
+C:/Share/Vectors/February_8_2016_Loves/Calgary-all/\RS-Purse\2016-10-27_LowesPurseRealShopper-Test9-Samsung6-SS6005-2016_10_27-Purse-SOSU-MS\irl_out.dat; 0; 0; 1; 0.88; 1; 0; 0
+C:/Share/Vectors/February_8_2016_Loves/Calgary-all/\RS-Purse\2016-10-28_LowesPurseRealShopper2-Test1-iPhone6-iP00001-2016_10_28-Purse-SISD-GF\irl_out.dat; 0; 0; 1; 0.87; 1; 0; 0
+C:/Share/Vectors/February_8_2016_Loves/Calgary-all/\RS-Purse\2016-10-28_LowesPurseRealShopper2-Test1-iPhone6-iP00004-2016_10_28-Purse-SISD-JN\irl_out.dat; 0; 0; 1; 0.90; 1; 0; 0
+C:/Share/Vectors/February_8_2016_Loves/Calgary-all/\RS-Purse\2016-10-28_LowesPurseRealShopper2-Test10-iPhone6-iP00001-2016_10_28-Purse-SOSF-EB\irl_out.dat; 0; 0; 1; 0.87; 1; 0; 0
+C:/Share/Vectors/February_8_2016_Loves/Calgary-all/\RS-Purse\2016-10-28_LowesPurseRealShopper2-Test10-iPhone6-iP00003-2016_10_28-Purse-SOSU-EB\irl_out.dat; 1; 0; 1; 0.66; 1; 2; 1; 1.4; 1; 13; 1; 1.6; 1; 15; 1; 0; 1; 13761; 1; 0.60; 1
+C:/Share/Vectors/February_8_2016_Loves/Calgary-all/\RS-Purse\2016-10-28_LowesPurseRealShopper2-Test10-iPhone6-iP00004-2016_10_28-Purse-SOSU-JN\irl_out.dat; 0; 0; 1; 0.82; 1; 0; 0
+C:/Share/Vectors/February_8_2016_Loves/Calgary-all/\RS-Purse\2016-10-28_LowesPurseRealShopper2-Test10-Samsung6-S00078-2016_10_28-Purse-SISU-EB\irl_out.dat; 0; 0; 1; 0.41; 1; 0; 0
+C:/Share/Vectors/February_8_2016_Loves/Calgary-all/\RS-Purse\2016-10-28_LowesPurseRealShopper2-Test10-Samsung6-S00079-2016_10_28-Purse-SOSF-JN\irl_out.dat; 0; 0; 1; 0.41; 1; 0; 0
+C:/Share/Vectors/February_8_2016_Loves/Calgary-all/\RS-Purse\2016-10-28_LowesPurseRealShopper2-Test10-Samsung6-SS6005-2016_10_28-Purse-SOSD-JN\irl_out.dat; 0; 0; 1; 0.88; 1; 0; 0
+C:/Share/Vectors/February_8_2016_Loves/Calgary-all/\RS-Purse\2016-10-28_LowesPurseRealShopper2-Test11-iPhone6-iP00001-2016_10_28-Purse-SOSF-EB\irl_out.dat; 1; 0; 1; 0.51; 1; 1; 1; 2.2; 1; 4.4; 1; 1.9; 1; 15; 1; 0; 1; 8671; 1; 0.52; 1
+C:/Share/Vectors/February_8_2016_Loves/Calgary-all/\RS-Purse\2016-10-28_LowesPurseRealShopper2-Test11-iPhone6-iP00003-2016_10_28-Purse-SOSU-EB\irl_out.dat; 1; 0; 1; 0.78; 1; 1; 1; 2.9; 1; 12; 1; 0.14; 1; 8; 1; 0; 1; 8453; 1; 0.52; 1
+C:/Share/Vectors/February_8_2016_Loves/Calgary-all/\RS-Purse\2016-10-28_LowesPurseRealShopper2-Test11-iPhone6-iP00004-2016_10_28-Purse-SOSU-JN\irl_out.dat; 0; 0; 1; 0.23; 1; 0; 0
+C:/Share/Vectors/February_8_2016_Loves/Calgary-all/\RS-Purse\2016-10-28_LowesPurseRealShopper2-Test11-Samsung6-S00078-2016_10_28-Purse-SISU-EB\irl_out.dat; 0; 0; 1; 0.79; 1; 0; 0
+C:/Share/Vectors/February_8_2016_Loves/Calgary-all/\RS-Purse\2016-10-28_LowesPurseRealShopper2-Test11-Samsung6-S00079-2016_10_28-Purse-SOSF-JN\irl_out.dat; 0; 0; 1; 0.00; 1; 0; 0
+C:/Share/Vectors/February_8_2016_Loves/Calgary-all/\RS-Purse\2016-10-28_LowesPurseRealShopper2-Test11-Samsung6-SS6005-2016_10_28-Purse-SOSD-JN\irl_out.dat; 0; 0; 1; 0.09; 1; 0; 0
+C:/Share/Vectors/February_8_2016_Loves/Calgary-all/\RS-Purse\2016-10-28_LowesPurseRealShopper2-Test12-iPhone6-iP00001-2016_10_28-Purse-SOSF-EB\irl_out.dat; 1; 0; 1; 0.59; 1; 2; 1; 1.6; 1; 12; 1; 2.7; 1; 10; 1; 0; 1; 7658; 1; 0.61; 1
+C:/Share/Vectors/February_8_2016_Loves/Calgary-all/\RS-Purse\2016-10-28_LowesPurseRealShopper2-Test12-iPhone6-iP00003-2016_10_28-Purse-SOSU-EB\irl_out.dat; 1; 0; 1; 0.56; 1; 2; 1; 1.2; 1; 2.6; 1; 1.9; 1; 8.9; 1; 0; 1; 7448; 1; 0.59; 1
+C:/Share/Vectors/February_8_2016_Loves/Calgary-all/\RS-Purse\2016-10-28_LowesPurseRealShopper2-Test12-iPhone6-iP00004-2016_10_28-Purse-SOSU-JN\irl_out.dat; 0; 0; 1; 0.63; 1; 1; 1; 2.6; 1; 4.1e+002; 0
+C:/Share/Vectors/February_8_2016_Loves/Calgary-all/\RS-Purse\2016-10-28_LowesPurseRealShopper2-Test12-Samsung6-S00078-2016_10_28-Purse-SISU-EB\irl_out.dat; 0; 0; 1; 0.70; 1; 0; 0
+C:/Share/Vectors/February_8_2016_Loves/Calgary-all/\RS-Purse\2016-10-28_LowesPurseRealShopper2-Test12-Samsung6-S00079-2016_10_28-Purse-SOSF-JN\irl_out.dat; 0; 0; 1; 0.09; 1; 0; 0
+C:/Share/Vectors/February_8_2016_Loves/Calgary-all/\RS-Purse\2016-10-28_LowesPurseRealShopper2-Test12-Samsung6-SS6005-2016_10_28-Purse-SOSD-JN\irl_out.dat; 0; 0; 1; 0.72; 1; 0; 0
+C:/Share/Vectors/February_8_2016_Loves/Calgary-all/\RS-Purse\2016-10-28_LowesPurseRealShopper2-Test2-Samsung6-S00079-2016_10_28-Purse-SOSU-JN\irl_out.dat; 0; 0; 1; 0.89; 1; 0; 0
+C:/Share/Vectors/February_8_2016_Loves/Calgary-all/\RS-Purse\2016-10-28_LowesPurseRealShopper2-Test3-iPhone6-iP00001-2016_10_28-Purse-SISD-GF\irl_out.dat; 0; 0; 1; 0.72; 1; 0; 0
+C:/Share/Vectors/February_8_2016_Loves/Calgary-all/\RS-Purse\2016-10-28_LowesPurseRealShopper2-Test3-iPhone6-iP00003-2016_10_28-Purse-SOSF-GF\irl_out.dat; 1; 0; 1; 0.86; 1; 5; 1; 0.4; 1; 16; 1; 0.24; 1; 8.9; 1; 0; 1; 30538; 1; 0.70; 1
+C:/Share/Vectors/February_8_2016_Loves/Calgary-all/\RS-Purse\2016-10-28_LowesPurseRealShopper2-Test3-iPhone6-iP00004-2016_10_28-Purse-SISD-JN\irl_out.dat; 1; 0; 1; 0.83; 1; 3; 1; 0.64; 1; 13; 1; 2.5; 1; 14; 1; 0; 1; 30897; 1; 0.66; 1
+C:/Share/Vectors/February_8_2016_Loves/Calgary-all/\RS-Purse\2016-10-28_LowesPurseRealShopper2-Test3-Samsung6-S00078-2016_10_28-Purse-SOSU-GF\irl_out.dat; 0; 0; 1; 0.87; 1; 0; 0
+C:/Share/Vectors/February_8_2016_Loves/Calgary-all/\RS-Purse\2016-10-28_LowesPurseRealShopper2-Test3-Samsung6-S00079-2016_10_28-Purse-SOSU-JN\irl_out.dat; 0; 0; 1; 0.84; 1; 0; 0
+C:/Share/Vectors/February_8_2016_Loves/Calgary-all/\RS-Purse\2016-10-28_LowesPurseRealShopper2-Test4-iPhone6-iP00004-2016_10_28-Purse-SISD-JN\irl_out.dat; 0; 0; 1; 0.64; 1; 0; 0
+C:/Share/Vectors/February_8_2016_Loves/Calgary-all/\RS-Purse\2016-10-28_LowesPurseRealShopper2-Test4-Samsung6-S00078-2016_10_28-Purse-SOSU-GF\irl_out.dat; 0; 0; 1; 0.43; 1; 0; 0
+C:/Share/Vectors/February_8_2016_Loves/Calgary-all/\RS-Purse\2016-10-28_LowesPurseRealShopper2-Test4-Samsung6-S00079-2016_10_28-Purse-SOSU-JN\irl_out.dat; 0; 0; 1; 0.83; 1; 0; 0
+C:/Share/Vectors/February_8_2016_Loves/Calgary-all/\RS-Purse\2016-10-28_LowesPurseRealShopper2-Test5-iPhone6-iP00004-2016_10_28-Purse-SOSU-JN\irl_out.dat; 0; 0; 1; 0.80; 1; 0; 0
+C:/Share/Vectors/February_8_2016_Loves/Calgary-all/\RS-Purse\2016-10-28_LowesPurseRealShopper2-Test5-Samsung6-SS6005-2016_10_28-Purse-SOSD-JN\irl_out.dat; 0; 0; 1; 0.39; 1; 0; 0
+C:/Share/Vectors/February_8_2016_Loves/Calgary-all/\RS-Purse\2016-10-28_LowesPurseRealShopper2-Test6-iPhone6-iP00004-2016_10_28-Purse-SOSU-JN\irl_out.dat; 1; 0; 1; 0.55; 1; 3; 1; 0.72; 1; 22; 1; 0.36; 1; 13; 1; 0; 1; 20153; 1; 0.58; 1
+C:/Share/Vectors/February_8_2016_Loves/Calgary-all/\RS-Purse\2016-10-28_LowesPurseRealShopper2-Test6-Samsung6-S00078-2016_10_28-Purse-SISU-EB\irl_out.dat; 0; 0; 1; 0.64; 1; 0; 0
+C:/Share/Vectors/February_8_2016_Loves/Calgary-all/\RS-Purse\2016-10-28_LowesPurseRealShopper2-Test6-Samsung6-SS6005-2016_10_28-Purse-SOSD-JN\irl_out.dat; 0; 0; 1; 0.73; 1; 0; 0
+C:/Share/Vectors/February_8_2016_Loves/Calgary-all/\RS-Purse\2016-10-28_LowesPurseRealShopper2-Test7-iPhone6-iP00001-2016_10_28-Purse-SOSF-EB\irl_out.dat; 1; 0; 1; 0.86; 1; 1; 1; 2.3; 1; 9.2; 1; 1.5; 1; 12; 1; 0; 1; 18821; 1; 0.51; 1
+C:/Share/Vectors/February_8_2016_Loves/Calgary-all/\RS-Purse\2016-10-28_LowesPurseRealShopper2-Test7-iPhone6-iP00003-2016_10_28-Purse-SOSU-EB\irl_out.dat; 1; 0; 1; 0.81; 1; 3; 1; 0.67; 1; 7; 1; 2.7; 1; 12; 1; 0; 1; 19043; 1; 0.54; 1
+C:/Share/Vectors/February_8_2016_Loves/Calgary-all/\RS-Purse\2016-10-28_LowesPurseRealShopper2-Test7-iPhone6-iP00004-2016_10_28-Purse-SOSU-JN\irl_out.dat; 0; 0; 1; 0.20; 1; 0; 0
+C:/Share/Vectors/February_8_2016_Loves/Calgary-all/\RS-Purse\2016-10-28_LowesPurseRealShopper2-Test7-Samsung6-S00079-2016_10_28-Purse-SOSF-JN\irl_out.dat; 0; 0; 1; 0.51; 1; 0; 0
+C:/Share/Vectors/February_8_2016_Loves/Calgary-all/\RS-Purse\2016-10-28_LowesPurseRealShopper2-Test7-Samsung6-SS6005-2016_10_28-Purse-SOSD-JN\irl_out.dat; 0; 0; 1; 0.48; 1; 0; 0
+C:/Share/Vectors/February_8_2016_Loves/Calgary-all/\RS-Purse\2016-10-28_LowesPurseRealShopper2-Test8-iPhone6-iP00004-2016_10_28-Purse-SOSU-JN\irl_out.dat; 0; 0; 1; 0.17; 1; 0; 0
+C:/Share/Vectors/February_8_2016_Loves/Calgary-all/\RS-Purse\2016-10-28_LowesPurseRealShopper2-Test8-Samsung6-S00078-2016_10_28-Purse-SISU-EB\irl_out.dat; 0; 0; 1; 0.42; 1; 0; 0
+C:/Share/Vectors/February_8_2016_Loves/Calgary-all/\RS-Purse\2016-10-28_LowesPurseRealShopper2-Test8-Samsung6-S00079-2016_10_28-Purse-SOSF-JN\irl_out.dat; 0; 0; 1; 0.17; 1; 0; 0
+C:/Share/Vectors/February_8_2016_Loves/Calgary-all/\RS-Purse\2016-10-28_LowesPurseRealShopper2-Test8-Samsung6-SS6005-2016_10_28-Purse-SOSD-JN\irl_out.dat; 0; 0; 1; 0.17; 1; 0; 0
+C:/Share/Vectors/February_8_2016_Loves/Calgary-all/\RS-Purse\2016-10-28_LowesPurseRealShopper2-Test9-iPhone6-iP00001-2016_10_28-Purse-SOSF-EB\irl_out.dat; 0; 0; 1; 0.81; 1; 0; 0
+C:/Share/Vectors/February_8_2016_Loves/Calgary-all/\RS-Purse\2016-10-28_LowesPurseRealShopper2-Test9-iPhone6-iP00003-2016_10_28-Purse-SOSU-EB\irl_out.dat; 1; 0; 1; 0.86; 1; 1; 1; 1.6; 1; 20; 1; 0.33; 1; 10; 1; 1; 1; 13746; 1; 0.53; 1
+C:/Share/Vectors/February_8_2016_Loves/Calgary-all/\RS-Purse\2016-10-28_LowesPurseRealShopper2-Test9-iPhone6-iP00004-2016_10_28-Purse-SOSU-JN\irl_out.dat; 1; 0; 1; 0.82; 1; 2; 1; 1.3; 1; 17; 1; 2.5; 1; 8.9; 1; 0; 1; 14441; 1; 0.56; 1
+C:/Share/Vectors/February_8_2016_Loves/Calgary-all/\RS-Purse\2016-10-28_LowesPurseRealShopper2-Test9-Samsung6-S00078-2016_10_28-Purse-SISU-EB\irl_out.dat; 0; 0; 1; 0.76; 1; 0; 0
+C:/Share/Vectors/February_8_2016_Loves/Calgary-all/\RS-Purse\2016-10-28_LowesPurseRealShopper2-Test9-Samsung6-S00079-2016_10_28-Purse-SOSF-JN\irl_out.dat; 0; 0; 1; 0.38; 1; 0; 0
+C:/Share/Vectors/February_8_2016_Loves/Calgary-all/\RS-Purse\2016-10-28_LowesPurseRealShopper2-Test9-Samsung6-SS6005-2016_10_28-Purse-SOSD-JN\irl_out.dat; 0; 0; 1; 0.75; 1; 0; 0

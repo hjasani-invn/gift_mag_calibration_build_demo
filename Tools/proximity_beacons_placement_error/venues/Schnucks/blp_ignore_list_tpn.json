@@ -1,0 +1,22 @@
+{
+    "blp_ignored_list": [
+        {
+            "uuid": "f7826da6-4fa2-4e98-8024-bc5b71e0893e",
+            "major": 2543,
+            "minor": 921,
+            "hash": 166658969
+        },
+        {
+            "uuid": "f7826da6-4fa2-4e98-8024-bc5b71e0893e",
+            "major": 15269,
+            "minor": 29890,
+            "hash": 1000699074
+        },
+        {
+            "uuid": "f7826da6-4fa2-4e98-8024-bc5b71e0893e",
+            "major": 20357,
+            "minor": 56955,
+            "hash": 1334173307
+        }
+    ]
+}

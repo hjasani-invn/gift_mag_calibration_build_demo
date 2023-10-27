@@ -1,0 +1,15 @@
+Json Automation tool
+
+Release Notes
+
+verson 1.0.3
++ Bugfix of cell size values replication
+
+verson 1.0.4
++ correct LMS algorithm in TransformParametersCalculation.py file
+
+verson 1.0.5
++ correct floors calculation in ja_main.py
+
+#STOP SUPPORT THIS TOOL IN GIFT#
+The tool was moved to:  https://github.com/InvenSenseInc/Coursa-Venue-AutoMap

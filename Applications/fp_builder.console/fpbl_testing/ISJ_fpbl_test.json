@@ -1,0 +1,52 @@
+{
+  "name": "IS_SJ_4",
+  "folder_fp": "//cayyc-proj01/compute02/FPL_DATA/test_results/FPBL/release_1.5.5/rc-1/test_02/output",
+  "folder_out": "//cayyc-proj01/compute02/FPL_DATA/test_results/FPBL/release_1.5.5/rc-1/test_10/output/test_02",
+  "folder_in": "//cayyc-proj01/compute02/FPL_DATA/test_data/FPBL_release_testing/ISJ_fpbl_test_nav_dataset/",
+  "venue" :
+        {
+            "id" : 24,
+			"type" : 3,
+            "origin_lattitude" : 37.367740264539968,
+			"origin_longitude" : -121.920821758493180,
+			"origin_azimuth" : -26.053972690473778,
+			"alfa" : 0.000000151295867,
+            "beta" : -0.000000190520338,
+            "origin_altitude" : 0.0,
+            "floors_count" : 1,
+            "size_x" : 85,
+            "size_y" : 39,
+			"magX" : 22.39,
+			"magY" : 5.43,
+			"magZ" : -42.13
+        },
+  "magnetic_grid" :
+        {
+            "celltype" : 0,	
+            "cellsize" : 1.0,
+            "min" : [0, 0, 0],
+            "max" : [85, 39, 0]
+        },
+  "wifi_grid" :
+        {
+            "celltype" : 0,
+            "cellsize" : 5.0,
+            "min" : [0, 0, 0],
+            "max" : [85, 39, 0]
+        },
+  "ble_grid" :
+        {
+            "celltype" : 0,
+            "cellsize" : 5.0,
+            "min" : [0, 0, 0],
+            "max" : [85, 39, 0]
+        },
+  "magnetic_cellsize": 1.0,
+  "wifi_cellsize": 5.0,
+  "ble_cellsize": 5.0,
+  "magnetic_enable": true,
+  "WiFi_enable" : false,
+  "BLE_enable" : false,
+  "ble_proximity_enable": true, 
+  "data_format" : 2
+}

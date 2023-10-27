@@ -1,0 +1,22 @@
+particles_visualization tool shows moving the particles on venue map
+
+TransformParametersCalculation tool calculates parameters of transformation 
+to set bind beetwen geographic coordinate of particle and
+its position on the screen
+
+Install python3 (now is used version 3.6), pip - packages manager (if it is not installed)
+adding packages
+tkinter (if it is not installed), PIL (or its fork Pillow) - graphic and controls, numpy - matrix operations
+
+for start it need to perform command
+python main.py <parameters>
+
+where
+
+parameter1 is venue json file
+parameter2 is CoordinatesFile.txt file with geographic coordinates of venue angles
+parameter3 is picture of venue map
+parameter4 is 0 always (now it is not used) 
+parameter5 is input log with geographic coordinate of particles (must be created by fp_positioning.console application)
+
+see full example on \\cayyc-proj01\compute02\FPL_DATA\Examples\pfVisTool\

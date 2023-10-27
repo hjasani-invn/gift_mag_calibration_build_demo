@@ -1,0 +1,13 @@
+# Gift\Applications\ModelDataToTPNConverter
+
+========================================================================
+Tool for getting tpn.dat files from model data files
+========================================================================
+
+main_converter.py using irl_data_mt_converter.txt, blp_debug_converter.log, wifi_debug_converter.log files creates tnp.dat file with ModelDataToTPNConverter execute program 
+command line is
+python main_converter.py  <input folder> <full name of ModelDataToTPNConverter application>
+
+ModelDataToTPNConverter project see in Gift\Applications\ModelDataToTPNConverter 
+
+Python version: 3.6+

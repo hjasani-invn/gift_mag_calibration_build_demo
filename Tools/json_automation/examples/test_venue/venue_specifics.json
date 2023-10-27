@@ -1,0 +1,31 @@
+{
+  "name": "BSK",
+  "venue" :
+        {
+	    "floor_height" :  10,
+	    "floor_shift" :  -5,
+        "magZ": 100,
+            "id" : 55
+        },
+  "self_healing": true,
+  "AP_count": 5,
+  "ig_metric": 0.0015,
+  "magnetic_enable": true,
+  "WiFi_enable" : false,
+  "BLE_enable" : true,
+  "magnetic_cellsize": 5.9,
+  "ble_proximity_enable" : false,
+   "ble_grid": {
+        "celltype": 1,
+        "cellsize": 10.0,
+        "min_ig": 0.5,
+        "ap_count_ext": 100
+    },
+    "debug": {
+        "mode": 1,
+        "cellsize": 10.0,
+        "min_ig": 0.5,
+        "ap_count_ext": 100
+    }
+
+}

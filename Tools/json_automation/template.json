@@ -1,0 +1,31 @@
+{
+  "venue" :
+  {
+      "floor_shift" :  1,
+      "floor_zero_enable" : "false",
+      "floor_height" : 5,
+      "type" : 3,
+      "magX" : 0, 
+      "magY" : 0, 
+      "magZ" : 0
+  },
+  
+  "default_mag_validators" :"for_coursa_survey_tool",
+  
+  "folder_fp": "out",
+  "folder_in": "in",
+  "folder_grid": "out",
+  "folder_out": "out",
+  
+  "data_format" : 4,
+
+  "magnetic_cellsize": 2.0,
+  "wifi_cellsize": 5.0,
+  "ble_cellsize": 5.0, 
+  
+  "wifi_fingerprint":
+  {
+      "min_ig": 0.25,
+      "max_bssid_count": 500
+  }
+}

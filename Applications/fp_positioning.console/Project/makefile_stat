@@ -1,0 +1,65 @@
+####### Compiler, tools and options
+
+#CC            = gcc
+CXX           = g++
+DEFINES       = 
+ARCH          = -m64  #-arch  armv7 -arch armv7s -arch arm64 #  -arch i386 -arch x86_64  #  
+FLAGS         =  $(ARCH) -pipe -Os -g0  -Wall -W $(DEFINES) -fmessage-length=0 -fexceptions -Wno-trigraphs -fstrict-aliasing  #-fvisibility=hidden 
+CXXFLAGS      = $(FLAGS) -x c++  -O2 -DNDEBUG -DDEBUG=0 -lm  -std=gnu++11  -Werror=return-type  -frtti -fpermissive -Wno-unknown-pragmas -Wno-missing-field-initializers -Wno-unused-variable -Wno-unused-value -Wno-unused-function
+INCCXXPATH    =  -I../../../Libraries/FPPositioningLib/Include  -I./../../../Components/TPNDataConverter -I./../../../Components/CoordinateConverter/Include -I./../../../Components/TPNQuaternion -I./../../../Components/TPNParser  -I./../../../Components/CmdReader -I./../../../ExternLibraries/jsoncons/src  -I./../../../Components/MacAddressConverter   -I./../../../Components/Data_Formats
+#LIBTOOL       = libtool
+AR            = ar rcs
+TAR           = tar -cf
+COMPRESS      = gzip -9f
+COPY          = cp -f
+SED           = sed
+COPY_FILE     = cp -f
+COPY_DIR      = cp -f -R
+STRIP         = 
+INSTALL_FILE  = $(COPY_FILE)
+INSTALL_DIR   = $(COPY_DIR)
+INSTALL_PROGRAM = $(COPY_FILE)
+DEL_FILE      = rm -f
+SYMLINK       = ln -f -s
+DEL_DIR       = rmdir
+MOVE          = mv -f
+CHK_DIR_EXISTS= test -d
+MKDIR         = mkdir -p
+
+
+####### Output library
+
+OUT = fppositioning.out
+
+####### Source directory
+
+VPATH = ../Src  ../../../Components/TPNParser    ../../../Components/MacAddressConverter
+
+
+####### Obj directory
+
+OBJECTS_DIR   = linux/obj/
+
+
+OBJECTS       = $(OBJECTS_DIR)main.o  \
+$(OBJECTS_DIR)PositionUpdate.o \
+$(OBJECTS_DIR)FPBasesReader.o           \
+$(OBJECTS_DIR)FP_console.o     \
+$(OBJECTS_DIR)InputDataReader.o  \
+$(OBJECTS_DIR)tpn_packet_parser.o  \
+$(OBJECTS_DIR)tpn_data_reader.o    \
+$(OBJECTS_DIR)stringMac_to_intMac.o  \
+$(OBJECTS_DIR)VenueDetectionUpdate.o              
+
+all: mkdir  $(OBJECTS)
+	$(CXX) -o $(OUT)  $(OBJECTS)   -L.  -lfpposition   -lblas 
+	$(DEL_FILE) $(OBJECTS)
+
+mkdir: 
+	$(MKDIR) ./$(OBJECTS_DIR)
+
+$(OBJECTS_DIR)%.o: %.cpp
+	@echo $@
+	@echo $<
+	$(CXX)  $(INCCXXPATH) $(CXXFLAGS)  -o $@ -c $<
+

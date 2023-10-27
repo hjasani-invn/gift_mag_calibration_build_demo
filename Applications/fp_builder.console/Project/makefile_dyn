@@ -1,0 +1,62 @@
+####### Compiler, tools and options
+
+#CC            = gcc
+CXX           = g++
+ARCH          = -m64 #-arch  armv7 -arch armv7s -arch arm64 #  -arch i386 -arch x86_64  #
+FLAGS         = $(ARCH)  -pipe -Os -g0  -Wall -W $(DEFINES) -fmessage-length=0 -fexceptions -Wno-trigraphs -fstrict-aliasing  #-fvisibility=hidden 
+CXXFLAGS      =  $(FLAGS) -x c++  -std=gnu++11   -O2 -DNDEBUG -DDEBUG=0 -lm  -Werror=return-type  -frtti -fpermissive -Wno-unknown-pragmas -Wno-unused-variable -Wno-unused-value -Wno-unused-function  -Wno-missing-field-initializers 
+INCCXXPATH    =  -I../../../Libraries/FPBuilderLib/Include  -I./../../../Components/TPNDataConverter -I./../../../Components/CoordinateConverter/Include -I./../../../Components/TPNQuaternion -I./../../../Components/TPNParser  -I./../../../Components/CmdReader  -I./../../../Components/Data_Formats -I./../../../Components/MacAddressConverter  -I./../../../Components/SettingsParser -I./../../../Components/CRC  -I./../../../Libraries/TrackProcessorLib/Src  -I./../../../ExternLibraries/Eigen/eigen-3.2.4 -I./../../../ExternLibraries/jsoncons/src -I./../../../Components/FloorConverter   -I./../../../Components/BLEHash -I./../../../Components/CRC
+#LIBTOOL       = libtool
+AR            = ar rcs
+TAR           = tar -cf
+COMPRESS      = gzip -9f
+COPY          = cp -f
+SED           = sed
+COPY_FILE     = cp -f
+COPY_DIR      = cp -f -R
+STRIP         = 
+INSTALL_FILE  = $(COPY_FILE)
+INSTALL_DIR   = $(COPY_DIR)
+INSTALL_PROGRAM = $(COPY_FILE)
+DEL_FILE      = rm -f
+SYMLINK       = ln -f -s
+DEL_DIR       = rmdir
+MOVE          = mv -f
+CHK_DIR_EXISTS= test -d
+MKDIR         = mkdir -p
+
+
+####### Output library
+
+OUT = ../FP_builder/fpbuilder.out
+
+####### Source directory
+
+VPATH = ../Src ../../../Components/TPNParser  ../../../Components/MacAddressConverter ../../../Components/CRC ../../../Components/SettingsParser   ../../../Components/FloorConverter/Src  -I./../../../Components/BLEHash 
+
+
+####### Obj directory
+
+OBJECTS_DIR   = linux/obj/
+
+OBJECTS       = $(OBJECTS_DIR)FP_builder.o \
+$(OBJECTS_DIR)SettingsParser.o        \
+$(OBJECTS_DIR)stringMac_to_intMac.o   \
+$(OBJECTS_DIR)tpn_packet_parser.o     \
+$(OBJECTS_DIR)tpn_data_reader.o     \
+$(OBJECTS_DIR)WiFiIgnoreListParser.o \
+$(OBJECTS_DIR)BLPIgnoreListParser.o \
+$(OBJECTS_DIR)DatasetsListProcessor.o \
+$(OBJECTS_DIR)main.o         
+
+all: mkdir  $(OBJECTS)
+	$(CXX) $(ARCH) -o $(OUT) $(OBJECTS)   -L./../FP_builder -lfpbuilder  -L./../../../ExternLibraries/armadillo/armadillo-4.600.3/lib/Xenial64/ -lblas -Wl,-rpath,. 
+	$(DEL_FILE) $(OBJECTS)
+
+mkdir: 
+	$(MKDIR) ./$(OBJECTS_DIR)
+
+$(OBJECTS_DIR)%.o: %.cpp
+	@echo $@
+	@echo $<
+	$(CXX) $(ARCH) $(CXXFLAGS) $(INCCXXPATH)   -o $@ -c $<

@@ -1,0 +1,75 @@
+{
+    "default_mag_validators": "for_mapper", 
+    "folder_out": "output", 
+    "name": "Bridgestone", 
+    "magnetic_grid": {
+        "max": [
+            596, 
+            226, 
+            0
+        ], 
+        "min": [
+            0, 
+            0, 
+            0
+        ], 
+        "celltype": 0, 
+        "cellsize": 2.0
+    }, 
+    "folder_fp": "fp", 
+    "magnetic_cellsize": 2.0, 
+    "venue": {
+        "floor_height": 5.0, 
+        "magZ": -35.3, 
+        "magY": -3.9, 
+        "magX": 30.0, 
+        "alfa": 0.0, 
+        "floors_count": 1, 
+        "origin_altitude": 0.0, 
+        "origin_azimuth": -89.998, 
+        "origin_longitude": 130.7923045869, 
+        "beta": 0.0, 
+        "size_x": 596, 
+        "size_y": 226, 
+        "origin_lattitude": 33.94155653456, 
+        "type": 1, 
+        "id": 99
+    }, 
+    "data_format": 2, 
+    "ble_grid": {
+        "max": [
+            596, 
+            226, 
+            0
+        ], 
+        "min": [
+            0, 
+            0, 
+            0
+        ], 
+        "celltype": 0, 
+        "cellsize": 5.0
+    }, 
+    "wifi_grid": {
+        "max": [
+            596, 
+            226, 
+            0
+        ], 
+        "min": [
+            0, 
+            0, 
+            0
+        ], 
+        "celltype": 0, 
+        "cellsize": 5.0
+    }, 
+    "folder_grid": "grid", 
+    "BLE_enable": false, 
+    "wifi_cellsize": 5.0, 
+    "ble_proximity_enable": false, 
+    "magnetic_enable": true, 
+    "WiFi_enable": true, 
+    "ble_cellsize": 5.0, 
+    "folder_in": "input"
+}

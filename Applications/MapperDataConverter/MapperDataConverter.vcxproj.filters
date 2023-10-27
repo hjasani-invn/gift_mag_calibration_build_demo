@@ -1,0 +1,131 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Components">
+      <UniqueIdentifier>{dcaea245-6242-4067-b53c-3b3c87fd76f5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shared">
+      <UniqueIdentifier>{f0a6f6c7-a3ce-42f2-8ddb-72f40e0fac19}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\pdr">
+      <UniqueIdentifier>{1953ba62-1944-4368-b893-9a642cbf19cb}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="src\LoadData.h">
+      <Filter>Source</Filter>
+    </ClInclude>
+    <ClInclude Include="src\model_config.h">
+      <Filter>Source</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Model_Main2.h">
+      <Filter>Source</Filter>
+    </ClInclude>
+    <ClInclude Include="src\TrackData2AttitudeData.h">
+      <Filter>Source</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Components\CoordinateConverter\Include\CoordinateConverter.h">
+      <Filter>Components</Filter>
+    </ClInclude>
+    <ClInclude Include="src\TrackData2TPNData.h">
+      <Filter>Source</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Components\TPNQuaternion\tpn_quat_lib.hpp">
+      <Filter>Components</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Components\CmdReader\CmdReader.hpp">
+      <Filter>Components</Filter>
+    </ClInclude>
+    <ClInclude Include="src\MDConverterSettings.h">
+      <Filter>Source</Filter>
+    </ClInclude>
+    <ClInclude Include="src\SettingsParser.hpp">
+      <Filter>Source</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Components\Data_Formats\TpnData.hpp">
+      <Filter>Shared</Filter>
+    </ClInclude>
+    <ClInclude Include="src\pdr_rt\config.h" />
+    <ClInclude Include="src\pdr_rt\DelayLine.h" />
+    <ClInclude Include="src\pdr_rt\DR.h" />
+    <ClInclude Include="src\pdr_rt\FIRfilter.h" />
+    <ClInclude Include="src\pdr_rt\Init.h" />
+    <ClInclude Include="src\pdr_rt\matrix.h" />
+    <ClInclude Include="src\pdr_rt\PDR.h" />
+    <ClInclude Include="src\pdr_rt\PDRWrap.h" />
+    <ClInclude Include="src\pdr_rt\Personalization.h" />
+    <ClInclude Include="src\pdr_rt\Report.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\LoadData.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="src\model_config.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Model_Main2.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="src\TrackData2AttitudeData.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="src\main.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Components\CoordinateConverter\Src\CoordinateConverter.cpp">
+      <Filter>Components</Filter>
+    </ClCompile>
+    <ClCompile Include="src\TrackData2TPNData.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Components\TPNQuaternion\tpn_quat_lib.cpp">
+      <Filter>Components</Filter>
+    </ClCompile>
+    <ClCompile Include="src\pdr_rt\DelayLine.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="src\pdr_rt\DR.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="src\pdr_rt\Extrem.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="src\pdr_rt\FilteringSensorData.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="src\pdr_rt\FIRfilter.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="src\pdr_rt\HeadingAndMatrixes.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="src\pdr_rt\Init.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="src\pdr_rt\matrix.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="src\pdr_rt\PDR.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="src\pdr_rt\PDRWrap.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="src\pdr_rt\Personalization.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="src\pdr_rt\Report.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="src\pdr_rt\StepDetector.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="src\pdr_rt\SynchronizSensorData.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

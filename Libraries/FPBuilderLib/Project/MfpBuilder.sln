@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.21005.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "MfpBuilder", "MfpBuilder.vcxproj", "{657A85CA-69CA-4248-A329-0538298621A7}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "MfpBuilderTest", "MfpBuilderTest.vcxproj", "{E9348774-653F-4A1B-9FDB-02B34FE91911}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{657A85CA-69CA-4248-A329-0538298621A7}.Debug|Win32.ActiveCfg = Debug|Win32
+		{657A85CA-69CA-4248-A329-0538298621A7}.Debug|Win32.Build.0 = Debug|Win32
+		{657A85CA-69CA-4248-A329-0538298621A7}.Release|Win32.ActiveCfg = Release|Win32
+		{657A85CA-69CA-4248-A329-0538298621A7}.Release|Win32.Build.0 = Release|Win32
+		{E9348774-653F-4A1B-9FDB-02B34FE91911}.Debug|Win32.ActiveCfg = Debug|Win32
+		{E9348774-653F-4A1B-9FDB-02B34FE91911}.Debug|Win32.Build.0 = Debug|Win32
+		{E9348774-653F-4A1B-9FDB-02B34FE91911}.Release|Win32.ActiveCfg = Release|Win32
+		{E9348774-653F-4A1B-9FDB-02B34FE91911}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

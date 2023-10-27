@@ -1,0 +1,16 @@
+# Gift\Tools\create_model_files_from_positioning_logs
+
+========================================================================
+Tool for creating model data files from realtime position data
+========================================================================
+
+WARNING:This tool does not have error handling. It must be taken in to account if this tool is used in any server processes or in production.
+
+main_create.py uses input files - .*(mixed_out_dbg.log|fpp_mixed.txt),  .*(ble_proximity_log_init.log|proximity_log_c.txt), .*(wifi_log_init.log|wifi_log_c.txt)
+and creates output file - irl_data_mt_converter.txt, blp_debug_converter.log, wifi_debug_converter.log
+command line is
+python main_create.py <input folder> [<blp3 map> - optional]
+
+ModelDataToTPNConverter project see in Gift\Applications\ModelDataToTPNConverter 
+
+Python version: 3.6+

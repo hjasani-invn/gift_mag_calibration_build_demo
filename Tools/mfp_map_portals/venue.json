@@ -1,0 +1,86 @@
+{
+    "name": "ICA_MultiFloor", 
+    "folder_in": "venues/ICA_MultiFloor/in",
+    "folder_fp": "venues/ICA_MultiFloor/fp", 
+    "folder_out": "venues/ICA_MultiFloor/out", 
+    "magnetic_grid": {
+        "max": [
+            77.285, 
+            101.63, 
+            5
+        ], 
+        "min": [
+            0, 
+            0, 
+            0
+        ], 
+        "celltype": 0, 
+        "cellsize": 2.0
+    }, 
+    "magnetic_cellsize": 2.0, 
+    "venue": {
+        "floor_height": 3.8, 
+        "magZ": -27.4, 
+        "magY": -2.8, 
+        "magX": 36.2, 
+        "alfa": 1.5696404019536075e-07, 
+        "floor_shift": -2, 
+        "floors_count": 6, 
+        "origin_altitude": 0, 
+        "origin_azimuth": 55.89808622075889, 
+        "origin_longitude": -114.14419437279172, 
+        "beta": -2.497698121412864e-07, 
+        "floors": [
+            -2, 
+            -1, 
+            1, 
+            2, 
+            3, 
+            4
+        ], 
+        "size_x": 77.285, 
+        "size_y": 101.63, 
+        "floor_zero_enable": false, 
+        "origin_lattitude": 51.065502567174775, 
+        "type": 3, 
+        "id": 144
+    }, 
+    "data_format": 4, 
+    "ble_grid": {
+        "max": [
+            77.285, 
+            101.63, 
+            5
+        ], 
+        "min": [
+            0, 
+            0, 
+            0
+        ], 
+        "celltype": 0, 
+        "cellsize": 2.0
+    }, 
+    "in_ble_fprox_file": "/project/input/beacons_db.csv", 
+    "wifi_grid": {
+        "max": [
+            77.285, 
+            101.63, 
+            5
+        ], 
+        "min": [
+            0, 
+            0, 
+            0
+        ], 
+        "celltype": 0, 
+        "cellsize": 2.0
+    }, 
+    "BLE_enable": true, 
+    "collaboration_enable": true, 
+    "WiFi_enable": true, 
+    "mm_enable": true,
+    "ble_proximity_enable": true, 
+    "wifi_cellsize": 2.0, 
+    "magnetic_enable": true, 
+    "ble_cellsize": 2.0
+}
