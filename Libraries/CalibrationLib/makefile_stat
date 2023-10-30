@@ -38,10 +38,10 @@ VPATH = .\Source
 
 ####### Obj directory
 
-OBJECTS_DIR   = linux/obj/
+OBJECTS_DIR   = linux\obj
 
 
-OBJECTS      = $(OBJECTS_DIR)SensorsCalibrator.o 
+OBJECTS      = $(OBJECTS_DIR)\SensorsCalibrator.o 
 
 
 all: md  $(OBJECTS)
@@ -52,8 +52,7 @@ all: md  $(OBJECTS)
 md: 
 	md .\$(OBJECTS_DIR)
 
-$(OBJECTS_DIR)%.o: %.cpp
+$(OBJECTS_DIR)\%.o: %.cpp
 	@echo $@
 	@echo $<
 	$(CXX)  $(CXXFLAGS) $(INCCXXPATH) -o $@ -c $<
-
