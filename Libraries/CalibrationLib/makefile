@@ -1,3 +1,11 @@
+pipeline {
+    agent any
+
+    stages {
+        stage('Build') {
+            steps {
+                script {
+                    def makefileContent = """
 ####### Compiler, tools and options
 
 #CC            = gcc
@@ -45,11 +53,11 @@ OBJECTS      = \$(OBJECTS_DIR)\\\\SensorsCalibrator.o
 
 
 
-
 all: md  \$(OBJECTS)
 	\$(AR)  \$(OUT) \$(OBJECTS) 
 	del \$(OBJECTS)
 	move \$(OUT) ..\\\\..\\\\Applications\\\\Calibration_console\\\\
+
 
 
 	
@@ -62,3 +70,14 @@ md:
 	@echo \$@
 	@echo \$<
 	\$(CXX)  \$(CXXFLAGS) \$(INCCXXPATH) -o \$@ -c \$<
+
+"""
+
+                    writeFile file: 'Makefile', text: makefileContent
+                    bat 'make -f Makefile'  // Run make with the Makefile
+                }
+            }
+        }
+    }
+
+    }
